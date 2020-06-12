@@ -25120,7 +25120,7 @@
       "redirect_url": "/java/api/overview/azure/cognitiveservices/client/bingwebsearchapi",
       "redirect_document_id": true
     },
-{
+    {
       "source_path": "legacy/docs-ref-autogen/overview/cognitiveservices/client/autosuggest.md",
       "redirect_url": "/java/api/overview/azure/cognitiveservices/client/bingautosuggest",
       "redirect_document_id": true
@@ -50124,6 +50124,3386 @@
       "source_path": "legacy/docs-ref-autogen/tests.integration.com.microsoft.azure.sdk.iot.transport._https_batch_message_i_t.UTF8().raw.page.json.md",
       "redirect_url": "/java/api/tests.integration.com.microsoft.azure.sdk.iot.transport._https_batch_message_i_t.UTF8().raw.page.js",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.amqp.implementation.handler.LinkHandler.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.netty.NettyAsyncHttpClient.ReactorNettyHttpResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.netty.NettyAsyncHttpClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.okhttp.OkHttpAsyncHttpClient.OkHttpCallback.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.okhttp.OkHttpAsyncHttpClient.OkHttpResponse.Pair.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.okhttp.OkHttpAsyncHttpClient.OkHttpResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.okhttp.OkHttpAsyncHttpClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.EncodedParameter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.MissingRequiredAnnotationException.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.PercentEscaper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.ResponseConstructorsCache.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.Substitution.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.SwaggerInterfaceParser.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.SwaggerMethodParser.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.http.rest.UrlEscapers.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.FluxUtil.FileReadFlux.FileReadSubscription.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.FluxUtil.FileReadFlux.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.NoopConfiguration.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.UrlToken.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.UrlTokenType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.UrlTokenizer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.UrlTokenizerState.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.paging.ContinuablePagedFluxCore.ContinuationState.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.polling.DefaultSyncPoller.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.polling.PollerFlux.OneTimeActivation.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.AdditionalPropertiesDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.AdditionalPropertiesSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.Base64UrlSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.ByteArraySerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.DateTimeRfc1123Serializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.DateTimeSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.DurationSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.FlatteningDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.FlatteningSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.HttpHeadersSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.core.util.serializer.UnixTimeSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.data.appconfiguration.ConfigurationService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.identity.AppServiceMsiCredential.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.identity.VirtualMachineMsiCredential.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.EventData.SystemProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.EventHubAsyncClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.EventHubClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.EventHubMessageSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.EventHubPartitionAsyncConsumer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.EventHubProducerAsyncClient.EventDataCollector.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.PartitionBasedLoadBalancer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.messaging.eventhubs.PartitionPumpManager.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.Action.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateBackup.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateImportParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateIssuerSetParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateIssuerUpdateParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateMergeParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateOperationUpdateParameter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificatePolicyRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateRestoreParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateUpdateParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.Contacts.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.IssuerAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.IssuerCredentials.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.IssuerParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.KeyProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.KeyVaultErrorCodeStrings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.LifetimeActionRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.OrganizationDetails.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.SecretProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.SubjectAlternativeNamesRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.Trigger.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.certificates.X509CertificateProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.KeyBackup.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.KeyImportRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.KeyRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.KeyRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.KeyRestoreRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.KeyService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.KeyVaultErrorCodeStrings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes128Cbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes128CbcHmacSha256.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes192Cbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes192CbcHmacSha384.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes256Cbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes256CbcHmacSha512.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbc.AesCbcDecryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbc.AesCbcEncryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.AbstractAesCbcHmacSha2CryptoTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.AesCbcHmacSha2Decryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.AesCbcHmacSha2Encryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw.AesKwDecryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw.AesKwEncryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw128.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw192.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw256.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Algorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AlgorithmResolver.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Asn1DerSignatureEncoding.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AsymmetricEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AsymmetricSignatureAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ByteExtensions.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.CryptoUtil.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.CryptographyService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.CryptographyServiceClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.EcKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Ecdsa.EcdsaSignatureTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Ecdsa.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es256.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es256k.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es384.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es512.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.HashAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.IAuthenticatedCryptoTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ICryptoTransform.Factory.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ICryptoTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ISignatureTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyOperationParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyOperationResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeySignRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyVerifyRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyVerifyResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyWrapUnwrapRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalKeyWrapAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalSignatureAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Rsa15.Rsa15Decryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Rsa15.Rsa15Encryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Rsa15.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaEncryption.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaOaep.RsaOaepDecryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaOaep.RsaOaepEncryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaOaep.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretKey.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SignatureEncoding.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SignatureHashResolver.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Strings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SymmetricEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SymmetricKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Triplet.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.models.Base64UrlJsonDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.models.Base64UrlJsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.keys.models.ByteExtensions.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.secrets.KeyVaultErrorCodeStrings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.secrets.SecretBackup.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.secrets.SecretRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.secrets.SecretRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.secrets.SecretRestoreRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.security.keyvault.secrets.SecretService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.ProgressReporter.ParallelProgressReporter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.ProgressReporter.ProgressReporterImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.ProgressReporter.SequentialProgressReporter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchOperation.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchOperationInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchOperationResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.models.BlobServiceProperties.CorsWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.models.BlockList.CommittedBlocksWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.models.BlockList.UncommittedBlocksWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.BlobOutputStream.AppendBlobOutputStream.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.BlobOutputStream.BlockBlobOutputStream.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.ReliableDownload.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.BlobDecryptionPolicy.DecryptedResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.CryptographyConstants.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.EncryptedBlob.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.EncryptedBlobRange.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.EncryptionAgent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.EncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.EncryptionData.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.blob.specialized.cryptography.WrappedKey.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.common.ProgressReporter.ParallelProgressReporter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.common.ProgressReporter.ProgressReporterImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.common.ProgressReporter.SequentialProgressReporter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.file.datalake.Transforms.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.file.share.FileConstants.HeaderConstants.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.file.share.FileConstants.MessageConstants.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.file.share.models.ShareServiceProperties.CorsWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.azure.storage.queue.models.QueueServiceProperties.CorsWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.BatchClient.ResponseBuilderFactory.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.BehaviorManager.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.InternalHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.TaskOperations.WorkingThread.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.auth.BatchSharedKeyCredentialsInterceptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.interceptor.ClientRequestIdInterceptor.RequestInterceptorHandler.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.interceptor.DetailLevelInterceptor.RequestHandler.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.batch.interceptor.RequestInterceptor.NoOpInterceptHandler.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.ClientSideRequestStatistics.AddressResolutionStatistics.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.ClientSideRequestStatistics.StoreResponseStatistics.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.ConsistentHashRing.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.DocumentClient.DocumentDBThreadPoolExecutor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.GlobalEndpointManager.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.LocationCache.DatabaseAccountLocationsInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.LocationCache.EndpointOperationType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.LocationCache.LocationUnavailabilityInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.Partition.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.BatchOperator.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.BulkDeleteStoredProcedureResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.BulkImportStoredProcedureResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.BulkReadStoredProcedureExecutor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.BulkReadStoredProcedureResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.BulkUpdateStoredProcedureResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.CongestionController.State.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.OperationMetrics.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.PositionModifier.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.bulkexecutor.internal.SliceModifier.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.EndpointDiscoveryRetryPolicy.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.InternalConstants.ResourceKeys.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.InternalConstants.StreamApi.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.InternalConstants.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.PartitionKeyMismatchRetryPolicy.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.ResourceId.CollectionChildResourceType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.ResourceThrottleRetryPolicy.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.RuntimeConstants.Separators.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.ServiceJNIWrapper.IntWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.ServiceJNIWrapper.LongWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.SessionReadRetryPolicy.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.BarrierRequestHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.QuorumReader.QuorumMetCheckResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.QuorumReader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.ReadPrimaryResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.ReadQuorumResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.ReadQuorumResultKind.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.ReadReplicaResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.ReadResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.ReplicatedResourceClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.StoreReader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.WFConstants.BackendHeaders.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.directconnectivity.WFConstants.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.AbstractQueryExecutionContext.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.DefaultDocumentProducerComparator.SingletonHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.DefaultDocumentProducerComparator.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.DefaultQueryExecutionContext.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.DocumentProducer.FetchResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.DocumentProducer.FetchResultType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.ExceptionHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.ItemComparator.SingletonHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.MultiCollectionQueryExecutionContext.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.ParallelDocumentQueryExecutionContext.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.ParallelDocumentQueryExecutionContextBase.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.PipelinedQueryExecutionContext.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.ProxyQueryExecutionContext.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.query.aggregation.AverageAggregator.AverageInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.BoolPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.CompositeContinuationToken.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.IPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.InMemoryCollectionRoutingMap.MinPartitionKeyPairComparator.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.InfinityPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.MaxNumberPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.MaxStringPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.MinNumberPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.MinStringPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.NullPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.PartitionKeyComponentType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.PartitionKeyInternal.PartitionKeyInternalJsonDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.PartitionKeyInternal.PartitionKeyInternalJsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.PartitionKeyInternalHelper.HexConvert.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.StringPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.UInt128.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.documentdb.internal.routing.UndefinedPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.eventgrid.customization.SystemEventTypeMappings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.DomainImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.DomainSharedAccessKeysImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.DomainTopicImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.DomainTopicsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.DomainTopicsInner.DomainTopicsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.DomainsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.DomainsInner.DomainsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventChannelImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventChannelsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventChannelsInner.EventChannelsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventGridManager.ConfigurableImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventSubscriptionFullUrlImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventSubscriptionImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventSubscriptionsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventSubscriptionsInner.EventSubscriptionsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.EventTypeImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.ExtensionTopicImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.ExtensionTopicsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.ExtensionTopicsInner.ExtensionTopicsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.IdParsingUtils.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.OperationImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.OperationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.OperationsInner.OperationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerNamespaceImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerNamespaceSharedAccessKeysImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerNamespacesImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerNamespacesInner.PartnerNamespacesService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerRegistrationImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerRegistrationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerRegistrationsInner.PartnerRegistrationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerTopicEventSubscriptionImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerTopicEventSubscriptionsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerTopicEventSubscriptionsInner.PartnerTopicEventSubscriptionsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerTopicImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerTopicsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PartnerTopicsInner.PartnerTopicsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PrivateEndpointConnectionImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PrivateEndpointConnectionsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PrivateEndpointConnectionsInner.PrivateEndpointConnectionsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PrivateLinkResourceImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PrivateLinkResourcesImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.PrivateLinkResourcesInner.PrivateLinkResourcesService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.SystemTopicEventSubscriptionImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.SystemTopicEventSubscriptionsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.SystemTopicEventSubscriptionsInner.SystemTopicEventSubscriptionsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.SystemTopicImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.SystemTopicsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.SystemTopicsInner.SystemTopicsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.TopicImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.TopicSharedAccessKeysImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.TopicTypeInfoImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.TopicTypesImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.TopicTypesInner.TopicTypesService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.TopicsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.eventgrid.v2020_04_01_preview.implementation.TopicsInner.TopicsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.monitor.OdataTypeDiscriminatorTypeResolver.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.dag.ErroredDependencyTaskException.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.dag.Graph.EdgeType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.dag.Graph.Visitor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.dag.TaskCancelledException.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.dag.TaskGroup.ProxyTaskGroupWrapper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.dag.TaskGroup.ProxyTaskItem.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.dag.TaskGroupEntry.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.resources.fluentcore.utils.Utils.FileService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CheckNameAvailabilityOutputImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CommunicationDetailsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CommunicationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CommunicationsInner.CommunicationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.IdParsingUtils.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.OperationImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.OperationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.OperationsInner.OperationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ProblemClassificationImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ProblemClassificationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ProblemClassificationsInner.ProblemClassificationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ServiceImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ServicesImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ServicesInner.ServicesService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportManager.ConfigurableImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportTicketDetailsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportTicketsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportTicketsInner.SupportTicketsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.formrecognizer.CustomModelTransforms.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.formrecognizer.Transforms.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.textanalytics.AnalyzeSentimentAsyncClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.textanalytics.DetectLanguageAsyncClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.textanalytics.ExtractKeyPhraseAsyncClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.textanalytics.RecognizeEntityAsyncClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.textanalytics.RecognizeLinkedEntityAsyncClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.ai.textanalytics.Transforms.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.EncodedParameter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.MissingRequiredAnnotationException.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.OperationDescription.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.PercentEscaper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.ResponseConstructorsCache.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.Substitution.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.SwaggerInterfaceParser.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.SwaggerMethodParser.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.http.rest.UrlEscapers.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.implementation.serializer.HttpResponseBodyDecoder.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.implementation.serializer.HttpResponseHeaderDecoder.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.implementation.serializer.ItemPage.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.FluxUtil.FileReadFlux.FileReadSubscription.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.FluxUtil.FileReadFlux.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.NoopConfiguration.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.UrlToken.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.UrlTokenType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.UrlTokenizer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.UrlTokenizerState.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.paging.ContinuablePagedFluxCore.ContinuationState.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.polling.DefaultSyncPoller.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.AdditionalPropertiesDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.AdditionalPropertiesSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.Base64UrlSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.ByteArraySerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.DateTimeRfc1123Serializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.DateTimeSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.DurationSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.FlatteningDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.FlatteningSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.core.util.serializer.HttpHeadersSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.ClientSideRequestStatistics.AddressResolutionStatistics.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.ClientSideRequestStatistics.ClientSideRequestStatisticsSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.ClientSideRequestStatistics.StoreResponseStatistics.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.ClientSideRequestStatistics.ZonedDateTimeSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.ClientSideRequestStatistics.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.caches.AsyncLazy.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.caches.IEqualityComparer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.caches.RxCollectionCache.CollectionRidComparer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.AddressResolver.RefreshState.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.AddressResolver.ResolutionResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.GlobalAddressResolver.EndpointCache.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.QuorumReader.PrimaryReadOutcome.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.QuorumReader.ReadPrimaryResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.QuorumReader.ReadQuorumResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.QuorumReader.ReadQuorumResultKind.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.QuorumReader.ReadResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.ResponseUtils.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.RntbdTransportClient.JsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.ServiceConfig.SystemReplicationPolicy.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.ServiceConfig.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.StoreReader.ReadReplicaResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelHealthChecker.Timestamps.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelPool.AcquireListener.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelPool.AcquireTask.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelPool.AcquireTimeoutTask.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelPool.AcquisitionTimeoutAction.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelPool.JsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdConsistencyLevel.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdContentSerializationFormat.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdContextHeader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdContextRequestHeader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdEnumerationDirection.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdFanoutOperationState.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdHeader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdIndexingDirective.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdMigrateCollectionDirective.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdOperationType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdReadFeedKeyType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdRemoteStorageType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdRequestHeader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdResourceType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.RntbdResponseHeader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdConstants.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContext.Headers.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContextDecoder.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContextRequest.Headers.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContextRequestEncoder.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdFramer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdHealthCheckRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdRequestFrame.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdRequestHeaders.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdRequestManager.UnhealthyChannelException.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdRequestRecord.JsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdResponse.PayloadSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdResponseHeaders.Entry.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdResponseHeaders.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdResponseStatus.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdServiceEndpoint.JsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdToken.PropertyFilter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdToken.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenStream.UndefinedHeader.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenStream.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.Codec.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdByte.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdBytes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdDouble.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdFloat.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdGuid.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdInteger.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdLong.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdLongBytes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdLongString.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdNone.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdShortBytes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdShortString.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdString.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdUnsignedInteger.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.RntbdUnsignedShort.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdTokenType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.http.ReactorNettyClient.ReactorNettyHttpResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.http.ReactorNettyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.DocumentProducer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.Fetcher.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.ItemComparator.SingletonHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.OrderByDocumentProducer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.OrderByDocumentQueryExecutionContext.FormattedFilterInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.OrderByDocumentQueryExecutionContext.ItemToPageTransformer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.OrderByUtils.PageToItemTransformer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.OrderByUtils.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.ParallelDocumentQueryExecutionContext.EmptyPagesFilterTransformer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.QueryPlanRetriever.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.aggregation.AverageAggregator.AverageInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.metrics.QueryMetricsWriter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.metrics.TextTable.Column.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.query.metrics.TextTable.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.BoolPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.IPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.InMemoryCollectionRoutingMap.MinPartitionKeyPairComparator.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.InfinityPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.LocationCache.DatabaseAccountLocationsInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.LocationCache.LocationUnavailabilityInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.LocationCache.OperationType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.MaxNumberPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.MaxStringPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.MinNumberPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.MinStringPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.NullPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.PartitionKeyComponentType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.PartitionKeyInternal.PartitionKeyInternalJsonDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.PartitionKeyInternal.PartitionKeyInternalJsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.PartitionKeyInternalHelper.HexConvert.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.StringPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.UInt128.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.cosmos.implementation.routing.UndefinedPartitionKeyComponent.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.identity.AppServiceMsiCredential.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.identity.AzureCliCredential.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.identity.AzureCliCredentialBuilder.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.identity.IntelliJCredential.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.identity.VirtualMachineMsiCredential.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.identity.VisualStudioCodeCredential.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.EventData.SystemProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.EventHubAsyncClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.EventHubClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.EventHubMessageSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.EventHubPartitionAsyncConsumer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.EventHubProducerAsyncClient.EventDataCollector.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.PartitionBasedLoadBalancer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.eventhubs.PartitionPumpManager.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.ReceiverOptions.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.ServiceBusAsyncConsumer.MessageManagement.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.ServiceBusAsyncConsumer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.ServiceBusMessageSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.ServiceBusSenderAsyncClient.AmqpMessageCollector.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.SynchronousMessageSubscriber.ReceiveTimeoutTask.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.SynchronousMessageSubscriber.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.SynchronousReceiveWork.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.UnnamedSessionManager.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.UnnamedSessionReceiver.SessionMessageManagement.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.messaging.servicebus.UnnamedSessionReceiver.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.DataSourcesImpl.DataSourcesService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.DocumentsImpl.DocumentsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.GeoPointDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.IndexersImpl.IndexersService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.IndexesImpl.IndexesService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.Iso8601DateDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.SearchServiceRestClientImpl.SearchServiceRestClientService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.SkillsetsImpl.SkillsetsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.search.documents.implementation.SynonymMapsImpl.SynonymMapsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.Action.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateBackup.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateImportParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateIssuerSetParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateIssuerUpdateParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateMergeParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateOperationUpdateParameter.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificatePolicyRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateRestoreParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.CertificateUpdateParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.Contacts.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.IssuerAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.IssuerCredentials.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.IssuerParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.KeyProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.KeyVaultErrorCodeStrings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.LifetimeActionRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.OrganizationDetails.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.SecretProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.SubjectAlternativeNamesRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.Trigger.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.certificates.X509CertificateProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.KeyBackup.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.KeyImportRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.KeyRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.KeyRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.KeyRestoreRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.KeyService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.KeyVaultErrorCodeStrings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes128Cbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes128CbcHmacSha256.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes192Cbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes192CbcHmacSha384.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes256Cbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Aes256CbcHmacSha512.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbc.AesCbcDecryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbc.AesCbcEncryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbc.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.AbstractAesCbcHmacSha2CryptoTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.AesCbcHmacSha2Decryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.AesCbcHmacSha2Encryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw.AesKwDecryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw.AesKwEncryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw128.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw192.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AesKw256.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Algorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AlgorithmResolver.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Asn1DerSignatureEncoding.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AsymmetricEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.AsymmetricSignatureAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ByteExtensions.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.CryptoUtil.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.CryptographyService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.CryptographyServiceClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.EcKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Ecdsa.EcdsaSignatureTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Ecdsa.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es256.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es256k.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es384.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Es512.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.HashAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.IAuthenticatedCryptoTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ICryptoTransform.Factory.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ICryptoTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.ISignatureTransform.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyOperationParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyOperationResult.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeySignRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyVerifyRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyVerifyResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.KeyWrapUnwrapRequest.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalKeyWrapAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.LocalSignatureAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Rsa15.Rsa15Decryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Rsa15.Rsa15Encryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Rsa15.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaEncryption.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaOaep.RsaOaepDecryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaOaep.RsaOaepEncryptor.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.RsaOaep.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretKey.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretProperties.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SecretRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SignatureEncoding.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SignatureHashResolver.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Strings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SymmetricEncryptionAlgorithm.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.SymmetricKeyCryptographyClient.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.cryptography.Triplet.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.models.Base64UrlJsonDeserializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.models.Base64UrlJsonSerializer.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.keys.models.ByteExtensions.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.secrets.KeyVaultErrorCodeStrings.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.secrets.SecretBackup.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.secrets.SecretRequestAttributes.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.secrets.SecretRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.secrets.SecretRestoreRequestParameters.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.security.keyvault.secrets.SecretService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchHelper.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchOperation.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchOperationInfo.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchOperationResponse.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.azure.storage.blob.batch.BlobBatchType.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CheckNameAvailabilityOutputImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CommunicationDetailsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CommunicationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.CommunicationsInner.CommunicationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.IdParsingUtils.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.OperationImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.OperationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.OperationsInner.OperationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ProblemClassificationImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ProblemClassificationsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ProblemClassificationsInner.ProblemClassificationsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ServiceImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ServicesImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.ServicesInner.ServicesService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportManager.ConfigurableImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportTicketDetailsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportTicketsImpl.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "preview/docs-ref-autogen/com.microsoft.azure.management.support.v2020_04_01.implementation.SupportTicketsInner.SupportTicketsService.yml",
+      "redirect_url": "/java/azure/index",
+      "redirect_document_id": false
+  }
   ]
 }
