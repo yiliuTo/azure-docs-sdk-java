@@ -4,13 +4,14 @@ fullName: "com.fasterxml.jackson.databind.deser.BeanDeserializerBase._delegateDe
 name: "_delegateDeserializer"
 nameWithType: "BeanDeserializerBase._delegateDeserializer"
 members:
-- uid: "com.fasterxml.jackson.databind.deser.BeanDeserializerBase._delegateDeserializer"
-  fullName: "com.fasterxml.jackson.databind.deser.BeanDeserializerBase._delegateDeserializer"
-  name: "_delegateDeserializer"
-  nameWithType: "BeanDeserializerBase._delegateDeserializer"
-  summary: "Deserializer that is used iff delegate-based creator is to be used for deserializing from JSON Object."
-  syntax: "protected JsonDeserializer<Object> _delegateDeserializer"
-type: "field"
+- uid: "com.fasterxml.jackson.databind.deser.BeanDeserializerBase._delegateDeserializer()"
+  fullName: "com.fasterxml.jackson.databind.deser.BeanDeserializerBase._delegateDeserializer()"
+  name: "_delegateDeserializer()"
+  nameWithType: "BeanDeserializerBase._delegateDeserializer()"
+  syntax: "protected final JsonDeserializer<Object> _delegateDeserializer()"
+  returns:
+    type: "<xref href=\"com.fasterxml.jackson.databind.JsonDeserializer?alt=com.fasterxml.jackson.databind.JsonDeserializer&text=JsonDeserializer\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

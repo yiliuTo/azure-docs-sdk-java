@@ -15,7 +15,8 @@ members:
   nameWithType: "JsonStreamContext.JsonStreamContext(JsonStreamContext base)"
   summary: "Copy constructor used by sub-classes for creating copies for buffering."
   parameters:
-  - name: "base"
+  - description: "Context instance to copy type and index from"
+    name: "base"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonStreamContext?alt=com.fasterxml.jackson.core.JsonStreamContext&text=JsonStreamContext\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected JsonStreamContext(JsonStreamContext base)"
 - uid: "com.fasterxml.jackson.core.JsonStreamContext.JsonStreamContext(int,int)"
@@ -31,4 +32,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

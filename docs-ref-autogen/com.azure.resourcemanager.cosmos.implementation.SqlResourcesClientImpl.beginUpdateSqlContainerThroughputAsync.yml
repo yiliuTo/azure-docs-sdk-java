@@ -10,7 +10,7 @@ members:
   nameWithType: "SqlResourcesClientImpl.beginUpdateSqlContainerThroughputAsync(String resourceGroupName, String accountName, String databaseName, String containerName, ThroughputSettingsUpdateParameters updateThroughputParameters)"
   summary: "Update RUs per second of an Azure Cosmos DB SQL container."
   parameters:
-  - description: "Name of an Azure resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   - description: "Cosmos DB database account name."
@@ -22,7 +22,7 @@ members:
   - description: "Cosmos DB container name."
     name: "containerName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - description: "Parameters to update Cosmos DB resource throughput."
+  - description: "The parameters to provide for the RUs per second of the current SQL container."
     name: "updateThroughputParameters"
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ThroughputSettingsUpdateParameters?alt=com.azure.resourcemanager.cosmos.models.ThroughputSettingsUpdateParameters&text=ThroughputSettingsUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PollerFlux<PollResult<ThroughputSettingsGetResultsInner>,ThroughputSettingsGetResultsInner> beginUpdateSqlContainerThroughputAsync(String resourceGroupName, String accountName, String databaseName, String containerName, ThroughputSettingsUpdateParameters updateThroughputParameters)"
@@ -32,4 +32,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.cosmos.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.3.0

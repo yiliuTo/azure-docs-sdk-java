@@ -10,14 +10,17 @@ members:
   nameWithType: "ObjectCodec.writeValue(JsonGenerator gen, Object value)"
   summary: "Method to serialize given Java Object, using generator provided."
   parameters:
-  - name: "gen"
+  - description: "Generator to use for serializing value"
+    name: "gen"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonGenerator?alt=com.fasterxml.jackson.core.JsonGenerator&text=JsonGenerator\" data-throw-if-not-resolved=\"False\" />"
-  - name: "value"
+  - description: "Value to serialize"
+    name: "value"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void writeValue(JsonGenerator gen, Object value)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level write issues, or\n   <xref uid=\"JsonGenerationException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonGenerationException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

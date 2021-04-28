@@ -10,7 +10,8 @@ members:
   nameWithType: "JsonParser.releaseBuffered(OutputStream out)"
   summary: "Method that can be called to push back any content that has been read but not consumed by the parser. This is usually done after reading all content of interest using parser. Content is released by writing it to given stream if possible; if underlying input is byte-based it can released, if not (char-based) it can not."
   parameters:
-  - name: "out"
+  - description: "OutputStream to which buffered, undecoded content is written to"
+    name: "out"
     type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public int releaseBuffered(OutputStream out)"
   exceptions:
@@ -25,7 +26,8 @@ members:
   nameWithType: "JsonParser.releaseBuffered(Writer w)"
   summary: "Method that can be called to push back any content that has been read but not consumed by the parser. This is usually done after reading all content of interest using parser. Content is released by writing it to given writer if possible; if underlying input is char-based it can released, if not (byte-based) it can not."
   parameters:
-  - name: "w"
+  - description: "Writer to which buffered but unprocessed content is written to"
+    name: "w"
     type: "<xref href=\"java.io.Writer?alt=java.io.Writer&text=Writer\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public int releaseBuffered(Writer w)"
   exceptions:
@@ -37,4 +39,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

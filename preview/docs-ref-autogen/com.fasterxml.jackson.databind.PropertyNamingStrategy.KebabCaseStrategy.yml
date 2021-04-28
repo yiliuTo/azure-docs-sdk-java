@@ -3,7 +3,6 @@ uid: "com.fasterxml.jackson.databind.PropertyNamingStrategy.KebabCaseStrategy"
 fullName: "com.fasterxml.jackson.databind.PropertyNamingStrategy.KebabCaseStrategy"
 name: "PropertyNamingStrategy.KebabCaseStrategy"
 nameWithType: "PropertyNamingStrategy.KebabCaseStrategy"
-summary: "Naming strategy similar to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SnakeCaseStrategy\"></xref>, but instead of underscores as separators, uses hyphens. Naming convention traditionally used for languages like Lisp."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.fasterxml.jackson.databind.PropertyNamingStrategy\" data-throw-if-not-resolved=\"False\" />"
@@ -34,4 +33,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

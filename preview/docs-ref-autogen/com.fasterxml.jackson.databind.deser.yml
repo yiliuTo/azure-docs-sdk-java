@@ -7,6 +7,7 @@ classes:
 - "com.fasterxml.jackson.databind.deser.AbstractDeserializer"
 - "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory"
 - "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.ContainerDefaultMappings"
+- "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory.CreatorCollectionState"
 - "com.fasterxml.jackson.databind.deser.BeanDeserializer"
 - "com.fasterxml.jackson.databind.deser.BeanDeserializerBase"
 - "com.fasterxml.jackson.databind.deser.BeanDeserializerBuilder"
@@ -30,6 +31,7 @@ classes:
 - "com.fasterxml.jackson.databind.deser.UnresolvedId"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.Base"
+- "com.fasterxml.jackson.databind.deser.ValueInstantiator.Delegating"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiators.Base"
 interfaces:
 - "com.fasterxml.jackson.databind.deser.ContextualDeserializer"
@@ -42,4 +44,4 @@ interfaces:
 - "com.fasterxml.jackson.databind.deser.ValueInstantiators"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

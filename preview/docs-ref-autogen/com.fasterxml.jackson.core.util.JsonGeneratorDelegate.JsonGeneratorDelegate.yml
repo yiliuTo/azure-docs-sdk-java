@@ -17,7 +17,8 @@ members:
   name: "JsonGeneratorDelegate(JsonGenerator d, boolean delegateCopyMethods)"
   nameWithType: "JsonGeneratorDelegate.JsonGeneratorDelegate(JsonGenerator d, boolean delegateCopyMethods)"
   parameters:
-  - name: "d"
+  - description: "Underlying generator to delegate calls to"
+    name: "d"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonGenerator?alt=com.fasterxml.jackson.core.JsonGenerator&text=JsonGenerator\" data-throw-if-not-resolved=\"False\" />"
   - description: "Flag assigned to <code>delagateCopyMethod</code>\n   and which defines whether copy methods are handled locally (false), or\n   delegated to configured"
     name: "delegateCopyMethods"
@@ -26,4 +27,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

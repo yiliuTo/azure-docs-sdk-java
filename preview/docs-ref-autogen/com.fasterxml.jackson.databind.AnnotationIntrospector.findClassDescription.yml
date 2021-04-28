@@ -10,7 +10,8 @@ members:
   nameWithType: "AnnotationIntrospector.findClassDescription(AnnotatedClass ac)"
   summary: "Method used to check whether specified class defines a human-readable description to use for documentation. There are no further definitions for contents; for example, whether these may be marked up using HTML (or something like wiki format like Markup) is not defined."
   parameters:
-  - name: "ac"
+  - description: "Annotated class to introspect"
+    name: "ac"
     type: "<xref href=\"com.fasterxml.jackson.databind.introspect.AnnotatedClass?alt=com.fasterxml.jackson.databind.introspect.AnnotatedClass&text=AnnotatedClass\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public String findClassDescription(AnnotatedClass ac)"
   returns:
@@ -19,4 +20,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

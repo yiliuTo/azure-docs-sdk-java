@@ -29,11 +29,17 @@ syntax: "public final class ServiceBusManagementClientImpl extends AzureServiceC
 methods:
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getApiVersion()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getDefaultPollInterval()"
+- "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getDisasterRecoveryConfigs()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getEndpoint()"
+- "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getEventHubs()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getHttpPipeline()"
+- "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getMigrationConfigs()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getNamespaces()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getOperations()"
+- "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getPremiumMessagingRegions()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getQueues()"
+- "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getRegions()"
+- "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getRules()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getSubscriptionId()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getSubscriptions()"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusManagementClientImpl.getTopics()"
@@ -42,4 +48,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.servicebus.fluent.ServiceBusManagementClient?alt=com.azure.resourcemanager.servicebus.fluent.ServiceBusManagementClient&text=ServiceBusManagementClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.servicebus.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicebus:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicebus:2.3.0

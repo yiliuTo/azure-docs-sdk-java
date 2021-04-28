@@ -11,6 +11,7 @@ members:
   summary: "Factory method to call to create a symbol table instance with a randomized seed value."
   syntax: "public static ByteQuadsCanonicalizer createRoot()"
   returns:
+    description: "Root instance to use for constructing new child instances"
     type: "<xref href=\"com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer?alt=com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer&text=ByteQuadsCanonicalizer\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer.createRoot(int)"
   fullName: "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer.createRoot(int seed)"
@@ -25,4 +26,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.sym"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

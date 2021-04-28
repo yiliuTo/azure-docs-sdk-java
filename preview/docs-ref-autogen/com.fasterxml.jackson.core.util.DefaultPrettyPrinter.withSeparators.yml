@@ -8,13 +8,16 @@ members:
   fullName: "com.fasterxml.jackson.core.util.DefaultPrettyPrinter.withSeparators(Separators separators)"
   name: "withSeparators(Separators separators)"
   nameWithType: "DefaultPrettyPrinter.withSeparators(Separators separators)"
+  summary: "Method for configuring separators for this pretty-printer to use"
   parameters:
-  - name: "separators"
+  - description: "Separator definitions to use"
+    name: "separators"
     type: "<xref href=\"com.fasterxml.jackson.core.util.Separators?alt=com.fasterxml.jackson.core.util.Separators&text=Separators\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DefaultPrettyPrinter withSeparators(Separators separators)"
   returns:
+    description: "This pretty-printer instance (for call chaining)"
     type: "<xref href=\"com.fasterxml.jackson.core.util.DefaultPrettyPrinter?alt=com.fasterxml.jackson.core.util.DefaultPrettyPrinter&text=DefaultPrettyPrinter\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

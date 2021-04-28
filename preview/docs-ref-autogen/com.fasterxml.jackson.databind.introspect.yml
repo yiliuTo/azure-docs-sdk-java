@@ -4,6 +4,9 @@ fullName: "com.fasterxml.jackson.databind.introspect"
 name: "com.fasterxml.jackson.databind.introspect"
 summary: "Functionality needed for Bean introspection, required for detecting\n accessors and mutators for Beans, as well as locating and handling\n method annotations.\n<p>\n Beyond collecting annotations, additional \"method annotation inheritance\"\n is also supported: whereas regular JDK classes do not add annotations\n from overridden methods in any situation. But code in this package does.\n Similarly class-annotations are inherited properly from interfaces, in\n addition to abstract and concrete classes."
 classes:
+- "com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy"
+- "com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Base"
+- "com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Provider"
 - "com.fasterxml.jackson.databind.introspect.Annotated"
 - "com.fasterxml.jackson.databind.introspect.AnnotatedClass"
 - "com.fasterxml.jackson.databind.introspect.AnnotatedClass.Creators"
@@ -28,6 +31,10 @@ classes:
 - "com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition"
 - "com.fasterxml.jackson.databind.introspect.ClassIntrospector"
 - "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase"
+- "com.fasterxml.jackson.databind.introspect.DefaultAccessorNamingStrategy"
+- "com.fasterxml.jackson.databind.introspect.DefaultAccessorNamingStrategy.FirstCharBasedValidator"
+- "com.fasterxml.jackson.databind.introspect.DefaultAccessorNamingStrategy.Provider"
+- "com.fasterxml.jackson.databind.introspect.DefaultAccessorNamingStrategy.RecordNaming"
 - "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector"
 - "com.fasterxml.jackson.databind.introspect.MemberKey"
 - "com.fasterxml.jackson.databind.introspect.NopAnnotationIntrospector"
@@ -43,9 +50,10 @@ classes:
 - "com.fasterxml.jackson.databind.introspect.VisibilityChecker.Std"
 interfaces:
 - "com.fasterxml.jackson.databind.introspect.ClassIntrospector.MixInResolver"
+- "com.fasterxml.jackson.databind.introspect.DefaultAccessorNamingStrategy.BaseNameValidator"
 - "com.fasterxml.jackson.databind.introspect.TypeResolutionContext"
 - "com.fasterxml.jackson.databind.introspect.VisibilityChecker"
 - "com.fasterxml.jackson.databind.introspect.WithMember"
 metadata: {}
 package: "com.fasterxml.jackson.databind.introspect"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

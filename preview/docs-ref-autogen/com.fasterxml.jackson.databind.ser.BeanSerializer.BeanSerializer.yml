@@ -63,17 +63,19 @@ members:
   - name: "filterId"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected BeanSerializer(BeanSerializerBase src, ObjectIdWriter objectIdWriter, Object filterId)"
-- uid: "com.fasterxml.jackson.databind.ser.BeanSerializer.BeanSerializer(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,java.util.Set<java.lang.String>)"
-  fullName: "com.fasterxml.jackson.databind.ser.BeanSerializer.BeanSerializer(BeanSerializerBase src, Set<String> toIgnore)"
-  name: "BeanSerializer(BeanSerializerBase src, Set<String> toIgnore)"
-  nameWithType: "BeanSerializer.BeanSerializer(BeanSerializerBase src, Set<String> toIgnore)"
+- uid: "com.fasterxml.jackson.databind.ser.BeanSerializer.BeanSerializer(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
+  fullName: "com.fasterxml.jackson.databind.ser.BeanSerializer.BeanSerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
+  name: "BeanSerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
+  nameWithType: "BeanSerializer.BeanSerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
   parameters:
   - name: "src"
     type: "<xref href=\"com.fasterxml.jackson.databind.ser.std.BeanSerializerBase?alt=com.fasterxml.jackson.databind.ser.std.BeanSerializerBase&text=BeanSerializerBase\" data-throw-if-not-resolved=\"False\" />"
   - name: "toIgnore"
     type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "protected BeanSerializer(BeanSerializerBase src, Set<String> toIgnore)"
+  - name: "toInclude"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "protected BeanSerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

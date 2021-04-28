@@ -34,7 +34,19 @@ members:
   - name: "toIgnore"
     type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "protected BeanAsArraySerializer(BeanSerializerBase src, Set<String> toIgnore)"
+- uid: "com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer.BeanAsArraySerializer(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
+  fullName: "com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer.BeanAsArraySerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
+  name: "BeanAsArraySerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
+  nameWithType: "BeanAsArraySerializer.BeanAsArraySerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
+  parameters:
+  - name: "src"
+    type: "<xref href=\"com.fasterxml.jackson.databind.ser.std.BeanSerializerBase?alt=com.fasterxml.jackson.databind.ser.std.BeanSerializerBase&text=BeanSerializerBase\" data-throw-if-not-resolved=\"False\" />"
+  - name: "toIgnore"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "toInclude"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "protected BeanAsArraySerializer(BeanSerializerBase src, Set<String> toIgnore, Set<String> toInclude)"
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

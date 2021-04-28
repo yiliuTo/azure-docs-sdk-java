@@ -33,4 +33,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.http.io.HttpConnectionFactory?alt=org.apache.hc.core5.http.io.HttpConnectionFactory&text=HttpConnectionFactory\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"org.apache.hc.client5.http.io.ManagedHttpClientConnection?alt=org.apache.hc.client5.http.io.ManagedHttpClientConnection&text=ManagedHttpClientConnection\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "org.apache.hc.client5.http.impl.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

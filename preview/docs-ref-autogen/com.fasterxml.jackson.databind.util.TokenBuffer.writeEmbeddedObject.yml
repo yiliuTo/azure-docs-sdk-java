@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.util.TokenBuffer.writeEmbeddedObject(Object object)"
   name: "writeEmbeddedObject(Object object)"
   nameWithType: "TokenBuffer.writeEmbeddedObject(Object object)"
-  summary: "Method that can be called on backends that support passing opaque datatypes of non-JSON formats"
+  summary: "Method that can be called on backends that support passing opaque native values that some data formats support; not used with JSON backend, more common with binary formats.\n\nNOTE: this is NOT the method to call for serializing regular POJOs, see <xref uid=\"com.fasterxml.jackson.databind.util.TokenBuffer.writeObject*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#writeObject\"></xref> instead."
   overridden: "com.fasterxml.jackson.core.JsonGenerator.writeEmbeddedObject(java.lang.Object)"
   parameters:
   - name: "object"
@@ -19,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

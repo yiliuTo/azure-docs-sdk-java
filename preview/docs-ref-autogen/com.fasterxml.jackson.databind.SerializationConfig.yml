@@ -15,6 +15,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.constructSpecializedType(com.fasterxml.jackson.databind.JavaType,java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.constructType(com.fasterxml.jackson.core.type.TypeReference<?>)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.constructType(java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.cfg.MapperConfig.getAccessorNaming()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getAnnotationIntrospector()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getBase64Variant()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getClassIntrospector()"
@@ -28,6 +29,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getPropertyNamingStrategy()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getTimeZone()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getTypeFactory()"
+- "com.fasterxml.jackson.databind.cfg.MapperConfig.hasExplicitTimeZone()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.hasMapperFeatures(int)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations(java.lang.Class<?>)"
@@ -57,6 +59,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyIgnorals(java.lang.Class<?>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyInclusion()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyInclusion(java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyInclusions(java.lang.Class<?>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultSetterInfo()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultVisibilityChecker()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultVisibilityChecker(java.lang.Class<?>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
@@ -71,6 +74,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.PropertyNamingStrategy)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.cfg.ContextAttributes)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.cfg.HandlerInstantiator)"
+- "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Provider)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.introspect.ClassIntrospector)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.jsontype.SubtypeResolver)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.jsontype.TypeResolverBuilder<?>)"
@@ -116,7 +120,6 @@ fields:
 - "com.fasterxml.jackson.databind.SerializationConfig._generatorFeaturesToChange"
 - "com.fasterxml.jackson.databind.SerializationConfig._serFeatures"
 methods:
-- "com.fasterxml.jackson.databind.SerializationConfig.<T>introspect(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.SerializationConfig._withBase(com.fasterxml.jackson.databind.cfg.BaseSettings)"
 - "com.fasterxml.jackson.databind.SerializationConfig._withMapperFeatures(int)"
 - "com.fasterxml.jackson.databind.SerializationConfig.constructDefaultPrettyPrinter()"
@@ -126,6 +129,7 @@ methods:
 - "com.fasterxml.jackson.databind.SerializationConfig.getSerializationInclusion()"
 - "com.fasterxml.jackson.databind.SerializationConfig.hasSerializationFeatures(int)"
 - "com.fasterxml.jackson.databind.SerializationConfig.initialize(com.fasterxml.jackson.core.JsonGenerator)"
+- "com.fasterxml.jackson.databind.SerializationConfig.introspect(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.SerializationConfig.isEnabled(com.fasterxml.jackson.core.JsonGenerator.Feature,com.fasterxml.jackson.core.JsonFactory)"
 - "com.fasterxml.jackson.databind.SerializationConfig.isEnabled(com.fasterxml.jackson.databind.SerializationFeature)"
 - "com.fasterxml.jackson.databind.SerializationConfig.useRootWrapping()"
@@ -156,4 +160,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

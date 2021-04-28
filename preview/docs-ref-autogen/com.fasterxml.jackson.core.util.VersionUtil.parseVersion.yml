@@ -10,16 +10,20 @@ members:
   nameWithType: "VersionUtil.parseVersion(String s, String groupId, String artifactId)"
   summary: "Method used by `PackageVersion` classes to decode version injected by Maven build."
   parameters:
-  - name: "s"
+  - description: "Version String to parse"
+    name: "s"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - name: "groupId"
+  - description: "Maven group id to include with version"
+    name: "groupId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - name: "artifactId"
+  - description: "Maven artifact id to include with version"
+    name: "artifactId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static Version parseVersion(String s, String groupId, String artifactId)"
   returns:
+    description: "Version instance constructed from parsed components, if successful;\n    <xref uid=\"com.fasterxml.jackson.core.Version.unknownVersion()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Version#unknownVersion()\"></xref> if parsing of components fail"
     type: "<xref href=\"com.fasterxml.jackson.core.Version?alt=com.fasterxml.jackson.core.Version&text=Version\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

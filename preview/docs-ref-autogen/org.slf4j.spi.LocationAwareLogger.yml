@@ -18,4 +18,4 @@ implements:
 - "<xref href=\"org.slf4j.Logger?alt=org.slf4j.Logger&text=Logger\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "org.slf4j.spi"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -22,6 +22,8 @@ syntax: "public class TypeFactory implements Serializable"
 constructors:
 - "com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory(com.fasterxml.jackson.databind.util.LRUMap<java.lang.Object,com.fasterxml.jackson.databind.JavaType>)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory(com.fasterxml.jackson.databind.util.LRUMap<java.lang.Object,com.fasterxml.jackson.databind.JavaType>,com.fasterxml.jackson.databind.type.TypeParser,com.fasterxml.jackson.databind.type.TypeModifier[],java.lang.ClassLoader)"
+- "com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory(com.fasterxml.jackson.databind.util.LookupCache<java.lang.Object,com.fasterxml.jackson.databind.JavaType>)"
+- "com.fasterxml.jackson.databind.type.TypeFactory.TypeFactory(com.fasterxml.jackson.databind.util.LookupCache<java.lang.Object,com.fasterxml.jackson.databind.JavaType>,com.fasterxml.jackson.databind.type.TypeParser,com.fasterxml.jackson.databind.type.TypeModifier[],java.lang.ClassLoader)"
 fields:
 - "com.fasterxml.jackson.databind.type.TypeFactory.CORE_TYPE_BOOL"
 - "com.fasterxml.jackson.databind.type.TypeFactory.CORE_TYPE_CLASS"
@@ -71,6 +73,7 @@ methods:
 - "com.fasterxml.jackson.databind.type.TypeFactory.constructMapType(java.lang.Class<? extends java.util.Map>,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.constructMapType(java.lang.Class<? extends java.util.Map>,java.lang.Class<?>,java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(java.lang.Class<?>,com.fasterxml.jackson.databind.JavaType...)"
+- "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(java.lang.Class<?>,com.fasterxml.jackson.databind.type.TypeBindings)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(java.lang.Class<?>,java.lang.Class<?>...)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType(java.lang.Class<?>,java.lang.Class<?>,com.fasterxml.jackson.databind.JavaType...)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.constructParametrizedType(java.lang.Class<?>,java.lang.Class<?>,java.lang.Class<?>...)"
@@ -96,9 +99,11 @@ methods:
 - "com.fasterxml.jackson.databind.type.TypeFactory.getClassLoader()"
 - "com.fasterxml.jackson.databind.type.TypeFactory.moreSpecificType(com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.rawClass(java.lang.reflect.Type)"
+- "com.fasterxml.jackson.databind.type.TypeFactory.resolveMemberType(java.lang.reflect.Type,com.fasterxml.jackson.databind.type.TypeBindings)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.uncheckedSimpleType(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.unknownType()"
 - "com.fasterxml.jackson.databind.type.TypeFactory.withCache(com.fasterxml.jackson.databind.util.LRUMap<java.lang.Object,com.fasterxml.jackson.databind.JavaType>)"
+- "com.fasterxml.jackson.databind.type.TypeFactory.withCache(com.fasterxml.jackson.databind.util.LookupCache<java.lang.Object,com.fasterxml.jackson.databind.JavaType>)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.withClassLoader(java.lang.ClassLoader)"
 - "com.fasterxml.jackson.databind.type.TypeFactory.withModifier(com.fasterxml.jackson.databind.type.TypeModifier)"
 type: "class"
@@ -106,4 +111,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.type"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

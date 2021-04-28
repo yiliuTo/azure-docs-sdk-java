@@ -51,18 +51,18 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public final class ServiceBusNamespacesImpl extends TopLevelModifiableResourcesImpl<ServiceBusNamespace,ServiceBusNamespaceImpl,NamespaceResourceInner,NamespacesClient,ServiceBusManager> implements ServiceBusNamespaces"
+syntax: "public final class ServiceBusNamespacesImpl extends TopLevelModifiableResourcesImpl<ServiceBusNamespace,ServiceBusNamespaceImpl,SBNamespaceInner,NamespacesClient,ServiceBusManager> implements ServiceBusNamespaces"
 constructors:
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusNamespacesImpl.ServiceBusNamespacesImpl(com.azure.resourcemanager.servicebus.fluent.NamespacesClient,com.azure.resourcemanager.servicebus.ServiceBusManager)"
 methods:
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusNamespacesImpl.checkNameAvailability(java.lang.String)"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusNamespacesImpl.checkNameAvailabilityAsync(java.lang.String)"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusNamespacesImpl.define(java.lang.String)"
-- "com.azure.resourcemanager.servicebus.implementation.ServiceBusNamespacesImpl.wrapModel(com.azure.resourcemanager.servicebus.fluent.models.NamespaceResourceInner)"
+- "com.azure.resourcemanager.servicebus.implementation.ServiceBusNamespacesImpl.wrapModel(com.azure.resourcemanager.servicebus.fluent.models.SBNamespaceInner)"
 - "com.azure.resourcemanager.servicebus.implementation.ServiceBusNamespacesImpl.wrapModel(java.lang.String)"
 type: "class"
 implements:
 - "<xref href=\"com.azure.resourcemanager.servicebus.models.ServiceBusNamespaces?alt=com.azure.resourcemanager.servicebus.models.ServiceBusNamespaces&text=ServiceBusNamespaces\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.servicebus.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-servicebus:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-servicebus:2.3.0

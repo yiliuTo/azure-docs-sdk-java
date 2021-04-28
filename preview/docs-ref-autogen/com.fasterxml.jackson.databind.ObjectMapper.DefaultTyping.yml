@@ -30,7 +30,7 @@ fields:
   fullName: "com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping.EVERYTHING"
   name: "EVERYTHING"
   nameWithType: "ObjectMapper.DefaultTyping.EVERYTHING"
-  summary: "Value that means that default typing will be used for all types, with exception of small number of \"natural\" types (String, Boolean, Integer, Double) that can be correctly inferred from JSON, and primitives (which can not be polymorphic either). Typing is also enabled for all array types.\n\nNote that this is rarely the option you should use as it results in adding type information in many places where it should not be needed: make sure you understand its behavior. The only known use case for this setting is for serialization when passing instances of final class, and base type is not separately specified."
+  summary: "Value that means that default typing will be used for all types, with exception of small number of \"natural\" types (String, Boolean, Integer, Double) that can be correctly inferred from JSON, and primitives (which can not be polymorphic either). Typing is also enabled for all array types.\n\nWARNING: most of the time this is **NOT** the setting you want as it tends to add Type Ids everywhere, even in cases where type can not be anything other than declared (for example if declared value type of a property is `final` \\-- for example, properties of type `long` (or wrapper `Long`).\n\nNote that this is rarely the option you should use as it results in adding type information in many places where it should not be needed: make sure you understand its behavior. The only known use case for this setting is for serialization when passing instances of final class, and base type is not separately specified."
 - uid: "com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping.JAVA_LANG_OBJECT"
   fullName: "com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping.JAVA_LANG_OBJECT"
   name: "JAVA_LANG_OBJECT"
@@ -71,4 +71,4 @@ methods:
     type: "<xref href=\"com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping?alt=com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping&text=DefaultTyping\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

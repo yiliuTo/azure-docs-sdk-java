@@ -38,6 +38,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.JsonGenerator.getOutputTarget()"
 - "com.fasterxml.jackson.core.JsonGenerator.getPrettyPrinter()"
 - "com.fasterxml.jackson.core.JsonGenerator.getSchema()"
+- "com.fasterxml.jackson.core.JsonGenerator.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.JsonGenerator.isClosed()"
 - "com.fasterxml.jackson.core.JsonGenerator.isEnabled(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.core.JsonGenerator.isEnabled(com.fasterxml.jackson.core.StreamWriteFeature)"
@@ -185,6 +186,7 @@ methods:
 - "com.fasterxml.jackson.databind.util.TokenBuffer.getCodec()"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.getFeatureMask()"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.getOutputContext()"
+- "com.fasterxml.jackson.databind.util.TokenBuffer.getWriteCapabilities()"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.isClosed()"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.isEnabled(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.overrideParentContext(com.fasterxml.jackson.core.JsonStreamContext)"
@@ -224,7 +226,6 @@ methods:
 - "com.fasterxml.jackson.databind.util.TokenBuffer.writeRawValue(java.lang.String)"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.writeRawValue(java.lang.String,int,int)"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.writeStartArray()"
-- "com.fasterxml.jackson.databind.util.TokenBuffer.writeStartArray(int)"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.writeStartArray(java.lang.Object)"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.writeStartArray(java.lang.Object,int)"
 - "com.fasterxml.jackson.databind.util.TokenBuffer.writeStartObject()"
@@ -239,4 +240,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

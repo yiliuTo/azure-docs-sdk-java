@@ -11,8 +11,9 @@ members:
   summary: "Accessor for finding parent context of this context; will return null for root context."
   syntax: "public abstract JsonStreamContext getParent()"
   returns:
+    description: "Parent context of this context, if any; <code>null</code> for Root contexts"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonStreamContext?alt=com.fasterxml.jackson.core.JsonStreamContext&text=JsonStreamContext\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

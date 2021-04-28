@@ -20,9 +20,9 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public final class ConnectionMonitorsClientImpl implements ConnectionMonitorsClient"
 methods:
-- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner)"
-- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,com.azure.core.util.Context)"
-- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginCreateOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner)"
+- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginCreateOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginDelete(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginDelete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginDeleteAsync(java.lang.String,java.lang.String,java.lang.String)"
@@ -36,9 +36,11 @@ methods:
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginStop(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.beginStopAsync(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner)"
-- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner)"
-- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner)"
+- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.ConnectionMonitorInner,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.delete(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.ConnectionMonitorsClientImpl.deleteAsync(java.lang.String,java.lang.String,java.lang.String)"
@@ -72,4 +74,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.network.fluent.ConnectionMonitorsClient?alt=com.azure.resourcemanager.network.fluent.ConnectionMonitorsClient&text=ConnectionMonitorsClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.network.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0

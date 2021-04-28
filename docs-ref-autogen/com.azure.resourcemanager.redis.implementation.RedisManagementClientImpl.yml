@@ -35,6 +35,8 @@ methods:
 - "com.azure.resourcemanager.redis.implementation.RedisManagementClientImpl.getLinkedServers()"
 - "com.azure.resourcemanager.redis.implementation.RedisManagementClientImpl.getOperations()"
 - "com.azure.resourcemanager.redis.implementation.RedisManagementClientImpl.getPatchSchedules()"
+- "com.azure.resourcemanager.redis.implementation.RedisManagementClientImpl.getPrivateEndpointConnections()"
+- "com.azure.resourcemanager.redis.implementation.RedisManagementClientImpl.getPrivateLinkResources()"
 - "com.azure.resourcemanager.redis.implementation.RedisManagementClientImpl.getRedis()"
 - "com.azure.resourcemanager.redis.implementation.RedisManagementClientImpl.getSubscriptionId()"
 type: "class"
@@ -42,4 +44,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.redis.fluent.RedisManagementClient?alt=com.azure.resourcemanager.redis.fluent.RedisManagementClient&text=RedisManagementClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.redis.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redis:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-redis:2.3.0

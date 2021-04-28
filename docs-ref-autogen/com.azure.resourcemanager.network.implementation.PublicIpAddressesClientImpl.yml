@@ -39,6 +39,11 @@ methods:
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getByResourceGroupAsync(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getByResourceGroupWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getCloudServicePublicIpAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getCloudServicePublicIpAddressAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getCloudServicePublicIpAddressAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getCloudServicePublicIpAddressWithResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getCloudServicePublicIpAddressWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getVirtualMachineScaleSetPublicIpAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getVirtualMachineScaleSetPublicIpAddressAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.getVirtualMachineScaleSetPublicIpAddressAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
@@ -50,6 +55,12 @@ methods:
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listByResourceGroup(java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listCloudServicePublicIpAddresses(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listCloudServicePublicIpAddresses(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listCloudServicePublicIpAddressesAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listCloudServiceRoleInstancePublicIpAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listCloudServiceRoleInstancePublicIpAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listCloudServiceRoleInstancePublicIpAddressesAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listVirtualMachineScaleSetPublicIpAddresses(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listVirtualMachineScaleSetPublicIpAddresses(java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.PublicIpAddressesClientImpl.listVirtualMachineScaleSetPublicIpAddressesAsync(java.lang.String,java.lang.String)"
@@ -69,4 +80,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.PublicIpAddressInner?alt=com.azure.resourcemanager.network.fluent.models.PublicIpAddressInner&text=PublicIpAddressInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0

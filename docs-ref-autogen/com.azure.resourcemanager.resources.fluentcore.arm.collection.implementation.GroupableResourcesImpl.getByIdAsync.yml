@@ -12,10 +12,10 @@ members:
   parameters:
   - name: "id"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public final Mono<T> getByIdAsync(String id)"
+  syntax: "public Mono<T> getByIdAsync(String id)"
   returns:
     type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.resources.fluentcore.arm.collection.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0

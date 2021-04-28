@@ -66,16 +66,20 @@ inheritedMembers:
 syntax: "public class MapSerializer extends ContainerSerializer<Map<?,?>> implements ContextualSerializer"
 constructors:
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.MapSerializer(com.fasterxml.jackson.databind.ser.std.MapSerializer,com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<?>,com.fasterxml.jackson.databind.JsonSerializer<?>,java.util.Set<java.lang.String>)"
+- "com.fasterxml.jackson.databind.ser.std.MapSerializer.MapSerializer(com.fasterxml.jackson.databind.ser.std.MapSerializer,com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<?>,com.fasterxml.jackson.databind.JsonSerializer<?>,java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.MapSerializer(com.fasterxml.jackson.databind.ser.std.MapSerializer,com.fasterxml.jackson.databind.jsontype.TypeSerializer,java.lang.Object)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.MapSerializer(com.fasterxml.jackson.databind.ser.std.MapSerializer,com.fasterxml.jackson.databind.jsontype.TypeSerializer,java.lang.Object,boolean)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.MapSerializer(com.fasterxml.jackson.databind.ser.std.MapSerializer,java.lang.Object,boolean)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.MapSerializer(java.util.Set<java.lang.String>,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JavaType,boolean,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<?>,com.fasterxml.jackson.databind.JsonSerializer<?>)"
+- "com.fasterxml.jackson.databind.ser.std.MapSerializer.MapSerializer(java.util.Set<java.lang.String>,java.util.Set<java.lang.String>,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JavaType,boolean,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<?>,com.fasterxml.jackson.databind.JsonSerializer<?>)"
 fields:
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.MARKER_FOR_EMPTY"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.UNSPECIFIED_TYPE"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer._dynamicValueSerializers"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer._filterId"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer._ignoredEntries"
+- "com.fasterxml.jackson.databind.ser.std.MapSerializer._includedEntries"
+- "com.fasterxml.jackson.databind.ser.std.MapSerializer._inclusionChecker"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer._keySerializer"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer._keyType"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer._property"
@@ -98,6 +102,7 @@ methods:
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.acceptJsonFormatVisitor(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitorWrapper,com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.construct(java.lang.String[],com.fasterxml.jackson.databind.JavaType,boolean,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>,com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>,java.lang.Object)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.construct(java.util.Set<java.lang.String>,com.fasterxml.jackson.databind.JavaType,boolean,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>,com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>,java.lang.Object)"
+- "com.fasterxml.jackson.databind.ser.std.MapSerializer.construct(java.util.Set<java.lang.String>,java.util.Set<java.lang.String>,com.fasterxml.jackson.databind.JavaType,boolean,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>,com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>,java.lang.Object)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.createContextual(com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.BeanProperty)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.getContentSerializer()"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.getContentType()"
@@ -118,9 +123,10 @@ methods:
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.withContentInclusion(java.lang.Object,boolean)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.withFilterId(java.lang.Object)"
 - "com.fasterxml.jackson.databind.ser.std.MapSerializer.withResolved(com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<?>,com.fasterxml.jackson.databind.JsonSerializer<?>,java.util.Set<java.lang.String>,boolean)"
+- "com.fasterxml.jackson.databind.ser.std.MapSerializer.withResolved(com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<?>,com.fasterxml.jackson.databind.JsonSerializer<?>,java.util.Set<java.lang.String>,java.util.Set<java.lang.String>,boolean)"
 type: "class"
 implements:
 - "<xref href=\"com.fasterxml.jackson.databind.ser.ContextualSerializer?alt=com.fasterxml.jackson.databind.ser.ContextualSerializer&text=ContextualSerializer\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

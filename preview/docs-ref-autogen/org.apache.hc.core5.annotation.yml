@@ -12,4 +12,4 @@ interfaces:
 - "org.apache.hc.core5.annotation.Obsolete"
 metadata: {}
 package: "org.apache.hc.core5.annotation"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

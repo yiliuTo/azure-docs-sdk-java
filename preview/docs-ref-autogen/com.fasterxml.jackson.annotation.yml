@@ -10,6 +10,7 @@ classes:
 - "com.fasterxml.jackson.annotation.JsonFormat.Value"
 - "com.fasterxml.jackson.annotation.JsonIgnoreProperties.Value"
 - "com.fasterxml.jackson.annotation.JsonInclude.Value"
+- "com.fasterxml.jackson.annotation.JsonIncludeProperties.Value"
 - "com.fasterxml.jackson.annotation.JsonSetter.Value"
 - "com.fasterxml.jackson.annotation.JsonTypeInfo.None"
 - "com.fasterxml.jackson.annotation.ObjectIdGenerator"
@@ -55,6 +56,8 @@ interfaces:
 - "com.fasterxml.jackson.annotation.JsonIgnoreProperties"
 - "com.fasterxml.jackson.annotation.JsonIgnoreType"
 - "com.fasterxml.jackson.annotation.JsonInclude"
+- "com.fasterxml.jackson.annotation.JsonIncludeProperties"
+- "com.fasterxml.jackson.annotation.JsonKey"
 - "com.fasterxml.jackson.annotation.JsonManagedReference"
 - "com.fasterxml.jackson.annotation.JsonMerge"
 - "com.fasterxml.jackson.annotation.JsonProperty"
@@ -74,4 +77,4 @@ interfaces:
 - "com.fasterxml.jackson.annotation.ObjectIdResolver"
 metadata: {}
 package: "com.fasterxml.jackson.annotation"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

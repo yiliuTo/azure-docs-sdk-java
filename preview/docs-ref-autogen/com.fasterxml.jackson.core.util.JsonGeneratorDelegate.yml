@@ -37,6 +37,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.JsonGenerator.getOutputTarget()"
 - "com.fasterxml.jackson.core.JsonGenerator.getPrettyPrinter()"
 - "com.fasterxml.jackson.core.JsonGenerator.getSchema()"
+- "com.fasterxml.jackson.core.JsonGenerator.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.JsonGenerator.isClosed()"
 - "com.fasterxml.jackson.core.JsonGenerator.isEnabled(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.core.JsonGenerator.isEnabled(com.fasterxml.jackson.core.StreamWriteFeature)"
@@ -165,6 +166,7 @@ methods:
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getOutputTarget()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getPrettyPrinter()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getSchema()"
+- "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.isClosed()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.isEnabled(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.overrideFormatFeatures(int,int)"
@@ -232,4 +234,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

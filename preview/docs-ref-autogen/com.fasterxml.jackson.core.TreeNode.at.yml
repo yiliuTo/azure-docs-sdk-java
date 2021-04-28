@@ -10,11 +10,12 @@ members:
   nameWithType: "TreeNode.at(JsonPointer ptr)"
   summary: "Method for locating node specified by given JSON pointer instances. Method will never return null; if no matching node exists, will return a node for which <xref uid=\"com.fasterxml.jackson.core.TreeNode.isMissingNode()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TreeNode#isMissingNode()\"></xref> returns true."
   parameters:
-  - name: "ptr"
+  - description: "<xref uid=\"com.fasterxml.jackson.core.JsonPointer\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonPointer\"></xref> expression for descendant node to return"
+    name: "ptr"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonPointer?alt=com.fasterxml.jackson.core.JsonPointer&text=JsonPointer\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract TreeNode at(JsonPointer ptr)"
   returns:
-    description: "Node that matches given JSON Pointer: if no match exists,\n   will return a node for which <xref uid=\"com.fasterxml.jackson.core.TreeNode.isMissingNode()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TreeNode#isMissingNode()\"></xref> returns true."
+    description: "Node that matches given JSON Pointer, if any: if no match exists,\n   will return a \"missing\" node (for which <xref uid=\"com.fasterxml.jackson.core.TreeNode.isMissingNode()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TreeNode#isMissingNode()\"></xref>\n   returns <code>true</code>)."
     type: "<xref href=\"com.fasterxml.jackson.core.TreeNode?alt=com.fasterxml.jackson.core.TreeNode&text=TreeNode\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.TreeNode.at(java.lang.String)"
   fullName: "com.fasterxml.jackson.core.TreeNode.at(String jsonPointerExpression)"
@@ -29,9 +30,9 @@ members:
   exceptions:
   - type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
   returns:
-    description: "Node that matches given JSON Pointer: if no match exists,\n   will return a node for which <xref uid=\"com.fasterxml.jackson.core.TreeNode.isMissingNode()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TreeNode#isMissingNode()\"></xref> returns true."
+    description: "Node that matches given JSON Pointer, if any: if no match exists,\n   will return a \"missing\" node (for which <xref uid=\"com.fasterxml.jackson.core.TreeNode.isMissingNode()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TreeNode#isMissingNode()\"></xref>\n   returns <code>true</code>)."
     type: "<xref href=\"com.fasterxml.jackson.core.TreeNode?alt=com.fasterxml.jackson.core.TreeNode&text=TreeNode\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

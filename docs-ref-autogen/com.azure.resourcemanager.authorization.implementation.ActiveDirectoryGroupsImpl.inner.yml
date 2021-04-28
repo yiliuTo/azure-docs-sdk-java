@@ -8,10 +8,10 @@ members:
   fullName: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.inner()"
   name: "inner()"
   nameWithType: "ActiveDirectoryGroupsImpl.inner()"
-  syntax: "public GroupsClient inner()"
+  syntax: "public GroupsGroupsClient inner()"
   returns:
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.GroupsClient?alt=com.azure.resourcemanager.authorization.fluent.GroupsClient&text=GroupsClient\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.GroupsGroupsClient?alt=com.azure.resourcemanager.authorization.fluent.GroupsGroupsClient&text=GroupsGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

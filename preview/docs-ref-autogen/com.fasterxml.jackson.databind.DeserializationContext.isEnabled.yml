@@ -4,6 +4,18 @@ fullName: "com.fasterxml.jackson.databind.DeserializationContext.isEnabled"
 name: "isEnabled"
 nameWithType: "DeserializationContext.isEnabled"
 members:
+- uid: "com.fasterxml.jackson.databind.DeserializationContext.isEnabled(com.fasterxml.jackson.core.StreamReadCapability)"
+  fullName: "com.fasterxml.jackson.databind.DeserializationContext.isEnabled(StreamReadCapability cap)"
+  name: "isEnabled(StreamReadCapability cap)"
+  nameWithType: "DeserializationContext.isEnabled(StreamReadCapability cap)"
+  summary: "Accessor for checking whether input format has specified capability or not."
+  parameters:
+  - name: "cap"
+    type: "<xref href=\"com.fasterxml.jackson.core.StreamReadCapability?alt=com.fasterxml.jackson.core.StreamReadCapability&text=StreamReadCapability\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public final boolean isEnabled(StreamReadCapability cap)"
+  returns:
+    description: "True if input format has specified capability; false if not"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.databind.DeserializationContext.isEnabled(com.fasterxml.jackson.databind.DeserializationFeature)"
   fullName: "com.fasterxml.jackson.databind.DeserializationContext.isEnabled(DeserializationFeature feat)"
   name: "isEnabled(DeserializationFeature feat)"
@@ -30,4 +42,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

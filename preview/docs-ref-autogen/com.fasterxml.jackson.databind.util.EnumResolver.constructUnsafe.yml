@@ -8,7 +8,6 @@ members:
   fullName: "com.fasterxml.jackson.databind.util.EnumResolver.constructUnsafe(Class<?> rawEnumCls, AnnotationIntrospector ai)"
   name: "constructUnsafe(Class<?> rawEnumCls, AnnotationIntrospector ai)"
   nameWithType: "EnumResolver.constructUnsafe(Class<?> rawEnumCls, AnnotationIntrospector ai)"
-  summary: "This method is needed because of the dynamic nature of constructing Enum resolvers."
   parameters:
   - name: "rawEnumCls"
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
@@ -20,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

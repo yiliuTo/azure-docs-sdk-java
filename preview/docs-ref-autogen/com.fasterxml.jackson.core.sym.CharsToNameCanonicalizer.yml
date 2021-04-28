@@ -21,6 +21,19 @@ inheritedMembers:
 syntax: "public final class CharsToNameCanonicalizer"
 fields:
 - "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.HASH_MULT"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._buckets"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._canonicalize"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._flags"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._hashShared"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._indexMask"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._longestCollisionList"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._overflows"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._parent"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._seed"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._size"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._sizeThreshold"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._symbols"
+- "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._tableInfo"
 methods:
 - "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer._hashToIndex(int)"
 - "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.bucketCount()"
@@ -41,4 +54,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.sym"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

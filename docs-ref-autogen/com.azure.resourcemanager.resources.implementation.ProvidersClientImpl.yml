@@ -40,6 +40,10 @@ methods:
 - "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.listAtTenantScopeAsync(java.lang.Integer,java.lang.String)"
 - "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.register(java.lang.String)"
 - "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.registerAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.registerAtManagementGroupScope(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.registerAtManagementGroupScopeAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.registerAtManagementGroupScopeWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.registerAtManagementGroupScopeWithResponseAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.registerWithResponse(java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.registerWithResponseAsync(java.lang.String)"
 - "com.azure.resourcemanager.resources.implementation.ProvidersClientImpl.unregister(java.lang.String)"
@@ -51,4 +55,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluent.ProvidersClient?alt=com.azure.resourcemanager.resources.fluent.ProvidersClient&text=ProvidersClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.resources.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0

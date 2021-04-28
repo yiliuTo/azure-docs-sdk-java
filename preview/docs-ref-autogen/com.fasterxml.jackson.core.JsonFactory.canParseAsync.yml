@@ -12,8 +12,9 @@ members:
   overridden: "com.fasterxml.jackson.core.TokenStreamFactory.canParseAsync()"
   syntax: "public boolean canParseAsync()"
   returns:
+    description: "Whether this factory supports non-blocking (\"async\") parsing or\n    not (and consequently whether <code>createNonBlockingXxx()</code> method(s) work)"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

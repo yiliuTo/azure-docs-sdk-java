@@ -24,7 +24,7 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public enum JsonFactory.Feature extends Enum<JsonFactory.Feature>"
+syntax: "public enum JsonFactory.Feature extends Enum<JsonFactory.Feature> implements JacksonFeature"
 fields:
 - uid: "com.fasterxml.jackson.core.JsonFactory.Feature.CANONICALIZE_FIELD_NAMES"
   fullName: "com.fasterxml.jackson.core.JsonFactory.Feature.CANONICALIZE_FIELD_NAMES"
@@ -45,7 +45,7 @@ fields:
   fullName: "com.fasterxml.jackson.core.JsonFactory.Feature.USE_THREAD_LOCAL_FOR_BUFFER_RECYCLING"
   name: "USE_THREAD_LOCAL_FOR_BUFFER_RECYCLING"
   nameWithType: "JsonFactory.Feature.USE_THREAD_LOCAL_FOR_BUFFER_RECYCLING"
-  summary: "Feature that determines whether we will use <xref uid=\"com.fasterxml.jackson.core.util.BufferRecycler\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BufferRecycler\"></xref> with <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ThreadLocal\"></xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SoftReference\"></xref>, for efficient reuse of underlying input/output buffers. This usually makes sense on normal J2SE/J2EE server-side processing; but may not make sense on platforms where <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SoftReference\"></xref> handling is broken (like Android), or if there are retention issues due to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ThreadLocal\"></xref> (see [Issue \\#189][Issue _189] for a possible case)\n\nThis setting is enabled by default.\n\n\n[Issue _189]: https://github.com/FasterXML/jackson-core/issues/189"
+  summary: "Feature that determines whether we will use <xref uid=\"com.fasterxml.jackson.core.util.BufferRecycler\" data-throw-if-not-resolved=\"false\" data-raw-source=\"BufferRecycler\"></xref> with <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ThreadLocal\"></xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SoftReference\"></xref>, for efficient reuse of underlying input/output buffers. This usually makes sense on normal J2SE/J2EE server-side processing; but may not make sense on platforms where <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SoftReference\"></xref> handling is broken (like Android), or if there are retention issues due to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ThreadLocal\"></xref> (see [jackson-core\\#189][jackson-core_189] for a possible case)\n\nThis setting is enabled by default.\n\n\n[jackson-core_189]: https://github.com/FasterXML/jackson-core/issues/189"
 methods:
 - uid: "com.fasterxml.jackson.core.JsonFactory.Feature.collectDefaults()"
   fullName: "com.fasterxml.jackson.core.JsonFactory.Feature.collectDefaults()"
@@ -54,11 +54,13 @@ methods:
   summary: "Method that calculates bit set (flags) of all features that are enabled by default."
   syntax: "public static int collectDefaults()"
   returns:
+    description: "Bit field of features enabled by default"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.Feature.enabledByDefault()"
   fullName: "com.fasterxml.jackson.core.JsonFactory.Feature.enabledByDefault()"
   name: "enabledByDefault()"
   nameWithType: "JsonFactory.Feature.enabledByDefault()"
+  summary: "Accessor for checking whether this feature is enabled by default."
   syntax: "public boolean enabledByDefault()"
   returns:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
@@ -66,6 +68,7 @@ methods:
   fullName: "com.fasterxml.jackson.core.JsonFactory.Feature.enabledIn(int flags)"
   name: "enabledIn(int flags)"
   nameWithType: "JsonFactory.Feature.enabledIn(int flags)"
+  summary: "Convenience method for checking whether feature is enabled in given bitmask."
   parameters:
   - name: "flags"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -76,6 +79,7 @@ methods:
   fullName: "com.fasterxml.jackson.core.JsonFactory.Feature.getMask()"
   name: "getMask()"
   nameWithType: "JsonFactory.Feature.getMask()"
+  summary: "Returns bit mask for this feature instance; must be a single bit, that is of form `1 << N`."
   syntax: "public int getMask()"
   returns:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -96,6 +100,8 @@ methods:
   syntax: "public static JsonFactory.Feature[] values()"
   returns:
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactory.Feature?alt=com.fasterxml.jackson.core.JsonFactory.Feature&text=Feature\" data-throw-if-not-resolved=\"False\" />[]"
+implements:
+- "<xref href=\"com.fasterxml.jackson.core.util.JacksonFeature?alt=com.fasterxml.jackson.core.util.JacksonFeature&text=JacksonFeature\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -73,11 +73,7 @@ fields:
 methods:
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.<T>fromMemberAnnotations(com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>)"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.<T>fromMemberAnnotationsExcept(com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.WithMember<T>,T)"
-- "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findDefaultValue()"
-- "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findDescription()"
-- "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findIndex()"
-- "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findRequired()"
-- "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._getSetterInfo(com.fasterxml.jackson.databind.PropertyMetadata)"
+- "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._getSetterInfo(com.fasterxml.jackson.databind.PropertyMetadata,com.fasterxml.jackson.databind.introspect.AnnotatedMember)"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._getterPriority(com.fasterxml.jackson.databind.introspect.AnnotatedMethod)"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._rawTypeOf(com.fasterxml.jackson.databind.introspect.AnnotatedMember)"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._setterPriority(com.fasterxml.jackson.databind.introspect.AnnotatedMethod)"
@@ -124,6 +120,7 @@ methods:
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.removeConstructors()"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.removeIgnored()"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.removeNonVisible(boolean)"
+- "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.removeNonVisible(boolean,com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector)"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.toString()"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.trimByVisibility()"
 - "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder.withName(com.fasterxml.jackson.databind.PropertyName)"
@@ -133,4 +130,4 @@ implements:
 - "<xref href=\"java.lang.Comparable?alt=java.lang.Comparable&text=Comparable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder?alt=com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder&text=POJOPropertyBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.fasterxml.jackson.databind.introspect"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

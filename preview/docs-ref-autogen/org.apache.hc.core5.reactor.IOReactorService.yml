@@ -12,4 +12,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.reactor.IOReactor?alt=org.apache.hc.core5.reactor.IOReactor&text=IOReactor\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "org.apache.hc.core5.reactor"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

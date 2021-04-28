@@ -3,7 +3,7 @@ uid: "com.fasterxml.jackson.core.util.InternCache"
 fullName: "com.fasterxml.jackson.core.util.InternCache"
 name: "InternCache"
 nameWithType: "InternCache"
-summary: "Singleton class that adds a simple first-level cache in front of regular String.intern() functionality. This is done as a minor performance optimization, to avoid calling native intern() method in cases where same String is being interned multiple times.\n\nNote: that this class extends <xref uid=\"java.util.LinkedHashMap\" data-throw-if-not-resolved=\"false\" data-raw-source=\"LinkedHashMap\"></xref> is an implementation detail -- no code should ever directly call Map methods."
+summary: "Singleton class that adds a simple first-level cache in front of regular String.intern() functionality. This is done as a minor performance optimization, to avoid calling native intern() method in cases where same String is being interned multiple times.\n\nNote: that this class extends <xref uid=\"java.util.LinkedHashMap\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.util.LinkedHashMap\"></xref> is an implementation detail -- no code should ever directly call Map methods."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.util.AbstractMap\" data-throw-if-not-resolved=\"False\" />"
@@ -89,4 +89,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

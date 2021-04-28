@@ -52,4 +52,4 @@ implements:
 - "<xref href=\"com.fasterxml.jackson.databind.jsontype.TypeResolverBuilder?alt=com.fasterxml.jackson.databind.jsontype.TypeResolverBuilder&text=TypeResolverBuilder\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder?alt=com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder&text=StdTypeResolverBuilder\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.fasterxml.jackson.databind.jsontype.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

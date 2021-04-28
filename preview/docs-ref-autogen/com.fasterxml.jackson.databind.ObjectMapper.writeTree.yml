@@ -8,6 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.ObjectMapper.writeTree(JsonGenerator g, TreeNode rootNode)"
   name: "writeTree(JsonGenerator g, TreeNode rootNode)"
   nameWithType: "ObjectMapper.writeTree(JsonGenerator g, TreeNode rootNode)"
+  summary: "Method for serializing JSON content from given Tree instance, using specified generator."
   overridden: "com.fasterxml.jackson.core.ObjectCodec.writeTree(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.core.TreeNode)"
   parameters:
   - name: "g"
@@ -35,4 +36,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

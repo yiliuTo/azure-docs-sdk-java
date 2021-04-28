@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.core.util.JsonParserDelegate.getValueAsInt()"
   name: "getValueAsInt()"
   nameWithType: "JsonParserDelegate.getValueAsInt()"
-  summary: "Method that will try to convert value of current token to a **int**. Numbers are coerced using default Java rules; booleans convert to 0 (false) and 1 (true), and Strings are parsed using default Java language integer parsing rules.\n\nIf representation can not be converted to an int (including structured type markers like start/end Object/Array) default value of **0** will be returned; no exceptions are thrown."
+  summary: "Method that will try to convert value of current token to a Java `int` value. Numbers are coerced using default Java rules; booleans convert to 0 (false) and 1 (true), and Strings are parsed using default Java language integer parsing rules.\n\nIf representation can not be converted to an int (including structured type markers like start/end Object/Array) default value of **0** will be returned; no exceptions are thrown."
   overridden: "com.fasterxml.jackson.core.JsonParser.getValueAsInt()"
   syntax: "public int getValueAsInt()"
   exceptions:
@@ -32,4 +32,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

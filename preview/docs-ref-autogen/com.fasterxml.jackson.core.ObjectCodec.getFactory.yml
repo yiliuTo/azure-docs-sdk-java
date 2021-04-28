@@ -11,8 +11,9 @@ members:
   summary: "Accessor for finding underlying data format factory (<xref uid=\"com.fasterxml.jackson.core.JsonFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonFactory\"></xref>) codec will use for data binding."
   syntax: "public JsonFactory getFactory()"
   returns:
+    description: "Underlying <xref uid=\"com.fasterxml.jackson.core.JsonFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonFactory\"></xref> instance"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactory?alt=com.fasterxml.jackson.core.JsonFactory&text=JsonFactory\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

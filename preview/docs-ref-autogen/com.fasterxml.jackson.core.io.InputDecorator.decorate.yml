@@ -24,7 +24,8 @@ members:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract InputStream decorate(IOContext ctxt, byte[] src, int offset, int length)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if construction of <xref uid=\"InputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"InputStream\"></xref> fails"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "Either <xref uid=\"java.io.InputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"InputStream\"></xref> to use as input source; or null to indicate\n   that contents are to be processed as-is by caller"
     type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
@@ -42,7 +43,8 @@ members:
     type: "<xref href=\"java.io.DataInput?alt=java.io.DataInput&text=DataInput\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DataInput decorate(IOContext ctxt, DataInput input)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if construction of <xref uid=\"DataInput\" data-throw-if-not-resolved=\"false\" data-raw-source=\"DataInput\"></xref> fails"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "InputStream to use; either 'input' as is, or decorator\n   version that typically delogates to 'input'"
     type: "<xref href=\"java.io.DataInput?alt=java.io.DataInput&text=DataInput\" data-throw-if-not-resolved=\"False\" />"
@@ -60,7 +62,8 @@ members:
     type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract InputStream decorate(IOContext ctxt, InputStream in)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if construction of <xref uid=\"InputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"InputStream\"></xref> fails"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "InputStream to use; either 'in' as is, or decorator\n   version that typically delogates to 'in'"
     type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
@@ -78,11 +81,12 @@ members:
     type: "<xref href=\"java.io.Reader?alt=java.io.Reader&text=Reader\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Reader decorate(IOContext ctxt, Reader r)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if construction of <xref uid=\"Reader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Reader\"></xref> fails"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "Reader to use; either passed in argument, or something that\n   calls it (for example, a <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FilterReader\"></xref>)"
     type: "<xref href=\"java.io.Reader?alt=java.io.Reader&text=Reader\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

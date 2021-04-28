@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.node.ArrayNode.required(int index)"
   name: "required(int index)"
   nameWithType: "ArrayNode.required(int index)"
-  summary: "Method is functionally equivalent to `path(index).required()` and can be used to check that this node is an `ArrayNode` (that is, represents JSON Array value) and has value for specified `index` (but note that value may be explicit JSON null value). If this node is Array Node and has value for specified index, `this` is returned to allow chaining; otherwise <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IllegalArgumentException\"></xref> is thrown."
+  summary: "Method is functionally equivalent to `path(index).required()` and can be used to check that this node is an `ArrayNode` (that is, represents JSON Array value) and has value for specified `index` (but note that value may be explicit JSON null value). If this node is Array Node and has value for specified index, value at index is returned; otherwise <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"IllegalArgumentException\"></xref> is thrown."
   overridden: "com.fasterxml.jackson.databind.node.BaseJsonNode.required(int)"
   parameters:
   - name: "index"
@@ -19,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.node"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -8,6 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<T>._verifyNullForPrimitiveCoercion(DeserializationContext ctxt, String str)"
   name: "_verifyNullForPrimitiveCoercion(DeserializationContext ctxt, String str)"
   nameWithType: "StdDeserializer<T>._verifyNullForPrimitiveCoercion(DeserializationContext ctxt, String str)"
+  summary: "Method called to verify that text value `\"null\"` from input is acceptable for primitive (unboxed) target type. It should not be called if actual `null` token was received, or if null is a result of coercion from Some other input type."
   parameters:
   - name: "ctxt"
     type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
@@ -19,4 +20,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

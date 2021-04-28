@@ -132,4 +132,4 @@ methods:
     type: "<xref href=\"org.apache.hc.core5.http.ssl.TLS?alt=org.apache.hc.core5.http.ssl.TLS&text=TLS\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "org.apache.hc.core5.http.ssl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

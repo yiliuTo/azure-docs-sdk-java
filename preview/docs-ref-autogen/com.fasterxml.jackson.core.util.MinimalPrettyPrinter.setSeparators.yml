@@ -9,12 +9,14 @@ members:
   name: "setSeparators(Separators separators)"
   nameWithType: "MinimalPrettyPrinter.setSeparators(Separators separators)"
   parameters:
-  - name: "separators"
+  - description: "Separator definitions"
+    name: "separators"
     type: "<xref href=\"com.fasterxml.jackson.core.util.Separators?alt=com.fasterxml.jackson.core.util.Separators&text=Separators\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public MinimalPrettyPrinter setSeparators(Separators separators)"
   returns:
+    description: "This pretty-printer instance to allow call chaining"
     type: "<xref href=\"com.fasterxml.jackson.core.util.MinimalPrettyPrinter?alt=com.fasterxml.jackson.core.util.MinimalPrettyPrinter&text=MinimalPrettyPrinter\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

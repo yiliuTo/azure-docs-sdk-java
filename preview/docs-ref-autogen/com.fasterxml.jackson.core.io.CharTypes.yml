@@ -20,6 +20,17 @@ inheritedMembers:
 syntax: "public final class CharTypes"
 constructors:
 - "com.fasterxml.jackson.core.io.CharTypes.CharTypes()"
+fields:
+- "com.fasterxml.jackson.core.io.CharTypes.HB"
+- "com.fasterxml.jackson.core.io.CharTypes.HC"
+- "com.fasterxml.jackson.core.io.CharTypes.sHexValues"
+- "com.fasterxml.jackson.core.io.CharTypes.sInputCodes"
+- "com.fasterxml.jackson.core.io.CharTypes.sInputCodesComment"
+- "com.fasterxml.jackson.core.io.CharTypes.sInputCodesJsNames"
+- "com.fasterxml.jackson.core.io.CharTypes.sInputCodesUTF8"
+- "com.fasterxml.jackson.core.io.CharTypes.sInputCodesUtf8JsNames"
+- "com.fasterxml.jackson.core.io.CharTypes.sInputCodesWS"
+- "com.fasterxml.jackson.core.io.CharTypes.sOutputEscapes128"
 methods:
 - "com.fasterxml.jackson.core.io.CharTypes.appendQuoted(java.lang.StringBuilder,java.lang.String)"
 - "com.fasterxml.jackson.core.io.CharTypes.charToHex(int)"
@@ -36,4 +47,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

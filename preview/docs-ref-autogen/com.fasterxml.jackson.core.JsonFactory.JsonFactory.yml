@@ -16,9 +16,11 @@ members:
   nameWithType: "JsonFactory.JsonFactory(JsonFactory src, ObjectCodec codec)"
   summary: "Constructor used when copy()ing a factory instance."
   parameters:
-  - name: "src"
+  - description: "Original factory to copy settings from"
+    name: "src"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactory?alt=com.fasterxml.jackson.core.JsonFactory&text=JsonFactory\" data-throw-if-not-resolved=\"False\" />"
-  - name: "codec"
+  - description: "Databinding-level codec to use, if any"
+    name: "codec"
     type: "<xref href=\"com.fasterxml.jackson.core.ObjectCodec?alt=com.fasterxml.jackson.core.ObjectCodec&text=ObjectCodec\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected JsonFactory(JsonFactory src, ObjectCodec codec)"
 - uid: "com.fasterxml.jackson.core.JsonFactory.JsonFactory(com.fasterxml.jackson.core.JsonFactoryBuilder)"
@@ -27,7 +29,8 @@ members:
   nameWithType: "JsonFactory.JsonFactory(JsonFactoryBuilder b)"
   summary: "Constructor used by <xref uid=\"com.fasterxml.jackson.core.JsonFactoryBuilder\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonFactoryBuilder\"></xref> for instantiation."
   parameters:
-  - name: "b"
+  - description: "Builder that contains settings to use"
+    name: "b"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactoryBuilder?alt=com.fasterxml.jackson.core.JsonFactoryBuilder&text=JsonFactoryBuilder\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonFactory(JsonFactoryBuilder b)"
 - uid: "com.fasterxml.jackson.core.JsonFactory.JsonFactory(com.fasterxml.jackson.core.ObjectCodec)"
@@ -44,7 +47,7 @@ members:
   nameWithType: "JsonFactory.JsonFactory(TSFBuilder<?,?> b, boolean bogus)"
   summary: "Constructor for subtypes; needed to work around the fact that before 3.0, this factory has cumbersome dual role as generic type as well as actual implementation for json."
   parameters:
-  - description: "Builder that contains information"
+  - description: "Builder that contains settings to use"
     name: "b"
     type: "<xref href=\"com.fasterxml.jackson.core.TSFBuilder?alt=com.fasterxml.jackson.core.TSFBuilder&text=TSFBuilder\" data-throw-if-not-resolved=\"False\" />&lt;?,?&gt;"
   - description: "Argument only needed to separate constructor signature; ignored"
@@ -54,4 +57,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -11,6 +11,7 @@ members:
   summary: "Method called to create root canonicalizer for a <xref uid=\"com.fasterxml.jackson.core.JsonFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.fasterxml.jackson.core.JsonFactory\"></xref> instance. Root instance is never used directly; its main use is for storing and sharing underlying symbol arrays as needed."
   syntax: "public static CharsToNameCanonicalizer createRoot()"
   returns:
+    description: "Root instance to use for constructing new child instances"
     type: "<xref href=\"com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer?alt=com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer&text=CharsToNameCanonicalizer\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.createRoot(int)"
   fullName: "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.createRoot(int seed)"
@@ -25,4 +26,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.sym"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

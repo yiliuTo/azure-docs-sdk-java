@@ -5,8 +5,10 @@ name: "com.azure.resourcemanager.storage.implementation"
 classes:
 - "com.azure.resourcemanager.storage.implementation.BlobContainersClientImpl"
 - "com.azure.resourcemanager.storage.implementation.BlobContainersImpl"
+- "com.azure.resourcemanager.storage.implementation.BlobInventoryPoliciesClientImpl"
 - "com.azure.resourcemanager.storage.implementation.BlobServicesClientImpl"
 - "com.azure.resourcemanager.storage.implementation.BlobServicesImpl"
+- "com.azure.resourcemanager.storage.implementation.DeletedAccountsClientImpl"
 - "com.azure.resourcemanager.storage.implementation.EncryptionScopesClientImpl"
 - "com.azure.resourcemanager.storage.implementation.FileServicesClientImpl"
 - "com.azure.resourcemanager.storage.implementation.FileSharesClientImpl"
@@ -31,4 +33,4 @@ classes:
 - "com.azure.resourcemanager.storage.implementation.UsagesImpl"
 metadata: {}
 package: "com.azure.resourcemanager.storage.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.3.0

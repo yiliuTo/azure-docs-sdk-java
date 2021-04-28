@@ -10,8 +10,9 @@ members:
   nameWithType: "JsonFactory.getRootValueSeparator()"
   syntax: "public String getRootValueSeparator()"
   returns:
+    description: "Root value separator configured, if any"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

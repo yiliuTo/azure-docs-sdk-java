@@ -12,8 +12,22 @@ members:
   parameters:
   - name: "p"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public void initialize(JsonParser p)"
+  syntax: "public JsonParser initialize(JsonParser p)"
+  returns:
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.fasterxml.jackson.databind.DeserializationConfig.initialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.FormatSchema)"
+  fullName: "com.fasterxml.jackson.databind.DeserializationConfig.initialize(JsonParser p, FormatSchema schema)"
+  name: "initialize(JsonParser p, FormatSchema schema)"
+  nameWithType: "DeserializationConfig.initialize(JsonParser p, FormatSchema schema)"
+  parameters:
+  - name: "p"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
+  - name: "schema"
+    type: "<xref href=\"com.fasterxml.jackson.core.FormatSchema?alt=com.fasterxml.jackson.core.FormatSchema&text=FormatSchema\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonParser initialize(JsonParser p, FormatSchema schema)"
+  returns:
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

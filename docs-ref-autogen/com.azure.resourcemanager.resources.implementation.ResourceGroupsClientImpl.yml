@@ -20,9 +20,9 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public final class ResourceGroupsClientImpl implements ResourceGroupsClient"
 methods:
-- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginDelete(java.lang.String)"
-- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginDelete(java.lang.String,com.azure.core.util.Context)"
-- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginDeleteAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginDeleteAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginExportTemplate(java.lang.String,com.azure.resourcemanager.resources.models.ExportTemplateRequest)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginExportTemplate(java.lang.String,com.azure.resourcemanager.resources.models.ExportTemplateRequest,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.beginExportTemplateAsync(java.lang.String,com.azure.resourcemanager.resources.models.ExportTemplateRequest)"
@@ -35,9 +35,11 @@ methods:
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.createOrUpdateWithResponse(java.lang.String,com.azure.resourcemanager.resources.fluent.models.ResourceGroupInner,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.createOrUpdateWithResponseAsync(java.lang.String,com.azure.resourcemanager.resources.fluent.models.ResourceGroupInner)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.delete(java.lang.String)"
-- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.delete(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.deleteAsync(java.lang.String)"
-- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.deleteWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.deleteWithResponseAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.exportTemplate(java.lang.String,com.azure.resourcemanager.resources.models.ExportTemplateRequest)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.exportTemplate(java.lang.String,com.azure.resourcemanager.resources.models.ExportTemplateRequest,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.resources.implementation.ResourceGroupsClientImpl.exportTemplateAsync(java.lang.String,com.azure.resourcemanager.resources.models.ExportTemplateRequest)"
@@ -59,4 +61,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluent.ResourceGroupsClient?alt=com.azure.resourcemanager.resources.fluent.ResourceGroupsClient&text=ResourceGroupsClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.resources.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0

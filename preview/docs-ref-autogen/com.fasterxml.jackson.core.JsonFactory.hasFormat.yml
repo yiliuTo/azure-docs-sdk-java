@@ -8,7 +8,6 @@ members:
   fullName: "com.fasterxml.jackson.core.JsonFactory.hasFormat(InputAccessor acc)"
   name: "hasFormat(InputAccessor acc)"
   nameWithType: "JsonFactory.hasFormat(InputAccessor acc)"
-  summary: "Convenience method for trying to determine whether input via given accessor is of format type supported by this factory."
   parameters:
   - name: "acc"
     type: "<xref href=\"com.fasterxml.jackson.core.format.InputAccessor?alt=com.fasterxml.jackson.core.format.InputAccessor&text=InputAccessor\" data-throw-if-not-resolved=\"False\" />"
@@ -20,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

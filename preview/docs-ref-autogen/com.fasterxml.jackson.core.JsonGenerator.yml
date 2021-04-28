@@ -22,6 +22,9 @@ syntax: "public abstract class JsonGenerator implements Closeable, Flushable, Ve
 constructors:
 - "com.fasterxml.jackson.core.JsonGenerator.JsonGenerator()"
 fields:
+- "com.fasterxml.jackson.core.JsonGenerator.DEFAULT_BINARY_WRITE_CAPABILITIES"
+- "com.fasterxml.jackson.core.JsonGenerator.DEFAULT_TEXTUAL_WRITE_CAPABILITIES"
+- "com.fasterxml.jackson.core.JsonGenerator.DEFAULT_WRITE_CAPABILITIES"
 - "com.fasterxml.jackson.core.JsonGenerator._cfgPrettyPrinter"
 methods:
 - "com.fasterxml.jackson.core.JsonGenerator._copyCurrentContents(com.fasterxml.jackson.core.JsonParser)"
@@ -54,6 +57,7 @@ methods:
 - "com.fasterxml.jackson.core.JsonGenerator.getOutputTarget()"
 - "com.fasterxml.jackson.core.JsonGenerator.getPrettyPrinter()"
 - "com.fasterxml.jackson.core.JsonGenerator.getSchema()"
+- "com.fasterxml.jackson.core.JsonGenerator.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.JsonGenerator.isClosed()"
 - "com.fasterxml.jackson.core.JsonGenerator.isEnabled(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.core.JsonGenerator.isEnabled(com.fasterxml.jackson.core.StreamWriteFeature)"
@@ -146,4 +150,4 @@ implements:
 - "<xref href=\"java.io.Flushable?alt=java.io.Flushable&text=Flushable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

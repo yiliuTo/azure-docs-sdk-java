@@ -18,8 +18,9 @@ members:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected static JsonPointer _parseQuotedTail(String input, int i)"
   returns:
+    description: "Pointer instance constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonPointer?alt=com.fasterxml.jackson.core.JsonPointer&text=JsonPointer\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

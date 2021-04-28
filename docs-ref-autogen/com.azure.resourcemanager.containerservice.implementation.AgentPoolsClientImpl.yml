@@ -26,6 +26,9 @@ methods:
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.beginDelete(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.beginDelete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.beginDeleteAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.beginUpgradeNodeImageVersion(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.beginUpgradeNodeImageVersion(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.beginUpgradeNodeImageVersionAsync(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.containerservice.fluent.models.AgentPoolInner)"
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.containerservice.fluent.models.AgentPoolInner,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.createOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.containerservice.fluent.models.AgentPoolInner)"
@@ -49,9 +52,13 @@ methods:
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.list(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.upgradeNodeImageVersion(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.upgradeNodeImageVersion(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.upgradeNodeImageVersionAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.containerservice.implementation.AgentPoolsClientImpl.upgradeNodeImageVersionWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
 type: "class"
 implements:
 - "<xref href=\"com.azure.resourcemanager.containerservice.fluent.AgentPoolsClient?alt=com.azure.resourcemanager.containerservice.fluent.AgentPoolsClient&text=AgentPoolsClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.containerservice.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.3.0

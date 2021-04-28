@@ -66,6 +66,7 @@ constructors:
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.BeanSerializerBase(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,com.fasterxml.jackson.databind.util.NameTransformer)"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.BeanSerializerBase(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,java.lang.String[])"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.BeanSerializerBase(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,java.util.Set<java.lang.String>)"
+- "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.BeanSerializerBase(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
 fields:
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.NAME_FOR_OBJECT_REF"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.NO_PROPS"
@@ -95,6 +96,7 @@ methods:
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFieldsFiltered(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeWithType(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.jsontype.TypeSerializer)"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.usesObjectId()"
+- "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withByNameInclusion(java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withFilterId(java.lang.Object)"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withIgnorals(java.lang.String[])"
 - "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withIgnorals(java.util.Set<java.lang.String>)"
@@ -108,4 +110,4 @@ implements:
 - "<xref href=\"com.fasterxml.jackson.databind.ser.ResolvableSerializer?alt=com.fasterxml.jackson.databind.ser.ResolvableSerializer&text=ResolvableSerializer\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

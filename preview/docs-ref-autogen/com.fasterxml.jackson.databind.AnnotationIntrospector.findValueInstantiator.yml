@@ -10,7 +10,8 @@ members:
   nameWithType: "AnnotationIntrospector.findValueInstantiator(AnnotatedClass ac)"
   summary: "Method getting <xref uid=\"com.fasterxml.jackson.databind.deser.ValueInstantiator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ValueInstantiator\"></xref> to use for given type (class): return value can either be an instance of instantiator, or class of instantiator to create."
   parameters:
-  - name: "ac"
+  - description: "Annotated class to introspect"
+    name: "ac"
     type: "<xref href=\"com.fasterxml.jackson.databind.introspect.AnnotatedClass?alt=com.fasterxml.jackson.databind.introspect.AnnotatedClass&text=AnnotatedClass\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Object findValueInstantiator(AnnotatedClass ac)"
   returns:
@@ -18,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -52,4 +52,4 @@ implements:
 - "<xref href=\"java.io.Flushable?alt=java.io.Flushable&text=Flushable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

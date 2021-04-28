@@ -25,6 +25,7 @@ fields:
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder._mapper"
 methods:
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder._this()"
+- "com.fasterxml.jackson.databind.cfg.MapperBuilder.accessorNaming(com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Provider)"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.activateDefaultTyping(com.fasterxml.jackson.databind.jsontype.PolymorphicTypeValidator)"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.activateDefaultTyping(com.fasterxml.jackson.databind.jsontype.PolymorphicTypeValidator,com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping)"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.activateDefaultTyping(com.fasterxml.jackson.databind.jsontype.PolymorphicTypeValidator,com.fasterxml.jackson.databind.ObjectMapper.DefaultTyping,com.fasterxml.jackson.annotation.JsonTypeInfo.As)"
@@ -44,6 +45,7 @@ methods:
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.configure(com.fasterxml.jackson.databind.DeserializationFeature,boolean)"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.configure(com.fasterxml.jackson.databind.MapperFeature,boolean)"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.configure(com.fasterxml.jackson.databind.SerializationFeature,boolean)"
+- "com.fasterxml.jackson.databind.cfg.MapperBuilder.constructorDetector(com.fasterxml.jackson.databind.cfg.ConstructorDetector)"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.deactivateDefaultTyping()"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.defaultBase64Variant(com.fasterxml.jackson.core.Base64Variant)"
 - "com.fasterxml.jackson.databind.cfg.MapperBuilder.defaultDateFormat(java.text.DateFormat)"
@@ -99,4 +101,4 @@ typeParameters:
 - name: "B"
 metadata: {}
 package: "com.fasterxml.jackson.databind.cfg"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

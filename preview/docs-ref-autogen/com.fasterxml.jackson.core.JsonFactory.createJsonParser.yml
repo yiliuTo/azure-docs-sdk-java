@@ -10,13 +10,17 @@ members:
   nameWithType: "JsonFactory.createJsonParser(byte[] data)"
   summary: "Method for constructing parser for parsing the contents of given byte array."
   parameters:
-  - name: "data"
+  - description: "Input content to parse"
+    name: "data"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public JsonParser createJsonParser(byte[] data)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  - type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Parser constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(byte[],int,int)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(byte[] data, int offset, int len)"
@@ -35,9 +39,12 @@ members:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonParser createJsonParser(byte[] data, int offset, int len)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  - type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Parser constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(java.io.File)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(File f)"
@@ -50,9 +57,12 @@ members:
     type: "<xref href=\"java.io.File?alt=java.io.File&text=File\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonParser createJsonParser(File f)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  - type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Parser constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(java.io.InputStream)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(InputStream in)"
@@ -65,9 +75,12 @@ members:
     type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonParser createJsonParser(InputStream in)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  - type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Parser constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(java.io.Reader)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(Reader r)"
@@ -80,9 +93,12 @@ members:
     type: "<xref href=\"java.io.Reader?alt=java.io.Reader&text=Reader\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonParser createJsonParser(Reader r)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  - type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Parser constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(java.lang.String)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(String content)"
@@ -90,13 +106,17 @@ members:
   nameWithType: "JsonFactory.createJsonParser(String content)"
   summary: "Method for constructing parser for parsing contents of given String."
   parameters:
-  - name: "content"
+  - description: "Input content to parse"
+    name: "content"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonParser createJsonParser(String content)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  - type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Parser constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(java.net.URL)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonParser(URL url)"
@@ -109,11 +129,14 @@ members:
     type: "<xref href=\"java.net.URL?alt=java.net.URL&text=URL\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonParser createJsonParser(URL url)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
-  - type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (read) problem"
+    type: "<xref href=\"com.fasterxml.jackson.core.JsonParseException?alt=com.fasterxml.jackson.core.JsonParseException&text=JsonParseException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Parser constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -25,7 +25,7 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public class ActiveDirectoryUsersImpl extends CreatableWrappersImpl<ActiveDirectoryUser,ActiveDirectoryUserImpl,UserInner> implements ActiveDirectoryUsers"
+syntax: "public class ActiveDirectoryUsersImpl extends CreatableWrappersImpl<ActiveDirectoryUser,ActiveDirectoryUserImpl,MicrosoftGraphUserInner> implements ActiveDirectoryUsers"
 constructors:
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.ActiveDirectoryUsersImpl(com.azure.resourcemanager.authorization.AuthorizationManager)"
 methods:
@@ -41,11 +41,11 @@ methods:
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.listByFilter(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.listByFilterAsync(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.manager()"
-- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.UserInner)"
+- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphUserInner)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.wrapModel(java.lang.String)"
 type: "class"
 implements:
 - "<xref href=\"com.azure.resourcemanager.authorization.models.ActiveDirectoryUsers?alt=com.azure.resourcemanager.authorization.models.ActiveDirectoryUsers&text=ActiveDirectoryUsers\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

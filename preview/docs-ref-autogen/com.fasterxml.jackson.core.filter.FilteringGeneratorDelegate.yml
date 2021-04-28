@@ -62,6 +62,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getOutputTarget()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getPrettyPrinter()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getSchema()"
+- "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.isClosed()"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.isEnabled(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate.overrideFormatFeatures(int,int)"
@@ -140,17 +141,18 @@ inheritedMembers:
 syntax: "public class FilteringGeneratorDelegate extends JsonGeneratorDelegate"
 constructors:
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate.FilteringGeneratorDelegate(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.core.filter.TokenFilter,boolean,boolean)"
+- "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate.FilteringGeneratorDelegate(com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.core.filter.TokenFilter,com.fasterxml.jackson.core.filter.TokenFilter.Inclusion,boolean)"
 fields:
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._allowMultipleMatches"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._filterContext"
-- "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._includeImmediateParent"
-- "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._includePath"
+- "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._inclusion"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._itemFilter"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._matchCount"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate.rootFilter"
 methods:
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._checkBinaryWrite()"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._checkParentPath()"
+- "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._checkParentPath(boolean)"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._checkPropertyParentPath()"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate._checkRawValueWrite()"
 - "com.fasterxml.jackson.core.filter.FilteringGeneratorDelegate.getFilter()"
@@ -203,4 +205,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.filter"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

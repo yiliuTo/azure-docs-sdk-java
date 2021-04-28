@@ -31,4 +31,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.http2.H2MessageConverter?alt=org.apache.hc.core5.http2.H2MessageConverter&text=H2MessageConverter\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"org.apache.hc.core5.http.HttpRequest?alt=org.apache.hc.core5.http.HttpRequest&text=HttpRequest\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "org.apache.hc.core5.http2.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

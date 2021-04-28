@@ -62,10 +62,8 @@ constructors:
 fields:
 - "com.fasterxml.jackson.databind.ser.impl.FailingSerializer._msg"
 methods:
-- "com.fasterxml.jackson.databind.ser.impl.FailingSerializer.acceptJsonFormatVisitor(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitorWrapper,com.fasterxml.jackson.databind.JavaType)"
-- "com.fasterxml.jackson.databind.ser.impl.FailingSerializer.getSchema(com.fasterxml.jackson.databind.SerializerProvider,java.lang.reflect.Type)"
 - "com.fasterxml.jackson.databind.ser.impl.FailingSerializer.serialize(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -36,8 +36,9 @@ classes:
 - "com.fasterxml.jackson.databind.deser.impl.ReadableObjectId.Referring"
 - "com.fasterxml.jackson.databind.deser.impl.SetterlessProperty"
 - "com.fasterxml.jackson.databind.deser.impl.TypeWrappedDeserializer"
+- "com.fasterxml.jackson.databind.deser.impl.UnsupportedTypeDeserializer"
 - "com.fasterxml.jackson.databind.deser.impl.UnwrappedPropertyHandler"
 - "com.fasterxml.jackson.databind.deser.impl.ValueInjector"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

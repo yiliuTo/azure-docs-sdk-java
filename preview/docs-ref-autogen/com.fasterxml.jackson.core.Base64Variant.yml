@@ -26,9 +26,12 @@ constructors:
 fields:
 - "com.fasterxml.jackson.core.Base64Variant.BASE64_VALUE_INVALID"
 - "com.fasterxml.jackson.core.Base64Variant.BASE64_VALUE_PADDING"
+- "com.fasterxml.jackson.core.Base64Variant.PADDING_CHAR_NONE"
 methods:
 - "com.fasterxml.jackson.core.Base64Variant._reportBase64EOF()"
+- "com.fasterxml.jackson.core.Base64Variant._reportBase64UnexpectedPadding()"
 - "com.fasterxml.jackson.core.Base64Variant._reportInvalidBase64(char,int,java.lang.String)"
+- "com.fasterxml.jackson.core.Base64Variant.acceptsPaddingOnRead()"
 - "com.fasterxml.jackson.core.Base64Variant.decode(java.lang.String)"
 - "com.fasterxml.jackson.core.Base64Variant.decode(java.lang.String,com.fasterxml.jackson.core.util.ByteArrayBuilder)"
 - "com.fasterxml.jackson.core.Base64Variant.decodeBase64Byte(byte)"
@@ -52,14 +55,22 @@ methods:
 - "com.fasterxml.jackson.core.Base64Variant.getPaddingChar()"
 - "com.fasterxml.jackson.core.Base64Variant.hashCode()"
 - "com.fasterxml.jackson.core.Base64Variant.missingPaddingMessage()"
+- "com.fasterxml.jackson.core.Base64Variant.paddingReadBehaviour()"
 - "com.fasterxml.jackson.core.Base64Variant.readResolve()"
+- "com.fasterxml.jackson.core.Base64Variant.requiresPaddingOnRead()"
 - "com.fasterxml.jackson.core.Base64Variant.toString()"
+- "com.fasterxml.jackson.core.Base64Variant.unexpectedPaddingMessage()"
 - "com.fasterxml.jackson.core.Base64Variant.usesPadding()"
 - "com.fasterxml.jackson.core.Base64Variant.usesPaddingChar(char)"
 - "com.fasterxml.jackson.core.Base64Variant.usesPaddingChar(int)"
+- "com.fasterxml.jackson.core.Base64Variant.withPaddingAllowed()"
+- "com.fasterxml.jackson.core.Base64Variant.withPaddingForbidden()"
+- "com.fasterxml.jackson.core.Base64Variant.withPaddingRequired()"
+- "com.fasterxml.jackson.core.Base64Variant.withReadPadding(com.fasterxml.jackson.core.Base64Variant.PaddingReadBehaviour)"
+- "com.fasterxml.jackson.core.Base64Variant.withWritePadding(boolean)"
 type: "class"
 implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

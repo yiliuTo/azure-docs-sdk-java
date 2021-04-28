@@ -22,13 +22,16 @@ members:
   fullName: "com.fasterxml.jackson.core.io.NumberInput.parseLong(String s)"
   name: "parseLong(String s)"
   nameWithType: "NumberInput.parseLong(String s)"
+  summary: "Similar to <xref uid=\"com.fasterxml.jackson.core.io.NumberInput.parseInt(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#parseInt(String)\"></xref> but for `long` values."
   parameters:
-  - name: "s"
+  - description: "String that contains <code>long</code> value to decode"
+    name: "s"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static long parseLong(String s)"
   returns:
+    description: "Decoded <code>long</code> value"
     type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

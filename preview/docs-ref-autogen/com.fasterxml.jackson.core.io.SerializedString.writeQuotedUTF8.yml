@@ -8,6 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.core.io.SerializedString.writeQuotedUTF8(OutputStream out)"
   name: "writeQuotedUTF8(OutputStream out)"
   nameWithType: "SerializedString.writeQuotedUTF8(OutputStream out)"
+  summary: "Method for writing JSON-escaped UTF-8 encoded String value using given <xref uid=\"java.io.OutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.OutputStream\"></xref>."
   parameters:
   - name: "out"
     type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
@@ -19,4 +20,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

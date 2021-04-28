@@ -23,6 +23,8 @@ constructors:
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.CreatorCollector(com.fasterxml.jackson.databind.BeanDescription,com.fasterxml.jackson.databind.cfg.MapperConfig<?>)"
 fields:
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.C_ARRAY_DELEGATE"
+- "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.C_BIG_DECIMAL"
+- "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.C_BIG_INTEGER"
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.C_BOOLEAN"
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.C_DEFAULT"
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.C_DELEGATE"
@@ -43,6 +45,9 @@ fields:
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector._propertyBasedArgs"
 methods:
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector._isEnumValueOf(com.fasterxml.jackson.databind.introspect.AnnotatedWithParams)"
+- "com.fasterxml.jackson.databind.deser.impl.CreatorCollector._reportDuplicateCreator(int,boolean,com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,com.fasterxml.jackson.databind.introspect.AnnotatedWithParams)"
+- "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.addBigDecimalCreator(com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,boolean)"
+- "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.addBigIntegerCreator(com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,boolean)"
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.addBooleanCreator(com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,boolean)"
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.addDelegatingCreator(com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,boolean,com.fasterxml.jackson.databind.deser.SettableBeanProperty[],int)"
 - "com.fasterxml.jackson.databind.deser.impl.CreatorCollector.addDoubleCreator(com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,boolean)"
@@ -59,4 +64,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

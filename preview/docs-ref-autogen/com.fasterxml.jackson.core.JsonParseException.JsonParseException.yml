@@ -10,9 +10,11 @@ members:
   nameWithType: "JsonParseException.JsonParseException(JsonParser p, String msg)"
   summary: "Constructor that uses current parsing location as location, and sets processor (accessible via <xref uid=\"com.fasterxml.jackson.core.JsonParseException.getProcessor()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#getProcessor()\"></xref>) to specified parser."
   parameters:
-  - name: "p"
+  - description: "Parser in use when encountering issue reported"
+    name: "p"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
-  - name: "msg"
+  - description: "Base exception message to use"
+    name: "msg"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonParseException(JsonParser p, String msg)"
 - uid: "com.fasterxml.jackson.core.JsonParseException.JsonParseException(com.fasterxml.jackson.core.JsonParser,java.lang.String,com.fasterxml.jackson.core.JsonLocation)"
@@ -78,4 +80,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

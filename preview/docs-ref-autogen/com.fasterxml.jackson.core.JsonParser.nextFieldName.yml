@@ -11,8 +11,10 @@ members:
   summary: "Method that fetches next token (as if calling <xref uid=\"com.fasterxml.jackson.core.JsonParser.nextToken*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#nextToken\"></xref>) and verifies whether it is <xref uid=\"com.fasterxml.jackson.core.JsonToken.FIELD_NAME\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonToken#FIELD_NAME\"></xref>; if it is, returns same as <xref uid=\"com.fasterxml.jackson.core.JsonParser.getCurrentName()\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#getCurrentName()\"></xref>, otherwise null."
   syntax: "public String nextFieldName()"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level read issues, or\n   <xref uid=\"JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Name of the the <code>JsonToken.FIELD_NAME</code> parser advanced to, if any;\n   <code>null</code> if next token is of some other type"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonParser.nextFieldName(com.fasterxml.jackson.core.SerializableString)"
   fullName: "com.fasterxml.jackson.core.JsonParser.nextFieldName(SerializableString str)"
@@ -25,10 +27,12 @@ members:
     type: "<xref href=\"com.fasterxml.jackson.core.SerializableString?alt=com.fasterxml.jackson.core.SerializableString&text=SerializableString\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public boolean nextFieldName(SerializableString str)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level read issues, or\n   <xref uid=\"JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "<code>True</code> if parser advanced to <code>JsonToken.FIELD_NAME</code> with\n    specified name; <code>false</code> otherwise (different token or non-matching name)"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

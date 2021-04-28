@@ -4,17 +4,15 @@ fullName: "com.azure.resourcemanager.authorization.implementation.ServicePrincip
 name: "ServicePrincipalsImpl"
 nameWithType: "ServicePrincipalsImpl.ServicePrincipalsImpl"
 members:
-- uid: "com.azure.resourcemanager.authorization.implementation.ServicePrincipalsImpl.ServicePrincipalsImpl(com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient,com.azure.resourcemanager.authorization.AuthorizationManager)"
-  fullName: "com.azure.resourcemanager.authorization.implementation.ServicePrincipalsImpl.ServicePrincipalsImpl(ServicePrincipalsClient client, AuthorizationManager authorizationManager)"
-  name: "ServicePrincipalsImpl(ServicePrincipalsClient client, AuthorizationManager authorizationManager)"
-  nameWithType: "ServicePrincipalsImpl.ServicePrincipalsImpl(ServicePrincipalsClient client, AuthorizationManager authorizationManager)"
+- uid: "com.azure.resourcemanager.authorization.implementation.ServicePrincipalsImpl.ServicePrincipalsImpl(com.azure.resourcemanager.authorization.AuthorizationManager)"
+  fullName: "com.azure.resourcemanager.authorization.implementation.ServicePrincipalsImpl.ServicePrincipalsImpl(AuthorizationManager authorizationManager)"
+  name: "ServicePrincipalsImpl(AuthorizationManager authorizationManager)"
+  nameWithType: "ServicePrincipalsImpl.ServicePrincipalsImpl(AuthorizationManager authorizationManager)"
   parameters:
-  - name: "client"
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient?alt=com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient&text=ServicePrincipalsClient\" data-throw-if-not-resolved=\"False\" />"
   - name: "authorizationManager"
     type: "<xref href=\"com.azure.resourcemanager.authorization.AuthorizationManager?alt=com.azure.resourcemanager.authorization.AuthorizationManager&text=AuthorizationManager\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public ServicePrincipalsImpl(ServicePrincipalsClient client, AuthorizationManager authorizationManager)"
+  syntax: "public ServicePrincipalsImpl(AuthorizationManager authorizationManager)"
 type: "constructor"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

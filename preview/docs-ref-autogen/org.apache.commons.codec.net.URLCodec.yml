@@ -47,4 +47,4 @@ implements:
 - "<xref href=\"org.apache.commons.codec.StringEncoder?alt=org.apache.commons.codec.StringEncoder&text=StringEncoder\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "org.apache.commons.codec.net"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

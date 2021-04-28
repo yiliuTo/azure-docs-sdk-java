@@ -43,6 +43,10 @@ methods:
 - "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.inner()"
 - "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.listByScope(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.listByScopeAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.listByServicePrincipal(com.azure.resourcemanager.authorization.models.ServicePrincipal)"
+- "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.listByServicePrincipal(java.lang.String)"
+- "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.listByServicePrincipalAsync(com.azure.resourcemanager.authorization.models.ServicePrincipal)"
+- "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.listByServicePrincipalAsync(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.manager()"
 - "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.RoleAssignmentInner)"
 - "com.azure.resourcemanager.authorization.implementation.RoleAssignmentsImpl.wrapModel(java.lang.String)"
@@ -51,4 +55,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.authorization.models.RoleAssignments?alt=com.azure.resourcemanager.authorization.models.RoleAssignments&text=RoleAssignments\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

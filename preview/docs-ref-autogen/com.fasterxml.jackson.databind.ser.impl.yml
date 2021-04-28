@@ -25,9 +25,10 @@ classes:
 - "com.fasterxml.jackson.databind.ser.impl.StringCollectionSerializer"
 - "com.fasterxml.jackson.databind.ser.impl.TypeWrappedSerializer"
 - "com.fasterxml.jackson.databind.ser.impl.UnknownSerializer"
+- "com.fasterxml.jackson.databind.ser.impl.UnsupportedTypeSerializer"
 - "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanPropertyWriter"
 - "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer"
 - "com.fasterxml.jackson.databind.ser.impl.WritableObjectId"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

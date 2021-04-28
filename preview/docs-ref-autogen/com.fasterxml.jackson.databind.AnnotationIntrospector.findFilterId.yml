@@ -10,7 +10,8 @@ members:
   nameWithType: "AnnotationIntrospector.findFilterId(Annotated ann)"
   summary: "Method for finding if annotated class has associated filter; and if so, to return id that is used to locate filter."
   parameters:
-  - name: "ann"
+  - description: "Annotated entity to introspect"
+    name: "ann"
     type: "<xref href=\"com.fasterxml.jackson.databind.introspect.Annotated?alt=com.fasterxml.jackson.databind.introspect.Annotated&text=Annotated\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Object findFilterId(Annotated ann)"
   returns:
@@ -19,4 +20,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

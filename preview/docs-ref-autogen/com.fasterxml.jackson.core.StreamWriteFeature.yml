@@ -24,7 +24,7 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public enum StreamWriteFeature extends Enum<StreamWriteFeature>"
+syntax: "public enum StreamWriteFeature extends Enum<StreamWriteFeature> implements JacksonFeature"
 fields:
 - uid: "com.fasterxml.jackson.core.StreamWriteFeature.AUTO_CLOSE_CONTENT"
   fullName: "com.fasterxml.jackson.core.StreamWriteFeature.AUTO_CLOSE_CONTENT"
@@ -64,11 +64,13 @@ methods:
   summary: "Method that calculates bit set (flags) of all features that are enabled by default."
   syntax: "public static int collectDefaults()"
   returns:
+    description: "Bit mask of all features that are enabled by default"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.StreamWriteFeature.enabledByDefault()"
   fullName: "com.fasterxml.jackson.core.StreamWriteFeature.enabledByDefault()"
   name: "enabledByDefault()"
   nameWithType: "StreamWriteFeature.enabledByDefault()"
+  summary: "Accessor for checking whether this feature is enabled by default."
   syntax: "public boolean enabledByDefault()"
   returns:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
@@ -76,6 +78,7 @@ methods:
   fullName: "com.fasterxml.jackson.core.StreamWriteFeature.enabledIn(int flags)"
   name: "enabledIn(int flags)"
   nameWithType: "StreamWriteFeature.enabledIn(int flags)"
+  summary: "Convenience method for checking whether feature is enabled in given bitmask."
   parameters:
   - name: "flags"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -86,6 +89,7 @@ methods:
   fullName: "com.fasterxml.jackson.core.StreamWriteFeature.getMask()"
   name: "getMask()"
   nameWithType: "StreamWriteFeature.getMask()"
+  summary: "Returns bit mask for this feature instance; must be a single bit, that is of form `1 << N`."
   syntax: "public int getMask()"
   returns:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -113,6 +117,8 @@ methods:
   syntax: "public static StreamWriteFeature[] values()"
   returns:
     type: "<xref href=\"com.fasterxml.jackson.core.StreamWriteFeature?alt=com.fasterxml.jackson.core.StreamWriteFeature&text=StreamWriteFeature\" data-throw-if-not-resolved=\"False\" />[]"
+implements:
+- "<xref href=\"com.fasterxml.jackson.core.util.JacksonFeature?alt=com.fasterxml.jackson.core.util.JacksonFeature&text=JacksonFeature\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

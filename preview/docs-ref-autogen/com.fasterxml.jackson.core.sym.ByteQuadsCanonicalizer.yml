@@ -19,6 +19,22 @@ inheritedMembers:
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
 syntax: "public final class ByteQuadsCanonicalizer"
+fields:
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._count"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._failOnDoS"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._hashArea"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._hashShared"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._hashSize"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._intern"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._longNameOffset"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._names"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._parent"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._secondaryStart"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._seed"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._spilloverEnd"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tableInfo"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryShift"
+- "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._tertiaryStart"
 methods:
 - "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer._reportTooManyCollisions()"
 - "com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer.addName(java.lang.String,int)"
@@ -50,4 +66,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.sym"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

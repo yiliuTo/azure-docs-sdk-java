@@ -18,7 +18,8 @@ members:
     type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract OutputStream decorate(IOContext ctxt, OutputStream out)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if construction of decorated <xref uid=\"OutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"OutputStream\"></xref> fails"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "OutputStream to use; either passed in argument, or something that\n   calls it"
     type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
@@ -36,11 +37,12 @@ members:
     type: "<xref href=\"java.io.Writer?alt=java.io.Writer&text=Writer\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Writer decorate(IOContext ctxt, Writer w)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if construction of decorated <xref uid=\"Writer\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Writer\"></xref> fails"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "Writer to use; either passed in argument, or something that calls it"
     type: "<xref href=\"java.io.Writer?alt=java.io.Writer&text=Writer\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

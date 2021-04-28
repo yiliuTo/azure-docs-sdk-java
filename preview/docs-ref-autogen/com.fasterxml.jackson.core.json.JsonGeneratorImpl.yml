@@ -31,6 +31,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.JsonGenerator.getOutputTarget()"
 - "com.fasterxml.jackson.core.JsonGenerator.getPrettyPrinter()"
 - "com.fasterxml.jackson.core.JsonGenerator.getSchema()"
+- "com.fasterxml.jackson.core.JsonGenerator.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.JsonGenerator.isEnabled(com.fasterxml.jackson.core.StreamWriteFeature)"
 - "com.fasterxml.jackson.core.JsonGenerator.overrideFormatFeatures(int,int)"
 - "com.fasterxml.jackson.core.JsonGenerator.setCharacterEscapes(com.fasterxml.jackson.core.io.CharacterEscapes)"
@@ -145,6 +146,7 @@ syntax: "public abstract class JsonGeneratorImpl extends GeneratorBase"
 constructors:
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.JsonGeneratorImpl(com.fasterxml.jackson.core.io.IOContext,int,com.fasterxml.jackson.core.ObjectCodec)"
 fields:
+- "com.fasterxml.jackson.core.json.JsonGeneratorImpl.JSON_WRITE_CAPABILITIES"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl._cfgUnqNames"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl._characterEscapes"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl._ioContext"
@@ -160,6 +162,7 @@ methods:
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.enable(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.getCharacterEscapes()"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.getHighestEscapedChar()"
+- "com.fasterxml.jackson.core.json.JsonGeneratorImpl.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.setCharacterEscapes(com.fasterxml.jackson.core.io.CharacterEscapes)"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.setHighestNonEscapedChar(int)"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.setRootValueSeparator(com.fasterxml.jackson.core.SerializableString)"
@@ -167,4 +170,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.json"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

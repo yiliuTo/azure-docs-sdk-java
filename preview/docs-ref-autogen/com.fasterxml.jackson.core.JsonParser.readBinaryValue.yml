@@ -18,7 +18,8 @@ members:
     type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public int readBinaryValue(Base64Variant bv, OutputStream out)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level read issues, or\n   <xref uid=\"JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "Number of bytes that were decoded and written via <xref uid=\"java.io.OutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"OutputStream\"></xref>"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -33,11 +34,12 @@ members:
     type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public int readBinaryValue(OutputStream out)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level read issues, or\n   <xref uid=\"JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "Number of bytes that were decoded and written via <xref uid=\"java.io.OutputStream\" data-throw-if-not-resolved=\"false\" data-raw-source=\"OutputStream\"></xref>"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

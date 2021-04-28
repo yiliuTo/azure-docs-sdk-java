@@ -10,14 +10,17 @@ members:
   nameWithType: "JsonGenerator.writeBooleanField(String fieldName, boolean value)"
   summary: "Convenience method for outputting a field entry (\"member\") that has a boolean value. Equivalent to:\n\n```java\nwriteFieldName(fieldName);\n  writeBoolean(value);\n```"
   parameters:
-  - name: "fieldName"
+  - description: "Name of the field to write"
+    name: "fieldName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - name: "value"
+  - description: "Boolean value of the field to write"
+    name: "value"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void writeBooleanField(String fieldName, boolean value)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if there is either an underlying I/O problem or encoding\n    issue at format layer"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

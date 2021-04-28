@@ -14,4 +14,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.http.nio.StreamChannel?alt=org.apache.hc.core5.http.nio.StreamChannel&text=StreamChannel\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "org.apache.hc.core5.http.nio"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

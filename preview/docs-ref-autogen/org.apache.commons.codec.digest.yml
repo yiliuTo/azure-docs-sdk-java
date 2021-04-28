@@ -20,4 +20,4 @@ enums:
 - "org.apache.commons.codec.digest.HmacAlgorithms"
 metadata: {}
 package: "org.apache.commons.codec.digest"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -10,15 +10,18 @@ members:
   nameWithType: "CharsToNameCanonicalizer.calcHash(char[] buffer, int start, int len)"
   summary: "Implementation of a hashing method for variable length Strings. Most of the time intention is that this calculation is done by caller during parsing, not here; however, sometimes it needs to be done for parsed \"String\" too."
   parameters:
-  - name: "buffer"
+  - description: "Input buffer that contains name to decode"
+    name: "buffer"
     type: "<xref href=\"char?alt=char&text=char\" data-throw-if-not-resolved=\"False\" />[]"
-  - name: "start"
+  - description: "Pointer to the first character of the name"
+    name: "start"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - description: "Length of String; has to be at least 1 (caller guarantees\n   this pre-condition)"
+  - description: "Length of String; has to be at least 1 (caller guarantees)"
     name: "len"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public int calcHash(char[] buffer, int start, int len)"
   returns:
+    description: "Hash code calculated"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.calcHash(java.lang.String)"
   fullName: "com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer.calcHash(String key)"
@@ -33,4 +36,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.sym"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

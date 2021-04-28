@@ -11,8 +11,9 @@ members:
   summary: "Method called when the current segment buffer is full; will append to current contents, allocate a new segment buffer and return it"
   syntax: "public byte[] finishCurrentSegment()"
   returns:
+    description: "Segment to use for writing"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

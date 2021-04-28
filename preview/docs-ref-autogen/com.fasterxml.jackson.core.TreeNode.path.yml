@@ -10,7 +10,8 @@ members:
   nameWithType: "TreeNode.path(int index)"
   summary: "Method for accessing value of the specified element of an array node. For other nodes, a \"missing node\" (virtual node for which <xref uid=\"com.fasterxml.jackson.core.TreeNode.isMissingNode*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#isMissingNode\"></xref> returns true) is returned.\n\nFor array nodes, index specifies exact location within array and allows for efficient iteration over child elements (underlying storage is guaranteed to be efficiently indexable, i.e. has random-access to elements). If index is less than 0, or equal-or-greater than `node.size()`, \"missing node\" is returned; no exception is thrown for any index."
   parameters:
-  - name: "index"
+  - description: "Index of the Array node element to access"
+    name: "index"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract TreeNode path(int index)"
   returns:
@@ -22,7 +23,8 @@ members:
   nameWithType: "TreeNode.path(String fieldName)"
   summary: "Method for accessing value of the specified field of an object node. For other nodes, a \"missing node\" (virtual node for which <xref uid=\"com.fasterxml.jackson.core.TreeNode.isMissingNode*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#isMissingNode\"></xref> returns true) is returned."
   parameters:
-  - name: "fieldName"
+  - description: "Name of the field (of Object node) to access"
+    name: "fieldName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract TreeNode path(String fieldName)"
   returns:
@@ -31,4 +33,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

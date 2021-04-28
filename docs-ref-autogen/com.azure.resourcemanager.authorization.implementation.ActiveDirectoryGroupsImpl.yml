@@ -25,7 +25,7 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public class ActiveDirectoryGroupsImpl extends CreatableWrappersImpl<ActiveDirectoryGroup,ActiveDirectoryGroupImpl,ADGroupInner> implements ActiveDirectoryGroups"
+syntax: "public class ActiveDirectoryGroupsImpl extends CreatableWrappersImpl<ActiveDirectoryGroup,ActiveDirectoryGroupImpl,MicrosoftGraphGroupInner> implements ActiveDirectoryGroups"
 constructors:
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.ActiveDirectoryGroupsImpl(com.azure.resourcemanager.authorization.AuthorizationManager)"
 methods:
@@ -41,11 +41,11 @@ methods:
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.listByFilter(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.listByFilterAsync(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.manager()"
-- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.ADGroupInner)"
+- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphGroupInner)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryGroupsImpl.wrapModel(java.lang.String)"
 type: "class"
 implements:
 - "<xref href=\"com.azure.resourcemanager.authorization.models.ActiveDirectoryGroups?alt=com.azure.resourcemanager.authorization.models.ActiveDirectoryGroups&text=ActiveDirectoryGroups\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

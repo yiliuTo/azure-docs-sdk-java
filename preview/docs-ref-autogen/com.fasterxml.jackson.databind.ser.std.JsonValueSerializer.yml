@@ -59,22 +59,28 @@ inheritedMembers:
 syntax: "public class JsonValueSerializer extends StdSerializer<Object> implements ContextualSerializer, jsonFormatVisitors.JsonFormatVisitable, SchemaAware"
 constructors:
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.JsonValueSerializer(com.fasterxml.jackson.databind.introspect.AnnotatedMember,com.fasterxml.jackson.databind.JsonSerializer<?>)"
-- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.JsonValueSerializer(com.fasterxml.jackson.databind.ser.std.JsonValueSerializer,com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<?>,boolean)"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.JsonValueSerializer(com.fasterxml.jackson.databind.introspect.AnnotatedMember,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<?>)"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.JsonValueSerializer(com.fasterxml.jackson.databind.ser.std.JsonValueSerializer,com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<?>,boolean)"
 fields:
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._accessor"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._dynamicSerializers"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._forceTypeInformation"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._property"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._valueSerializer"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._valueType"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._valueTypeSerializer"
 methods:
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._acceptJsonFormatVisitorForEnum(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitorWrapper,com.fasterxml.jackson.databind.JavaType,java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer._findDynamicSerializer(com.fasterxml.jackson.databind.SerializerProvider,java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.acceptJsonFormatVisitor(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitorWrapper,com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.createContextual(com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.BeanProperty)"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.getSchema(com.fasterxml.jackson.databind.SerializerProvider,java.lang.reflect.Type)"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.isEmpty(com.fasterxml.jackson.databind.SerializerProvider,java.lang.Object)"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.isNaturalTypeWithStdHandling(java.lang.Class<?>,com.fasterxml.jackson.databind.JsonSerializer<?>)"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.serialize(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.serializeWithType(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.jsontype.TypeSerializer)"
 - "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.toString()"
-- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.withResolved(com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<?>,boolean)"
+- "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.withResolved(com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.jsontype.TypeSerializer,com.fasterxml.jackson.databind.JsonSerializer<?>,boolean)"
 type: "class"
 implements:
 - "<xref href=\"com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitable?alt=com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitable&text=JsonFormatVisitable\" data-throw-if-not-resolved=\"False\" />"
@@ -82,4 +88,4 @@ implements:
 - "<xref href=\"com.fasterxml.jackson.databind.ser.ContextualSerializer?alt=com.fasterxml.jackson.databind.ser.ContextualSerializer&text=ContextualSerializer\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

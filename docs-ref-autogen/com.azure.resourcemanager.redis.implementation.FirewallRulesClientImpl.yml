@@ -32,12 +32,12 @@ methods:
 - "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.getAsync(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.getWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
-- "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.listByRedisResource(java.lang.String,java.lang.String)"
-- "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.listByRedisResource(java.lang.String,java.lang.String,com.azure.core.util.Context)"
-- "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.listByRedisResourceAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.redis.implementation.FirewallRulesClientImpl.listAsync(java.lang.String,java.lang.String)"
 type: "class"
 implements:
 - "<xref href=\"com.azure.resourcemanager.redis.fluent.FirewallRulesClient?alt=com.azure.resourcemanager.redis.fluent.FirewallRulesClient&text=FirewallRulesClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.redis.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-redis:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-redis:2.3.0

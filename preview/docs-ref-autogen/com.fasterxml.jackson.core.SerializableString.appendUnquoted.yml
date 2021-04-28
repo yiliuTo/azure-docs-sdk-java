@@ -10,9 +10,11 @@ members:
   nameWithType: "SerializableString.appendUnquoted(char[] buffer, int offset)"
   summary: "Method that will append unquoted characters of this String into given buffer. Functionally equivalent to:\n\n```java\nchar[] ch = str.getValue().toCharArray();\n  System.arraycopy(bytes, 0, buffer, offset, ch.length);\n  return ch.length;\n```"
   parameters:
-  - name: "buffer"
+  - description: "Buffer to append literal (unescaped) String into"
+    name: "buffer"
     type: "<xref href=\"char?alt=char&text=char\" data-throw-if-not-resolved=\"False\" />[]"
-  - name: "offset"
+  - description: "Offset in <code>buffer</code> to append String at"
+    name: "offset"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract int appendUnquoted(char[] buffer, int offset)"
   returns:
@@ -21,4 +23,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

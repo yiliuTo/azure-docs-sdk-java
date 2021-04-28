@@ -27,6 +27,25 @@ members:
     name: "managedIdentity"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public KeyVaultLoadStoreParameter(String uri, String managedIdentity)"
+- uid: "com.azure.security.keyvault.jca.KeyVaultLoadStoreParameter.KeyVaultLoadStoreParameter(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+  fullName: "com.azure.security.keyvault.jca.KeyVaultLoadStoreParameter.KeyVaultLoadStoreParameter(String uri, String tenantId, String clientId, String clientSecret)"
+  name: "KeyVaultLoadStoreParameter(String uri, String tenantId, String clientId, String clientSecret)"
+  nameWithType: "KeyVaultLoadStoreParameter.KeyVaultLoadStoreParameter(String uri, String tenantId, String clientId, String clientSecret)"
+  summary: "Constructor."
+  parameters:
+  - description: "the Azure Key Vault URI."
+    name: "uri"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the tenant ID."
+    name: "tenantId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the client ID."
+    name: "clientId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "the client secret."
+    name: "clientSecret"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public KeyVaultLoadStoreParameter(String uri, String tenantId, String clientId, String clientSecret)"
 - uid: "com.azure.security.keyvault.jca.KeyVaultLoadStoreParameter.KeyVaultLoadStoreParameter(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
   fullName: "com.azure.security.keyvault.jca.KeyVaultLoadStoreParameter.KeyVaultLoadStoreParameter(String uri, String aadAuthenticationUrl, String tenantId, String clientId, String clientSecret)"
   name: "KeyVaultLoadStoreParameter(String uri, String aadAuthenticationUrl, String tenantId, String clientId, String clientSecret)"
@@ -52,4 +71,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.azure.security.keyvault.jca"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

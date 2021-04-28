@@ -41,6 +41,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.JavaType.isJavaLangObject()"
 - "com.fasterxml.jackson.databind.JavaType.isMapLikeType()"
 - "com.fasterxml.jackson.databind.JavaType.isPrimitive()"
+- "com.fasterxml.jackson.databind.JavaType.isRecordType()"
 - "com.fasterxml.jackson.databind.JavaType.isThrowable()"
 - "com.fasterxml.jackson.databind.JavaType.isTypeOrSubTypeOf(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.JavaType.isTypeOrSuperTypeOf(java.lang.Class<?>)"
@@ -117,4 +118,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.type"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair.findIgnoreUnknownProperties(AnnotatedClass ac)"
   name: "findIgnoreUnknownProperties(AnnotatedClass ac)"
   nameWithType: "AnnotationIntrospectorPair.findIgnoreUnknownProperties(AnnotatedClass ac)"
-  summary: "Method for checking whether an annotation indicates that all unknown properties"
+  summary: "Method for checking whether an annotation indicates that all unknown properties should be ignored."
   overridden: "com.fasterxml.jackson.databind.AnnotationIntrospector.findIgnoreUnknownProperties(com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
   parameters:
   - name: "ac"
@@ -19,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.introspect"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

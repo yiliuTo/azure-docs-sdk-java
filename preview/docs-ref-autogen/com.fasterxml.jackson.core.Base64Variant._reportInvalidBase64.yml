@@ -9,12 +9,14 @@ members:
   name: "_reportInvalidBase64(char ch, int bindex, String msg)"
   nameWithType: "Base64Variant._reportInvalidBase64(char ch, int bindex, String msg)"
   parameters:
-  - name: "ch"
+  - description: "Character to report on"
+    name: "ch"
     type: "<xref href=\"char?alt=char&text=char\" data-throw-if-not-resolved=\"False\" />"
   - description: "Relative index within base64 character unit; between 0\n   and 3 (as unit has exactly 4 characters)"
     name: "bindex"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "msg"
+  - description: "Base message to use for exception"
+    name: "msg"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected void _reportInvalidBase64(char ch, int bindex, String msg)"
   exceptions:
@@ -22,4 +24,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

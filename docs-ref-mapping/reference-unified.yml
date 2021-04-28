@@ -122,12 +122,6 @@
       landingPageType: Service
       children:
       - com.azure.communication.administration*
-    - name: Chat
-      uid: azure.java.sdk.landingpage.services.communication.Chat
-      href: ~/docs-ref-services/{moniker}/communication-chat-readme.md
-      landingPageType: Service
-      children:
-      - com.azure.communication.chat*
     - name: Common
       uid: azure.java.sdk.landingpage.services.communication.Common
       href: ~/docs-ref-services/{moniker}/communication-common-readme.md
@@ -546,9 +540,14 @@
       - com.microsoft.azure.sdk.iot*
       - com.microsoft.connecteddevices*
       - tools.com.microsoft.azure.sdk.iot*
+    - name: Device Update
+      uid: azure.java.sdk.landingpage.services.iot.deviceupdate
+      landingPageType: Service
+      children:
+      - com.azure.iot.deviceupdate*
   - name: Key Vault
     uid: azure.java.sdk.landingpage.services.keyvault
-    landingPageType: Service
+    href: ~/docs-ref-services/{moniker}/keyvault.md
     items:
     - name: Keys
       uid: azure.java.sdk.landingpage.services.keyvault.Keys
@@ -580,7 +579,7 @@
       uid: azure.java.sdk.landingpage.services.keyvault.Jca
       href: ~/docs-ref-services/{moniker}/security-keyvault-jca-readme.md
       children:
-      - com.azure.security.keyvault.jca*
+      - com.azure.security.keyvault.jca*   
   - name: Lab Services
     uid: azure.java.sdk.landingpage.service.labservices
     landingPageType: Service
@@ -699,6 +698,15 @@
       landingPageType: Service
       children:
       - com.microsoft.azure.management.resourcegraph*  
+  - name: Resource Mover
+    uid: azure.java.sdk.landingpage.services.resourcemover
+    landingPageType: Service
+    items:
+    - name: Resource Management
+      uid: azure.java.sdk.landingpage.services.resourcemover.ResourceManagement
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.resourcemover.v2021_01_01*  
   - name: Schema Registry
     uid: azure.java.sdk.landingpage.services.schemaregistry
     landingPageType: Service
@@ -992,6 +1000,20 @@
       landingPageType: Service
       children:
       - com.microsoft.azure.management.support*
+  - name: Synapse Analytics
+    uid: azure.java.sdk.landingpage.preview.services.synapse
+    landingPageType: Service
+    items:
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.synapse.ResourceManagement
+      landingPageType: Service
+      children:
+      - com.azure.analytics.synapse*
+    - name: Resource Management
+      uid: azure.java.sdk.landingpage.services.synapse.ResourceManagement
+      landingPageType: Service
+      children:
+      - com.azure.resourcemanager.synapse*
   - name: Tables
     uid: azure.java.sdk.landingpage.services.tables
     href: ~/docs-ref-services/{moniker}/data-tables-readme.md
@@ -1020,6 +1042,15 @@
       landingPageType: Service
       children:
       - com.azure.resourcemanager.compute*
+  - name: Web PubSub
+    uid: azure.java.sdk.landingpage.services.WebPubSub
+    landingPageType: Service
+    items:
+    - name: Client
+      uid: azure.java.sdk.landingpage.services.WebPubSub.client
+      landingPageType: Service
+      children:
+      - com.azure.messaging.webpubsub*
   - name: Other
     uid: azure.java.sdk.landingPage.services.other
     landingPageType: Service

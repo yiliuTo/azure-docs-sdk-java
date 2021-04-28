@@ -8,7 +8,6 @@ members:
   fullName: "com.fasterxml.jackson.databind.util.EnumResolver.constructUnsafeUsingToString(Class<?> rawEnumCls, AnnotationIntrospector ai)"
   name: "constructUnsafeUsingToString(Class<?> rawEnumCls, AnnotationIntrospector ai)"
   nameWithType: "EnumResolver.constructUnsafeUsingToString(Class<?> rawEnumCls, AnnotationIntrospector ai)"
-  summary: "Method that needs to be used instead of <xref uid=\"com.fasterxml.jackson.databind.util.EnumResolver.constructUsingToString*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#constructUsingToString\"></xref> if static type of enum is not known."
   parameters:
   - name: "rawEnumCls"
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
@@ -20,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

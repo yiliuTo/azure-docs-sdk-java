@@ -3,7 +3,6 @@ uid: "com.fasterxml.jackson.databind.PropertyNamingStrategy.UpperCamelCaseStrate
 fullName: "com.fasterxml.jackson.databind.PropertyNamingStrategy.UpperCamelCaseStrategy"
 name: "PropertyNamingStrategy.UpperCamelCaseStrategy"
 nameWithType: "PropertyNamingStrategy.UpperCamelCaseStrategy"
-summary: "A <xref uid=\"com.fasterxml.jackson.databind.PropertyNamingStrategy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PropertyNamingStrategy\"></xref> that translates typical camelCase Java property names to PascalCase JSON element names (i.e., with a capital first letter). In particular, the following translations are applied by this PropertyNamingStrategy.\n\n *  The first lower-case letter in the Java property name is translated into its equivalent upper-case representation.\n\nThis rules result in the following example translation from Java property names to JSON element names.\n\n *  \"userName\" is translated to \"UserName\""
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.fasterxml.jackson.databind.PropertyNamingStrategy\" data-throw-if-not-resolved=\"False\" />"
@@ -34,4 +33,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

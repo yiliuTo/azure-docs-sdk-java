@@ -36,7 +36,7 @@ members:
   fullName: "com.fasterxml.jackson.core.json.UTF8JsonGenerator.writeString(Reader reader, int len)"
   name: "writeString(Reader reader, int len)"
   nameWithType: "UTF8JsonGenerator.writeString(Reader reader, int len)"
-  summary: "Method for outputting a String value. Depending on context this means either array element, (object) field value or a stand alone String; but in all cases, String will be surrounded in double quotes, and contents will be properly escaped as required by JSON specification. If the reader is null, then write a null. If len is < 0, then write all contents of the reader. Otherwise, write only len characters."
+  summary: "Method for outputting a String value. Depending on context this means either array element, (object) field value or a stand alone String; but in all cases, String will be surrounded in double quotes, and contents will be properly escaped as required by JSON specification. If `len` is < 0, then write all contents of the reader. Otherwise, write only len characters.\n\nNote: actual length of content available may exceed `len` but can not be less than it: if not enough content available, a <xref uid=\"com.fasterxml.jackson.core.JsonGenerationException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonGenerationException\"></xref> will be thrown."
   overridden: "com.fasterxml.jackson.core.JsonGenerator.writeString(java.io.Reader,int)"
   parameters:
   - name: "reader"
@@ -61,4 +61,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.json"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

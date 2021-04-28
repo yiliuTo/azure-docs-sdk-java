@@ -15,6 +15,7 @@ members:
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public String encode(byte[] input)"
   returns:
+    description: "Base64 encoded String of encoded <code>input</code> bytes, not surrounded by quotes"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.Base64Variant.encode(byte[],boolean)"
   fullName: "com.fasterxml.jackson.core.Base64Variant.encode(byte[] input, boolean addQuotes)"
@@ -30,6 +31,7 @@ members:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public String encode(byte[] input, boolean addQuotes)"
   returns:
+    description: "Base64 encoded String of encoded <code>input</code> bytes, possibly\n     surrounded by quotes (if <code>addQuotes</code> enabled)"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.Base64Variant.encode(byte[],boolean,java.lang.String)"
   fullName: "com.fasterxml.jackson.core.Base64Variant.encode(byte[] input, boolean addQuotes, String linefeed)"
@@ -43,12 +45,14 @@ members:
   - description: "Whether to surround resulting value in double quotes or not"
     name: "addQuotes"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
-  - name: "linefeed"
+  - description: "Linefeed to use for encoded content"
+    name: "linefeed"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public String encode(byte[] input, boolean addQuotes, String linefeed)"
   returns:
+    description: "Base64 encoded String of encoded <code>input</code> bytes"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

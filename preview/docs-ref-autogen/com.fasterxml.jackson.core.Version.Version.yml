@@ -9,13 +9,17 @@ members:
   name: "Version(int major, int minor, int patchLevel, String snapshotInfo)"
   nameWithType: "Version.Version(int major, int minor, int patchLevel, String snapshotInfo)"
   parameters:
-  - name: "major"
+  - description: "Major version number"
+    name: "major"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "minor"
+  - description: "Minor version number"
+    name: "minor"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "patchLevel"
+  - description: "patch level of version"
+    name: "patchLevel"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
-  - name: "snapshotInfo"
+  - description: "Optional additional string qualifier"
+    name: "snapshotInfo"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Version(int major, int minor, int patchLevel, String snapshotInfo)"
 - uid: "com.fasterxml.jackson.core.Version.Version(int,int,int,java.lang.String,java.lang.String,java.lang.String)"
@@ -39,4 +43,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

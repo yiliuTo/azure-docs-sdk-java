@@ -30,9 +30,9 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public class ActiveDirectoryApplicationsImpl extends CreatableResourcesImpl<ActiveDirectoryApplication,ActiveDirectoryApplicationImpl,ApplicationInner> implements ActiveDirectoryApplications, HasManager<AuthorizationManager>"
+syntax: "public class ActiveDirectoryApplicationsImpl extends CreatableResourcesImpl<ActiveDirectoryApplication,ActiveDirectoryApplicationImpl,MicrosoftGraphApplicationInner> implements ActiveDirectoryApplications, HasManager<AuthorizationManager>"
 constructors:
-- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.ActiveDirectoryApplicationsImpl(com.azure.resourcemanager.authorization.fluent.ApplicationsClient,com.azure.resourcemanager.authorization.AuthorizationManager)"
+- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.ActiveDirectoryApplicationsImpl(com.azure.resourcemanager.authorization.AuthorizationManager)"
 methods:
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.define(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.deleteByIdAsync(java.lang.String)"
@@ -46,7 +46,7 @@ methods:
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.listByFilter(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.listByFilterAsync(java.lang.String)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.manager()"
-- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.ApplicationInner)"
+- "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner)"
 - "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(java.lang.String)"
 type: "class"
 implements:
@@ -54,4 +54,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.HasManager?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.HasManager&text=HasManager\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.authorization.AuthorizationManager?alt=com.azure.resourcemanager.authorization.AuthorizationManager&text=AuthorizationManager\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

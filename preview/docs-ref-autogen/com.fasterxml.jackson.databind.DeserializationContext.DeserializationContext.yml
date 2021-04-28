@@ -13,6 +13,17 @@ members:
   - name: "src"
     type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected DeserializationContext(DeserializationContext src)"
+- uid: "com.fasterxml.jackson.databind.DeserializationContext.DeserializationContext(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.DeserializationConfig)"
+  fullName: "com.fasterxml.jackson.databind.DeserializationContext.DeserializationContext(DeserializationContext src, DeserializationConfig config)"
+  name: "DeserializationContext(DeserializationContext src, DeserializationConfig config)"
+  nameWithType: "DeserializationContext.DeserializationContext(DeserializationContext src, DeserializationConfig config)"
+  summary: "Constructor used for creating bogus per-call style instance, but without underlying parser: needed for deserializer pre-fetching"
+  parameters:
+  - name: "src"
+    type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
+  - name: "config"
+    type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationConfig?alt=com.fasterxml.jackson.databind.DeserializationConfig&text=DeserializationConfig\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected DeserializationContext(DeserializationContext src, DeserializationConfig config)"
 - uid: "com.fasterxml.jackson.databind.DeserializationContext.DeserializationContext(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.DeserializationConfig,com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.InjectableValues)"
   fullName: "com.fasterxml.jackson.databind.DeserializationContext.DeserializationContext(DeserializationContext src, DeserializationConfig config, JsonParser p, InjectableValues injectableValues)"
   name: "DeserializationContext(DeserializationContext src, DeserializationConfig config, JsonParser p, InjectableValues injectableValues)"
@@ -59,4 +70,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

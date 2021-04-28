@@ -48,6 +48,18 @@ members:
   - name: "toIgnore"
     type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "protected UnwrappingBeanSerializer(UnwrappingBeanSerializer src, Set<String> toIgnore)"
+- uid: "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer.UnwrappingBeanSerializer(com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer,java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
+  fullName: "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer.UnwrappingBeanSerializer(UnwrappingBeanSerializer src, Set<String> toIgnore, Set<String> toInclude)"
+  name: "UnwrappingBeanSerializer(UnwrappingBeanSerializer src, Set<String> toIgnore, Set<String> toInclude)"
+  nameWithType: "UnwrappingBeanSerializer.UnwrappingBeanSerializer(UnwrappingBeanSerializer src, Set<String> toIgnore, Set<String> toInclude)"
+  parameters:
+  - name: "src"
+    type: "<xref href=\"com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer?alt=com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer&text=UnwrappingBeanSerializer\" data-throw-if-not-resolved=\"False\" />"
+  - name: "toIgnore"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "toInclude"
+    type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "protected UnwrappingBeanSerializer(UnwrappingBeanSerializer src, Set<String> toIgnore, Set<String> toInclude)"
 - uid: "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer.UnwrappingBeanSerializer(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,com.fasterxml.jackson.databind.util.NameTransformer)"
   fullName: "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanSerializer.UnwrappingBeanSerializer(BeanSerializerBase src, NameTransformer transformer)"
   name: "UnwrappingBeanSerializer(BeanSerializerBase src, NameTransformer transformer)"
@@ -62,4 +74,4 @@ members:
 type: "constructor"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

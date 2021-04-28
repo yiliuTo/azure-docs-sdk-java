@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.node.TextNode.asLong(long defaultValue)"
   name: "asLong(long defaultValue)"
   nameWithType: "TextNode.asLong(long defaultValue)"
-  summary: "Method that will try to convert value of this node to a Java **long**. Numbers are coerced using default Java rules; booleans convert to 0 (false) and 1 (true), and Strings are parsed using default Java language integer parsing rules.\n\nIf representation cannot be converted to an long (including structured types like Objects and Arrays), specified **defaultValue** will be returned; no exceptions are thrown."
+  summary: "Method that will try to convert value of this node to a Java **long**. Numbers are coerced using default Java rules; booleans convert to 0 (false) and 1 (true), and Strings are parsed using default Java language integer parsing rules.\n\nIf representation cannot be converted to a long (including structured types like Objects and Arrays), specified **defaultValue** will be returned; no exceptions are thrown."
   overridden: "com.fasterxml.jackson.databind.JsonNode.asLong(long)"
   parameters:
   - name: "defaultValue"
@@ -19,4 +19,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.node"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

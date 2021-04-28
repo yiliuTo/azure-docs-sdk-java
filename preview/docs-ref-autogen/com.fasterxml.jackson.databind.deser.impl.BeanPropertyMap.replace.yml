@@ -4,14 +4,6 @@ fullName: "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace"
 name: "replace"
 nameWithType: "BeanPropertyMap.replace"
 members:
-- uid: "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace(com.fasterxml.jackson.databind.deser.SettableBeanProperty)"
-  fullName: "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace(SettableBeanProperty newProp)"
-  name: "replace(SettableBeanProperty newProp)"
-  nameWithType: "BeanPropertyMap.replace(SettableBeanProperty newProp)"
-  parameters:
-  - name: "newProp"
-    type: "<xref href=\"com.fasterxml.jackson.databind.deser.SettableBeanProperty?alt=com.fasterxml.jackson.databind.deser.SettableBeanProperty&text=SettableBeanProperty\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "public void replace(SettableBeanProperty newProp)"
 - uid: "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace(com.fasterxml.jackson.databind.deser.SettableBeanProperty,com.fasterxml.jackson.databind.deser.SettableBeanProperty)"
   fullName: "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace(SettableBeanProperty origProp, SettableBeanProperty newProp)"
   name: "replace(SettableBeanProperty origProp, SettableBeanProperty newProp)"
@@ -26,4 +18,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

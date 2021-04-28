@@ -10,14 +10,17 @@ members:
   nameWithType: "JsonGenerator.writeBinaryField(String fieldName, byte[] data)"
   summary: "Convenience method for outputting a field entry (\"member\") that contains specified data in base64-encoded form. Equivalent to:\n\n```java\nwriteFieldName(fieldName);\n  writeBinary(value);\n```"
   parameters:
-  - name: "fieldName"
+  - description: "Name of the field to write"
+    name: "fieldName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - name: "data"
+  - description: "Binary data for the field to write"
+    name: "data"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public void writeBinaryField(String fieldName, byte[] data)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if there is either an underlying I/O problem or encoding\n    issue at format layer"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

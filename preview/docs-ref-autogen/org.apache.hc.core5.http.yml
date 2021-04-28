@@ -63,4 +63,4 @@ interfaces:
 - "org.apache.hc.core5.http.SocketModalCloseable"
 metadata: {}
 package: "org.apache.hc.core5.http"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

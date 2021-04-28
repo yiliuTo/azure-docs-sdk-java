@@ -22,4 +22,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.pool.ConnPoolStats?alt=org.apache.hc.core5.pool.ConnPoolStats&text=ConnPoolStats\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "org.apache.hc.core5.pool"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

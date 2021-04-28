@@ -21,7 +21,8 @@ members:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void writeArray(double[] array, int offset, int length)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if there is either an underlying I/O problem or encoding\n    issue at format layer"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonGenerator.writeArray(int[],int,int)"
   fullName: "com.fasterxml.jackson.core.JsonGenerator.writeArray(int[] array, int offset, int length)"
   name: "writeArray(int[] array, int offset, int length)"
@@ -39,7 +40,8 @@ members:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void writeArray(int[] array, int offset, int length)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if there is either an underlying I/O problem or encoding\n    issue at format layer"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonGenerator.writeArray(java.lang.String[],int,int)"
   fullName: "com.fasterxml.jackson.core.JsonGenerator.writeArray(String[] array, int offset, int length)"
   name: "writeArray(String[] array, int offset, int length)"
@@ -57,7 +59,8 @@ members:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void writeArray(String[] array, int offset, int length)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if there is either an underlying I/O problem or encoding\n    issue at format layer"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonGenerator.writeArray(long[],int,int)"
   fullName: "com.fasterxml.jackson.core.JsonGenerator.writeArray(long[] array, int offset, int length)"
   name: "writeArray(long[] array, int offset, int length)"
@@ -75,8 +78,9 @@ members:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void writeArray(long[] array, int offset, int length)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if there is either an underlying I/O problem or encoding\n    issue at format layer"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

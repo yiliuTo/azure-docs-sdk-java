@@ -8,10 +8,10 @@ members:
   fullName: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.inner()"
   name: "inner()"
   nameWithType: "ActiveDirectoryApplicationsImpl.inner()"
-  syntax: "public ApplicationsClient inner()"
+  syntax: "public ApplicationsApplicationsClient inner()"
   returns:
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.ApplicationsClient?alt=com.azure.resourcemanager.authorization.fluent.ApplicationsClient&text=ApplicationsClient\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.ApplicationsApplicationsClient?alt=com.azure.resourcemanager.authorization.fluent.ApplicationsApplicationsClient&text=ApplicationsApplicationsClient\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

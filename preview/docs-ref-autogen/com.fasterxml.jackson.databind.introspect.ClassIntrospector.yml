@@ -27,9 +27,10 @@ methods:
 - "com.fasterxml.jackson.databind.introspect.ClassIntrospector.forCreation(com.fasterxml.jackson.databind.DeserializationConfig,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.introspect.ClassIntrospector.MixInResolver)"
 - "com.fasterxml.jackson.databind.introspect.ClassIntrospector.forDeserialization(com.fasterxml.jackson.databind.DeserializationConfig,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.introspect.ClassIntrospector.MixInResolver)"
 - "com.fasterxml.jackson.databind.introspect.ClassIntrospector.forDeserializationWithBuilder(com.fasterxml.jackson.databind.DeserializationConfig,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.introspect.ClassIntrospector.MixInResolver)"
+- "com.fasterxml.jackson.databind.introspect.ClassIntrospector.forDeserializationWithBuilder(com.fasterxml.jackson.databind.DeserializationConfig,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.introspect.ClassIntrospector.MixInResolver,com.fasterxml.jackson.databind.BeanDescription)"
 - "com.fasterxml.jackson.databind.introspect.ClassIntrospector.forDirectClassAnnotations(com.fasterxml.jackson.databind.cfg.MapperConfig<?>,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.introspect.ClassIntrospector.MixInResolver)"
 - "com.fasterxml.jackson.databind.introspect.ClassIntrospector.forSerialization(com.fasterxml.jackson.databind.SerializationConfig,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.introspect.ClassIntrospector.MixInResolver)"
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.introspect"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

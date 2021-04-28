@@ -82,4 +82,4 @@ methods:
     type: "<xref href=\"com.fasterxml.jackson.databind.node.JsonNodeType?alt=com.fasterxml.jackson.databind.node.JsonNodeType&text=JsonNodeType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "com.fasterxml.jackson.databind.node"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

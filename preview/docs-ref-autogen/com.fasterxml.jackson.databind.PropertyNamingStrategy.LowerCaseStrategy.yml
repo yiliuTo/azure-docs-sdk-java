@@ -3,7 +3,6 @@ uid: "com.fasterxml.jackson.databind.PropertyNamingStrategy.LowerCaseStrategy"
 fullName: "com.fasterxml.jackson.databind.PropertyNamingStrategy.LowerCaseStrategy"
 name: "PropertyNamingStrategy.LowerCaseStrategy"
 nameWithType: "PropertyNamingStrategy.LowerCaseStrategy"
-summary: "Simple strategy where external name simply only uses lower-case characters, and no separators. Conversion from internal name like \"someOtherValue\" would be into external name if \"someothervalue\"."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.fasterxml.jackson.databind.PropertyNamingStrategy\" data-throw-if-not-resolved=\"False\" />"
@@ -34,4 +33,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

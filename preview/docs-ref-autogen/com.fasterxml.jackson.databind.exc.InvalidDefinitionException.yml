@@ -9,6 +9,7 @@ inheritances:
 - "<xref href=\"java.lang.Throwable\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Exception\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.io.IOException\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.fasterxml.jackson.core.JacksonException\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.fasterxml.jackson.core.JsonProcessingException\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.fasterxml.jackson.databind.JsonMappingException\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
@@ -81,4 +82,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.exc"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

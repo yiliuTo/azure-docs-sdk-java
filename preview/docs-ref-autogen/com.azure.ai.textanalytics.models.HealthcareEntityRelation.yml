@@ -3,7 +3,7 @@ uid: "com.azure.ai.textanalytics.models.HealthcareEntityRelation"
 fullName: "com.azure.ai.textanalytics.models.HealthcareEntityRelation"
 name: "HealthcareEntityRelation"
 nameWithType: "HealthcareEntityRelation"
-summary: "The HealthcareEntityRelation model."
+summary: "The <xref uid=\"com.azure.ai.textanalytics.models.HealthcareEntityRelation\" data-throw-if-not-resolved=\"false\" data-raw-source=\"HealthcareEntityRelation\"></xref> Every relation is an entity graph of a certain relationType, where all entities are connected and have specific roles within the relation context."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
@@ -23,10 +23,8 @@ constructors:
 - "com.azure.ai.textanalytics.models.HealthcareEntityRelation.HealthcareEntityRelation()"
 methods:
 - "com.azure.ai.textanalytics.models.HealthcareEntityRelation.getRelationType()"
-- "com.azure.ai.textanalytics.models.HealthcareEntityRelation.getSourceLink()"
-- "com.azure.ai.textanalytics.models.HealthcareEntityRelation.getTargetLink()"
-- "com.azure.ai.textanalytics.models.HealthcareEntityRelation.isBidirectional()"
+- "com.azure.ai.textanalytics.models.HealthcareEntityRelation.getRoles()"
 type: "class"
 metadata: {}
 package: "com.azure.ai.textanalytics.models"
-artifact: com.azure:azure-ai-textanalytics:5.1.0-beta.3
+artifact: com.azure:azure-ai-textanalytics:5.1.0-beta.6

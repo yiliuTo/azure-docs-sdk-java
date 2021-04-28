@@ -63,6 +63,7 @@ methods:
 - "com.azure.resourcemanager.AzureResourceManager.kubernetesClusters()"
 - "com.azure.resourcemanager.AzureResourceManager.loadBalancers()"
 - "com.azure.resourcemanager.AzureResourceManager.localNetworkGateways()"
+- "com.azure.resourcemanager.AzureResourceManager.managementLocks()"
 - "com.azure.resourcemanager.AzureResourceManager.metricDefinitions()"
 - "com.azure.resourcemanager.AzureResourceManager.networkInterfaces()"
 - "com.azure.resourcemanager.AzureResourceManager.networkSecurityGroups()"
@@ -72,6 +73,7 @@ methods:
 - "com.azure.resourcemanager.AzureResourceManager.policyAssignments()"
 - "com.azure.resourcemanager.AzureResourceManager.policyDefinitions()"
 - "com.azure.resourcemanager.AzureResourceManager.privateDnsZones()"
+- "com.azure.resourcemanager.AzureResourceManager.privateEndpoints()"
 - "com.azure.resourcemanager.AzureResourceManager.providers()"
 - "com.azure.resourcemanager.AzureResourceManager.publicIpAddresses()"
 - "com.azure.resourcemanager.AzureResourceManager.publicIpPrefixes()"
@@ -79,6 +81,7 @@ methods:
 - "com.azure.resourcemanager.AzureResourceManager.resourceGroups()"
 - "com.azure.resourcemanager.AzureResourceManager.routeFilters()"
 - "com.azure.resourcemanager.AzureResourceManager.routeTables()"
+- "com.azure.resourcemanager.AzureResourceManager.searchServices()"
 - "com.azure.resourcemanager.AzureResourceManager.serviceBusNamespaces()"
 - "com.azure.resourcemanager.AzureResourceManager.snapshots()"
 - "com.azure.resourcemanager.AzureResourceManager.springServices()"
@@ -91,6 +94,7 @@ methods:
 - "com.azure.resourcemanager.AzureResourceManager.storageUsages()"
 - "com.azure.resourcemanager.AzureResourceManager.subscriptionId()"
 - "com.azure.resourcemanager.AzureResourceManager.subscriptions()"
+- "com.azure.resourcemanager.AzureResourceManager.tagOperations()"
 - "com.azure.resourcemanager.AzureResourceManager.tenantId()"
 - "com.azure.resourcemanager.AzureResourceManager.tenants()"
 - "com.azure.resourcemanager.AzureResourceManager.trafficManagerProfiles()"
@@ -104,4 +108,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.azure.resourcemanager"
-artifact: com.azure.resourcemanager:azure-resourcemanager:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager:2.3.0

@@ -11,8 +11,9 @@ members:
   summary: "Method for constructing actual <xref uid=\"com.fasterxml.jackson.core.TokenStreamFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenStreamFactory\"></xref> instance, given configuration."
   syntax: "public abstract F build()"
   returns:
+    description: "<xref uid=\"com.fasterxml.jackson.core.TokenStreamFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TokenStreamFactory\"></xref> build based on current configuration"
     type: "<xref href=\"F?alt=F&text=F\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

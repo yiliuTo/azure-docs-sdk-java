@@ -10,10 +10,11 @@ members:
   nameWithType: "IOContext.releaseReadIOBuffer(byte[] buf)"
   summary: "Method to call when all the processing buffers can be safely recycled."
   parameters:
-  - name: "buf"
+  - description: "Buffer instance to release (return for recycling)"
+    name: "buf"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public void releaseReadIOBuffer(byte[] buf)"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

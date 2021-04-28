@@ -8,7 +8,6 @@ members:
   fullName: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<T>._coerceNullToken(DeserializationContext ctxt, boolean isPrimitive)"
   name: "_coerceNullToken(DeserializationContext ctxt, boolean isPrimitive)"
   nameWithType: "StdDeserializer<T>._coerceNullToken(DeserializationContext ctxt, boolean isPrimitive)"
-  summary: "Method to call when JSON \\`null\\` token is encountered. Note: only called when this deserializer encounters it but NOT when reached via property"
   parameters:
   - name: "ctxt"
     type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
@@ -22,4 +21,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

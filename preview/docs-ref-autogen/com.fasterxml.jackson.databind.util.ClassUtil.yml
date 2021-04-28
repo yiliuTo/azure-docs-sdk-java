@@ -27,6 +27,7 @@ methods:
 - "com.fasterxml.jackson.databind.util.ClassUtil.<T>findFirstAnnotatedEnumValue(java.lang.Class<java.lang.Enum<?>>,java.lang.Class<T>)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.<T>nonNull(T,T)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.<T>throwAsMappingException(com.fasterxml.jackson.databind.DeserializationContext,java.io.IOException)"
+- "com.fasterxml.jackson.databind.util.ClassUtil.apostrophed(java.lang.String)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.backticked(java.lang.String)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.canBeABeanType(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.checkAndFixAccess(java.lang.reflect.Member)"
@@ -75,6 +76,9 @@ methods:
 - "com.fasterxml.jackson.databind.util.ClassUtil.isNonStaticInnerClass(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.isObjectOrPrimitive(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.isProxyType(java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.util.ClassUtil.isRecordType(java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.util.ClassUtil.name(com.fasterxml.jackson.databind.PropertyName)"
+- "com.fasterxml.jackson.databind.util.ClassUtil.name(java.lang.String)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.nameOf(com.fasterxml.jackson.databind.util.Named)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.nameOf(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.util.ClassUtil.nonNullString(java.lang.String)"
@@ -95,4 +99,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

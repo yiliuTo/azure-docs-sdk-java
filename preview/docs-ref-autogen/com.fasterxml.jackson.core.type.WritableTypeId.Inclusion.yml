@@ -78,4 +78,4 @@ methods:
     type: "<xref href=\"com.fasterxml.jackson.core.type.WritableTypeId.Inclusion?alt=com.fasterxml.jackson.core.type.WritableTypeId.Inclusion&text=Inclusion\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "com.fasterxml.jackson.core.type"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

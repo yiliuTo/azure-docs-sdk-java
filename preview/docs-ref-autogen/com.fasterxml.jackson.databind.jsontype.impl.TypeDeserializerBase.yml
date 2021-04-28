@@ -19,6 +19,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.jsontype.TypeDeserializer.getPropertyName()"
 - "com.fasterxml.jackson.databind.jsontype.TypeDeserializer.getTypeIdResolver()"
 - "com.fasterxml.jackson.databind.jsontype.TypeDeserializer.getTypeInclusion()"
+- "com.fasterxml.jackson.databind.jsontype.TypeDeserializer.hasDefaultImpl()"
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
 - "java.lang.Object.finalize()"
@@ -57,10 +58,11 @@ methods:
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.getPropertyName()"
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.getTypeIdResolver()"
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.getTypeInclusion()"
+- "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.hasDefaultImpl()"
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.toString()"
 type: "class"
 implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.jsontype.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

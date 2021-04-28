@@ -11,8 +11,9 @@ members:
   summary: "Accessor for possibly available information about token that was being decoded while encountering end of input."
   syntax: "public JsonToken getTokenBeingDecoded()"
   returns:
+    description: "JsonToken that was being decoded while encountering end-of-input"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonToken?alt=com.fasterxml.jackson.core.JsonToken&text=JsonToken\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

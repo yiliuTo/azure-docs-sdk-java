@@ -11,6 +11,7 @@ members:
   summary: "Factory method for constructing a <xref uid=\"com.fasterxml.jackson.core.JsonPointer\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonPointer\"></xref> that points to the current location within the stream that this context is for, excluding information about \"root context\" (only relevant for multi-root-value cases)"
   syntax: "public JsonPointer pathAsPointer()"
   returns:
+    description: "Pointer instance constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonPointer?alt=com.fasterxml.jackson.core.JsonPointer&text=JsonPointer\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonStreamContext.pathAsPointer(boolean)"
   fullName: "com.fasterxml.jackson.core.JsonStreamContext.pathAsPointer(boolean includeRoot)"
@@ -23,8 +24,9 @@ members:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonPointer pathAsPointer(boolean includeRoot)"
   returns:
+    description: "Pointer instance constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonPointer?alt=com.fasterxml.jackson.core.JsonPointer&text=JsonPointer\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

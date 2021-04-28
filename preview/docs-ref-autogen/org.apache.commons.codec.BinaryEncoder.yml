@@ -12,4 +12,4 @@ implements:
 - "<xref href=\"org.apache.commons.codec.Encoder?alt=org.apache.commons.codec.Encoder&text=Encoder\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "org.apache.commons.codec"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

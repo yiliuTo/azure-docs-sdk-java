@@ -4,15 +4,15 @@ fullName: "com.azure.resourcemanager.authorization.implementation.ActiveDirector
 name: "wrapModel"
 nameWithType: "ActiveDirectoryApplicationsImpl.wrapModel"
 members:
-- uid: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.ApplicationInner)"
-  fullName: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(ApplicationInner applicationInner)"
-  name: "wrapModel(ApplicationInner applicationInner)"
-  nameWithType: "ActiveDirectoryApplicationsImpl.wrapModel(ApplicationInner applicationInner)"
+- uid: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner)"
+  fullName: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(MicrosoftGraphApplicationInner applicationInner)"
+  name: "wrapModel(MicrosoftGraphApplicationInner applicationInner)"
+  nameWithType: "ActiveDirectoryApplicationsImpl.wrapModel(MicrosoftGraphApplicationInner applicationInner)"
   overridden: "com.azure.resourcemanager.resources.fluentcore.arm.collection.implementation.ReadableWrappersImpl.wrapModel(InnerT)"
   parameters:
   - name: "applicationInner"
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.ApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.models.ApplicationInner&text=ApplicationInner\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "protected ActiveDirectoryApplicationImpl wrapModel(ApplicationInner applicationInner)"
+    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.models.MicrosoftGraphApplicationInner&text=MicrosoftGraphApplicationInner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected ActiveDirectoryApplicationImpl wrapModel(MicrosoftGraphApplicationInner applicationInner)"
   returns:
     type: "<xref href=\"com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationImpl?alt=com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationImpl&text=ActiveDirectoryApplicationImpl\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryApplicationsImpl.wrapModel(java.lang.String)"
@@ -29,4 +29,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

@@ -12,6 +12,8 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.Base.getValueClass()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.Base.getValueTypeDesc()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator._createFromStringFallbacks(com.fasterxml.jackson.databind.DeserializationContext,java.lang.String)"
+- "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateFromBigDecimal()"
+- "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateFromBigInteger()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateFromBoolean()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateFromDouble()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateFromInt()"
@@ -22,6 +24,9 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateUsingDefault()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateUsingDelegate()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.canInstantiate()"
+- "com.fasterxml.jackson.databind.deser.ValueInstantiator.createContextual(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.BeanDescription)"
+- "com.fasterxml.jackson.databind.deser.ValueInstantiator.createFromBigDecimal(com.fasterxml.jackson.databind.DeserializationContext,java.math.BigDecimal)"
+- "com.fasterxml.jackson.databind.deser.ValueInstantiator.createFromBigInteger(com.fasterxml.jackson.databind.DeserializationContext,java.math.BigInteger)"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.createFromBoolean(com.fasterxml.jackson.databind.DeserializationContext,boolean)"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.createFromDouble(com.fasterxml.jackson.databind.DeserializationContext,double)"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.createFromInt(com.fasterxml.jackson.databind.DeserializationContext,int)"
@@ -38,7 +43,6 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.getDelegateCreator()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.getDelegateType(com.fasterxml.jackson.databind.DeserializationConfig)"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.getFromObjectArguments(com.fasterxml.jackson.databind.DeserializationConfig)"
-- "com.fasterxml.jackson.databind.deser.ValueInstantiator.getIncompleteParameter()"
 - "com.fasterxml.jackson.databind.deser.ValueInstantiator.getWithArgsCreator()"
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -61,4 +65,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

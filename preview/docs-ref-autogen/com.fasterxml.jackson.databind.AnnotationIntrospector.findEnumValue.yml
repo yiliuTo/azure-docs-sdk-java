@@ -10,7 +10,8 @@ members:
   nameWithType: "AnnotationIntrospector.findEnumValue(Enum<?> value)"
   summary: "Method for determining the String value to use for serializing given enumeration entry; used when serializing enumerations as Strings (the standard method)."
   parameters:
-  - name: "value"
+  - description: "Enum value to introspect"
+    name: "value"
     type: "<xref href=\"java.lang.Enum?alt=java.lang.Enum&text=Enum\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
   syntax: "public String findEnumValue(Enum<?> value)"
   returns:
@@ -19,4 +20,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

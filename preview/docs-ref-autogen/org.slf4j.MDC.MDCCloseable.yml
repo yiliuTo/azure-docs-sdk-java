@@ -26,4 +26,4 @@ implements:
 - "<xref href=\"java.io.Closeable?alt=java.io.Closeable&text=Closeable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "org.slf4j"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

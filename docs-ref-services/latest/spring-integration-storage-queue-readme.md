@@ -1,9 +1,9 @@
 ---
 title: Azure Spring Integration storage queue client library for Java
-keywords: Azure, java, SDK, API, spring-integration-storage-queue, springcloud
+keywords: Azure, java, SDK, API, azure-spring-integration-storage-queue, springcloud
 author: maggiepint
 ms.author: magpint
-ms.date: 09/15/2020
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: azure
 ms.technology: azure
@@ -11,25 +11,24 @@ ms.devlang: java
 ms.service: springcloud
 ---
 
-# Azure Spring Integration storage queue client library for Java - Version 1.2.8 
+# Azure Spring Integration storage queue client library for Java - Version 2.4.0 
 
 The *Spring Integration for Storage Queue* extension project provides inbound and outbound channel adapters and gateways for Azure Storage Queue.
 
 [Source code][src] | [Package (Maven)][package] | [API reference documentation][refdocs] | [Samples][sample]
 
 ## Getting started
+
 ### Prerequisites
-- Java Development Kit (JDK) with version 8 or above
-- [Azure Subscription][azure_subscription]
-- [Maven][maven] 3.0 and above
+- [Environment checklist][environment_checklist]
 
 ### Include the package
-[//]: # ({x-version-update-start;com.microsoft.azure:spring-integration-storage-queue;current})
+[//]: # ({x-version-update-start;com.azure.spring:azure-spring-integration-storage-queue;current})
 ```xml
 <dependency>
-    <groupId>com.microsoft.azure</groupId>
-    <artifactId>spring-integration-storage-queue</artifactId>
-    <version>1.2.8</version>
+    <groupId>com.azure.spring</groupId>
+    <artifactId>azure-spring-integration-storage-queue</artifactId>
+    <version>2.4.0</version>
 </dependency>
 ```
 [//]: # ({x-version-update-end})
@@ -69,14 +68,12 @@ This project welcomes contributions and suggestions.  Most contributions require
 Please follow [instructions here][contributing_md] to build from source or contribute.
 
 <!-- Link -->
-[src]: https://github.com/Azure/azure-sdk-for-java/tree/spring-integration-storage-queue_1.2.8/sdk/spring/azure-spring-integration-storage-queue
+[src]: https://github.com/Azure/azure-sdk-for-java/tree/azure-spring-integration-storage-queue_2.4.0/sdk/spring/azure-spring-integration-storage-queue
 [package]: https://mvnrepository.com/artifact/com.microsoft.azure/spring-integration-storage-queue
-[refdocs]: https://azure.github.io/azure-sdk-for-java/spring.html#spring-integration-storage-queue
-[sample]: https://github.com/Azure/azure-sdk-for-java/tree/spring-integration-storage-queue_1.2.8/sdk/spring/azure-spring-boot-samples/azure-spring-cloud-storage-queue-integration-sample
+[refdocs]: https://azure.github.io/azure-sdk-for-java/springcloud.html#azure-spring-integration-storage-queue
+[sample]: https://github.com/Azure/azure-sdk-for-java/tree/azure-spring-integration-storage-queue_2.4.0/sdk/spring/azure-spring-boot-samples/azure-spring-integration-sample-storage-queue
 [logging]: https://github.com/Azure/azure-sdk-for-java/wiki/Logging-with-Azure-SDK#use-logback-logging-framework-in-a-spring-boot-application
-[azure_subscription]: https://azure.microsoft.com/free
 [logging_doc]: https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logging
-[contributing_md]: https://github.com/Azure/azure-sdk-for-java/tree/spring-integration-storage-queue_1.2.8/sdk/spring/CONTRIBUTING.md
-[maven]: http://maven.apache.org/
-
+[contributing_md]: https://github.com/Azure/azure-sdk-for-java/tree/azure-spring-integration-storage-queue_2.4.0/sdk/spring/CONTRIBUTING.md
+[environment_checklist]: https://github.com/Azure/azure-sdk-for-java/blob/azure-spring-integration-storage-queue_2.4.0/sdk/spring/ENVIRONMENT_CHECKLIST.md#ready-to-run-checklist
 

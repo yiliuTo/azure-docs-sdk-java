@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.util.ClassUtil.nameOf(Named named)"
   name: "nameOf(Named named)"
   nameWithType: "ClassUtil.nameOf(Named named)"
-  summary: "Returns either backtick-quoted \\`named.getName()\\` (if \\`named\\` not null), or \"\\[null\\]\" if \\`named\\` is null."
+  summary: "Returns either single-quoted (apostrophe) `'named.getName()'` (if `named` not null), or \"\\[null\\]\" if `named` is null.\n\nNOTE: before 2.12 returned \"backticked\" version instead of single-quoted name; changed to be compatible with most existing quoting usage within databind"
   parameters:
   - name: "named"
     type: "<xref href=\"com.fasterxml.jackson.databind.util.Named?alt=com.fasterxml.jackson.databind.util.Named&text=Named\" data-throw-if-not-resolved=\"False\" />"
@@ -29,4 +29,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

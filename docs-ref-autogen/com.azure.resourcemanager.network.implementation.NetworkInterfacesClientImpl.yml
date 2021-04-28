@@ -45,6 +45,11 @@ methods:
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getByResourceGroupAsync(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getByResourceGroupWithResponse(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getCloudServiceNetworkInterface(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getCloudServiceNetworkInterfaceAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getCloudServiceNetworkInterfaceAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getCloudServiceNetworkInterfaceWithResponse(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getCloudServiceNetworkInterfaceWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getEffectiveRouteTable(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getEffectiveRouteTable(java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.getEffectiveRouteTableAsync(java.lang.String,java.lang.String)"
@@ -65,6 +70,12 @@ methods:
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listByResourceGroup(java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listCloudServiceNetworkInterfaces(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listCloudServiceNetworkInterfaces(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listCloudServiceNetworkInterfacesAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listCloudServiceRoleInstanceNetworkInterfaces(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listCloudServiceRoleInstanceNetworkInterfaces(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listCloudServiceRoleInstanceNetworkInterfacesAsync(java.lang.String,java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listEffectiveNetworkSecurityGroups(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listEffectiveNetworkSecurityGroups(java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.NetworkInterfacesClientImpl.listEffectiveNetworkSecurityGroupsAsync(java.lang.String,java.lang.String)"
@@ -92,4 +103,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.NetworkInterfaceInner?alt=com.azure.resourcemanager.network.fluent.models.NetworkInterfaceInner&text=NetworkInterfaceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0

@@ -8,9 +8,9 @@ members:
   fullName: "com.fasterxml.jackson.databind.introspect.POJOPropertiesCollector._jsonValueAccessors"
   name: "_jsonValueAccessors"
   nameWithType: "POJOPropertiesCollector._jsonValueAccessors"
-  summary: "Method(s) marked with 'JsonValue' annotation\n\nNOTE: before 2.9, was \\`AnnotatedMethod\\`; with 2.9 allows fields too"
+  summary: "Accessors (field or \"getter\" method) annotated with <xref uid=\"com.fasterxml.jackson.annotation.JsonValue\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.fasterxml.jackson.annotation.JsonValue\"></xref>"
   syntax: "protected LinkedList<AnnotatedMember> _jsonValueAccessors"
 type: "field"
 metadata: {}
 package: "com.fasterxml.jackson.databind.introspect"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

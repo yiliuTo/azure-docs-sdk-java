@@ -22,6 +22,7 @@ members:
     type: "<xref href=\"com.fasterxml.jackson.core.SerializableString?alt=com.fasterxml.jackson.core.SerializableString&text=SerializableString\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonFactoryBuilder rootValueSeparator(SerializableString sep)"
   returns:
+    description: "This builder instance (to allow call chaining)"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactoryBuilder?alt=com.fasterxml.jackson.core.JsonFactoryBuilder&text=JsonFactoryBuilder\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactoryBuilder.rootValueSeparator(java.lang.String)"
   fullName: "com.fasterxml.jackson.core.JsonFactoryBuilder.rootValueSeparator(String sep)"
@@ -34,8 +35,9 @@ members:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonFactoryBuilder rootValueSeparator(String sep)"
   returns:
+    description: "This builder instance (to allow call chaining)"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactoryBuilder?alt=com.fasterxml.jackson.core.JsonFactoryBuilder&text=JsonFactoryBuilder\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

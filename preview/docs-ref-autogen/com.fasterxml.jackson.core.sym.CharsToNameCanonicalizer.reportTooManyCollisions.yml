@@ -9,10 +9,11 @@ members:
   name: "reportTooManyCollisions(int maxLen)"
   nameWithType: "CharsToNameCanonicalizer.reportTooManyCollisions(int maxLen)"
   parameters:
-  - name: "maxLen"
+  - description: "Maximum allowed length of collision chain"
+    name: "maxLen"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected void reportTooManyCollisions(int maxLen)"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.sym"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

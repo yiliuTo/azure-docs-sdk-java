@@ -12,6 +12,7 @@ classes:
 - "com.fasterxml.jackson.core.util.DefaultPrettyPrinter.FixedSpaceIndenter"
 - "com.fasterxml.jackson.core.util.DefaultPrettyPrinter.NopIndenter"
 - "com.fasterxml.jackson.core.util.InternCache"
+- "com.fasterxml.jackson.core.util.JacksonFeatureSet"
 - "com.fasterxml.jackson.core.util.JsonGeneratorDelegate"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate"
 - "com.fasterxml.jackson.core.util.JsonParserSequence"
@@ -23,6 +24,7 @@ classes:
 interfaces:
 - "com.fasterxml.jackson.core.util.DefaultPrettyPrinter.Indenter"
 - "com.fasterxml.jackson.core.util.Instantiatable"
+- "com.fasterxml.jackson.core.util.JacksonFeature"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

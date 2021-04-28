@@ -15,8 +15,9 @@ members:
     type: "<xref href=\"com.fasterxml.jackson.databind.cfg.HandlerInstantiator?alt=com.fasterxml.jackson.databind.cfg.HandlerInstantiator&text=HandlerInstantiator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public B handlerInstantiator(HandlerInstantiator hi)"
   returns:
+    description: "Builder instance itself to allow chaining"
     type: "<xref href=\"B?alt=B&text=B\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.cfg"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

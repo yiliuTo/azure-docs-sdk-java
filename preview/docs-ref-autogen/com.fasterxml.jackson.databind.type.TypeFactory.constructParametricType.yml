@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(Class<?> rawType, JavaType[] parameterTypes)"
   name: "constructParametricType(Class<?> rawType, JavaType[] parameterTypes)"
   nameWithType: "TypeFactory.constructParametricType(Class<?> rawType, JavaType[] parameterTypes)"
-  summary: "Factory method for constructing <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref> that represents a parameterized type. For example, to represent type `List>`, you could\n\n```java\nJavaType inner = TypeFactory.constructParametricType(Set.class, Set.class, Integer.class);\n  return TypeFactory.constructParametricType(ArrayList.class, List.class, inner);\n```\n\nThe reason for first two arguments to be separate is that parameterization may apply to a super-type. For example, if generic type was instead to be constructed for `ArrayList`, the usual call would be:\n\n```java\nTypeFactory.constructParametricType(ArrayList.class, List.class, Integer.class);\n```\n\nsince parameterization is applied to <xref uid=\"java.util.List\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.util.List\"></xref>. In most cases distinction does not matter, but there are types where it does; one such example is parameterization of types that implement <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.util.Iterator\"></xref>.\n\nNOTE: since 2.11.2 <xref uid=\"com.fasterxml.jackson.databind.type.TypeModifier\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeModifier\"></xref>s ARE called on result (fix for \\[databind\\#2796\\])"
+  summary: "Factory method for constructing <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref> that represents a parameterized type. For example, to represent type `List>`, you could\n\n```java\nJavaType inner = TypeFactory.constructParametricType(Set.class, Integer.class);\n  return TypeFactory.constructParametricType(List.class, inner);\n```\n\nNOTE: since 2.11.2 <xref uid=\"com.fasterxml.jackson.databind.type.TypeModifier\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeModifier\"></xref>s ARE called on result (fix for \\[databind\\#2796\\])"
   parameters:
   - description: "Actual type-erased type"
     name: "rawType"
@@ -20,13 +20,28 @@ members:
   returns:
     description: "Fully resolved type for given base type and type parameters"
     type: "<xref href=\"com.fasterxml.jackson.databind.JavaType?alt=com.fasterxml.jackson.databind.JavaType&text=JavaType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(java.lang.Class<?>,com.fasterxml.jackson.databind.type.TypeBindings)"
+  fullName: "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(Class<?> rawType, TypeBindings parameterTypes)"
+  name: "constructParametricType(Class<?> rawType, TypeBindings parameterTypes)"
+  nameWithType: "TypeFactory.constructParametricType(Class<?> rawType, TypeBindings parameterTypes)"
+  summary: "Factory method for constructing <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref> that represents a parameterized type. The type's parameters are specified as an instance of <xref uid=\"com.fasterxml.jackson.databind.type.TypeBindings\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeBindings\"></xref>. This is useful if you already have the type's parameters such as those found on <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref>. For example, you could call\n\n```java\nreturn TypeFactory.constructParametricType(ArrayList.class, javaType.getBindings());\n```\n\nThis effectively applies the parameterized types from one <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref> to another class."
+  parameters:
+  - description: "Actual type-erased type"
+    name: "rawType"
+    type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
+  - description: "Type bindings for the raw type"
+    name: "parameterTypes"
+    type: "<xref href=\"com.fasterxml.jackson.databind.type.TypeBindings?alt=com.fasterxml.jackson.databind.type.TypeBindings&text=TypeBindings\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JavaType constructParametricType(Class<?> rawType, TypeBindings parameterTypes)"
+  returns:
+    type: "<xref href=\"com.fasterxml.jackson.databind.JavaType?alt=com.fasterxml.jackson.databind.JavaType&text=JavaType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(java.lang.Class<?>,java.lang.Class<?>...)"
   fullName: "com.fasterxml.jackson.databind.type.TypeFactory.constructParametricType(Class<?> parametrized, Class<?>[] parameterClasses)"
   name: "constructParametricType(Class<?> parametrized, Class<?>[] parameterClasses)"
   nameWithType: "TypeFactory.constructParametricType(Class<?> parametrized, Class<?>[] parameterClasses)"
-  summary: "Factory method for constructing <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref> that represents a parameterized type. For example, to represent type `List>`, you could call\n\n```java\nJavaType inner = TypeFactory.constructParametricType(Set.class, Set.class, Integer.class);\n  return TypeFactory.constructParametricType(ArrayList.class, List.class, inner);\n```\n\nThe reason for first two arguments to be separate is that parameterization may apply to a super-type. For example, if generic type was instead to be constructed for `ArrayList`, the usual call would be:\n\n```java\nTypeFactory.constructParametricType(ArrayList.class, List.class, Integer.class);\n```\n\nsince parameterization is applied to <xref uid=\"java.util.List\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.util.List\"></xref>. In most cases distinction does not matter, but there are types where it does; one such example is parameterization of types that implement <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.util.Iterator\"></xref>.\n\nNOTE: type modifiers are NOT called on constructed type."
+  summary: "Factory method for constructing <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref> that represents a parameterized type. For example, to represent type `List>`, you could call\n\n```java\nJavaType inner = TypeFactory.constructParametricType(Set.class, Integer.class);\n  return TypeFactory.constructParametricType(List.class, inner);\n```\n\nNOTE: since 2.11.2 <xref uid=\"com.fasterxml.jackson.databind.type.TypeModifier\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeModifier\"></xref>s ARE called on result (fix for \\[databind\\#2796\\])"
   parameters:
-  - description: "Actual full type"
+  - description: "Type-erased type to parameterize"
     name: "parametrized"
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
   - description: "Type parameters to apply"
@@ -38,4 +53,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.type"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

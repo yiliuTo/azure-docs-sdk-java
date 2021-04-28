@@ -54,6 +54,7 @@ methods:
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.createChildArrayContext(com.fasterxml.jackson.core.filter.TokenFilter,boolean)"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.createChildObjectContext(com.fasterxml.jackson.core.filter.TokenFilter,boolean)"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.createRootContext(com.fasterxml.jackson.core.filter.TokenFilter)"
+- "com.fasterxml.jackson.core.filter.TokenFilterContext.ensureFieldNameWritten(com.fasterxml.jackson.core.JsonGenerator)"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.findChildOf(com.fasterxml.jackson.core.filter.TokenFilterContext)"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.getCurrentName()"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.getCurrentValue()"
@@ -67,9 +68,8 @@ methods:
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.setFieldName(java.lang.String)"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.skipParentChecks()"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.toString()"
-- "com.fasterxml.jackson.core.filter.TokenFilterContext.writeImmediatePath(com.fasterxml.jackson.core.JsonGenerator)"
 - "com.fasterxml.jackson.core.filter.TokenFilterContext.writePath(com.fasterxml.jackson.core.JsonGenerator)"
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.filter"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

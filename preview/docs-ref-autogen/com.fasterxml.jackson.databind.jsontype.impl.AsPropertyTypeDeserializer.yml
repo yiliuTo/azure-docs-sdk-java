@@ -32,6 +32,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.getDefaultImpl()"
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.getPropertyName()"
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.getTypeIdResolver()"
+- "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.hasDefaultImpl()"
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeDeserializerBase.toString()"
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -51,7 +52,7 @@ constructors:
 fields:
 - "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._inclusion"
 methods:
-- "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.util.TokenBuffer)"
+- "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.util.TokenBuffer,java.lang.String)"
 - "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedUsingDefaultImpl(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.util.TokenBuffer)"
 - "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromAny(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
 - "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
@@ -60,4 +61,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.jsontype.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

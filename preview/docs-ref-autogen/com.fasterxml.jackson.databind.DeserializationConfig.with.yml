@@ -50,6 +50,16 @@ members:
   syntax: "public DeserializationConfig with(DeserializationFeature first, DeserializationFeature[] features)"
   returns:
     type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationConfig?alt=com.fasterxml.jackson.databind.DeserializationConfig&text=DeserializationConfig\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.fasterxml.jackson.databind.DeserializationConfig.with(com.fasterxml.jackson.databind.cfg.ConstructorDetector)"
+  fullName: "com.fasterxml.jackson.databind.DeserializationConfig.with(ConstructorDetector ctorDetector)"
+  name: "with(ConstructorDetector ctorDetector)"
+  nameWithType: "DeserializationConfig.with(ConstructorDetector ctorDetector)"
+  parameters:
+  - name: "ctorDetector"
+    type: "<xref href=\"com.fasterxml.jackson.databind.cfg.ConstructorDetector?alt=com.fasterxml.jackson.databind.cfg.ConstructorDetector&text=ConstructorDetector\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DeserializationConfig with(ConstructorDetector ctorDetector)"
+  returns:
+    type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationConfig?alt=com.fasterxml.jackson.databind.DeserializationConfig&text=DeserializationConfig\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.databind.DeserializationConfig.with(com.fasterxml.jackson.databind.cfg.ContextAttributes)"
   fullName: "com.fasterxml.jackson.databind.DeserializationConfig.with(ContextAttributes attrs)"
   name: "with(ContextAttributes attrs)"
@@ -88,4 +98,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

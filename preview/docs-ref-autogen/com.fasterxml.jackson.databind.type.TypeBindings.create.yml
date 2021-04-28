@@ -55,7 +55,20 @@ members:
   syntax: "public static TypeBindings create(Class<?> erasedType, List<JavaType> typeList)"
   returns:
     type: "<xref href=\"com.fasterxml.jackson.databind.type.TypeBindings?alt=com.fasterxml.jackson.databind.type.TypeBindings&text=TypeBindings\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.fasterxml.jackson.databind.type.TypeBindings.create(java.util.List<java.lang.String>,java.util.List<com.fasterxml.jackson.databind.JavaType>)"
+  fullName: "com.fasterxml.jackson.databind.type.TypeBindings.create(List<String> names, List<JavaType> types)"
+  name: "create(List<String> names, List<JavaType> types)"
+  nameWithType: "TypeBindings.create(List<String> names, List<JavaType> types)"
+  summary: "Factory method for constructing bindings given names and associated types."
+  parameters:
+  - name: "names"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - name: "types"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.fasterxml.jackson.databind.JavaType?alt=com.fasterxml.jackson.databind.JavaType&text=JavaType\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public static TypeBindings create(List<String> names, List<JavaType> types)"
+  returns:
+    type: "<xref href=\"com.fasterxml.jackson.databind.type.TypeBindings?alt=com.fasterxml.jackson.databind.type.TypeBindings&text=TypeBindings\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.type"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

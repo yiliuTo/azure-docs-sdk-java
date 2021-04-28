@@ -8,10 +8,10 @@ members:
   fullName: "com.azure.resourcemanager.authorization.implementation.ActiveDirectoryUsersImpl.inner()"
   name: "inner()"
   nameWithType: "ActiveDirectoryUsersImpl.inner()"
-  syntax: "public UsersClient inner()"
+  syntax: "public UsersUsersClient inner()"
   returns:
-    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.UsersClient?alt=com.azure.resourcemanager.authorization.fluent.UsersClient&text=UsersClient\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.azure.resourcemanager.authorization.fluent.UsersUsersClient?alt=com.azure.resourcemanager.authorization.fluent.UsersUsersClient&text=UsersUsersClient\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.authorization.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.3.0

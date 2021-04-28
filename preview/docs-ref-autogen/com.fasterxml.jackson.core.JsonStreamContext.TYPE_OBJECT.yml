@@ -8,8 +8,9 @@ members:
   fullName: "com.fasterxml.jackson.core.JsonStreamContext.TYPE_OBJECT"
   name: "TYPE_OBJECT"
   nameWithType: "JsonStreamContext.TYPE_OBJECT"
-  syntax: "protected static final int TYPE_OBJECT"
+  summary: "Indicator for \"Object\" context."
+  syntax: "public static final int TYPE_OBJECT"
 type: "field"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

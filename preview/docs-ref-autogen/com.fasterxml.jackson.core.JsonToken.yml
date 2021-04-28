@@ -126,6 +126,7 @@ methods:
   nameWithType: "JsonToken.isBoolean()"
   syntax: "public final boolean isBoolean()"
   returns:
+    description: "<code>True</code> if this token is <code>VALUE_TRUE</code> or <code>VALUE_FALSE</code>,\n   <code>false</code> otherwise"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonToken.isNumeric()"
   fullName: "com.fasterxml.jackson.core.JsonToken.isNumeric()"
@@ -133,14 +134,16 @@ methods:
   nameWithType: "JsonToken.isNumeric()"
   syntax: "public final boolean isNumeric()"
   returns:
+    description: "<code>True</code> if this token is <code>VALUE_NUMBER_INT</code> or <code>VALUE_NUMBER_FLOAT</code>,\n   <code>false</code> otherwise"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonToken.isScalarValue()"
   fullName: "com.fasterxml.jackson.core.JsonToken.isScalarValue()"
   name: "isScalarValue()"
   nameWithType: "JsonToken.isScalarValue()"
-  summary: "Method that can be used to check whether this token represents a valid non-structured value. This means all tokens other than Object/Array start/end markers all field names."
+  summary: "Method that can be used to check whether this token represents a valid non-structured value. This means all `VALUE_xxx` tokens; excluding `START_xxx` and `END_xxx` tokens as well `FIELD_NAME`."
   syntax: "public final boolean isScalarValue()"
   returns:
+    description: "<code>True</code> if this token is a scalar value token (one of\n   <code>VALUE_xxx</code> tokens), <code>false</code> otherwise"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonToken.isStructEnd()"
   fullName: "com.fasterxml.jackson.core.JsonToken.isStructEnd()"
@@ -149,6 +152,7 @@ methods:
   summary: "Accessor that is functionally equivalent to: `this == JsonToken.END_OBJECT || this == JsonToken.END_ARRAY`"
   syntax: "public final boolean isStructEnd()"
   returns:
+    description: "<code>True</code> if this token is <code>END_OBJECT</code> or <code>END_ARRAY</code>,\n   <code>false</code> otherwise"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonToken.isStructStart()"
   fullName: "com.fasterxml.jackson.core.JsonToken.isStructStart()"
@@ -157,6 +161,7 @@ methods:
   summary: "Accessor that is functionally equivalent to: `this == JsonToken.START_OBJECT || this == JsonToken.START_ARRAY`"
   syntax: "public final boolean isStructStart()"
   returns:
+    description: "<code>True</code> if this token is <code>START_OBJECT</code> or <code>START_ARRAY</code>,\n   <code>false</code> otherwise"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonToken.valueOf(java.lang.String)"
   fullName: "com.fasterxml.jackson.core.JsonToken.valueOf(String name)"
@@ -177,4 +182,4 @@ methods:
     type: "<xref href=\"com.fasterxml.jackson.core.JsonToken?alt=com.fasterxml.jackson.core.JsonToken&text=JsonToken\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -40,6 +40,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.type.TypeFactory.constructType(Type type, TypeBindings bindings)"
   name: "constructType(Type type, TypeBindings bindings)"
   nameWithType: "TypeFactory.constructType(Type type, TypeBindings bindings)"
+  summary: "Method that you very likely should NOT be using -- you need to know a lot about internal details of <xref uid=\"com.fasterxml.jackson.databind.type.TypeBindings\" data-throw-if-not-resolved=\"false\" data-raw-source=\"TypeBindings\"></xref> and even then it will probably not do what you want. Usually you would instead want to call one of `constructXxxType()` methods (where `Xxx` would be \"Array\", \"Collection\\[Like\\]\", \"Map\\[Like\\]\" or \"Parametric\")."
   parameters:
   - name: "type"
     type: "<xref href=\"java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type\" data-throw-if-not-resolved=\"False\" />"
@@ -63,4 +64,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.type"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

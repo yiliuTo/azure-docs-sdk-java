@@ -8,7 +8,7 @@ members:
   fullName: "com.azure.resourcemanager.cosmos.implementation.CosmosDBManagementClientImpl.getSubscriptionId()"
   name: "getSubscriptionId()"
   nameWithType: "CosmosDBManagementClientImpl.getSubscriptionId()"
-  summary: "Gets Azure subscription ID."
+  summary: "Gets The ID of the target subscription."
   syntax: "public String getSubscriptionId()"
   returns:
     description: "the subscriptionId value."
@@ -16,4 +16,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.cosmos.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.3.0

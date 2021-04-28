@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.core.base.ParserBase._throwUnquotedSpace(int i, String ctxtDesc)"
   name: "_throwUnquotedSpace(int i, String ctxtDesc)"
   nameWithType: "ParserBase._throwUnquotedSpace(int i, String ctxtDesc)"
-  summary: "Method called to report a problem with unquoted control character. Note: it is possible to suppress some instances of exception by enabling <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Feature#ALLOW_UNQUOTED_CONTROL_CHARS\"></xref>."
+  summary: "Method called to report a problem with unquoted control character. Note: it is possible to suppress some instances of exception by enabling <xref uid=\"com.fasterxml.jackson.core.json.JsonReadFeature.ALLOW_UNESCAPED_CONTROL_CHARS\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.fasterxml.jackson.core.json.JsonReadFeature#ALLOW_UNESCAPED_CONTROL_CHARS\"></xref>."
   parameters:
   - name: "i"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -20,4 +20,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.base"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

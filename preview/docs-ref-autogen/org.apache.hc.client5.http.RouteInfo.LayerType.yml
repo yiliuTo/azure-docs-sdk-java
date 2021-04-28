@@ -54,4 +54,4 @@ methods:
     type: "<xref href=\"org.apache.hc.client5.http.RouteInfo.LayerType?alt=org.apache.hc.client5.http.RouteInfo.LayerType&text=LayerType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "org.apache.hc.client5.http"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

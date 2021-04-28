@@ -17,12 +17,14 @@ members:
   nameWithType: "JsonFactoryBuilder.characterEscapes(CharacterEscapes esc)"
   summary: "Method for defining custom escapes factory uses for <xref uid=\"com.fasterxml.jackson.core.JsonGenerator\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonGenerator\"></xref>s it creates."
   parameters:
-  - name: "esc"
+  - description: "CharacterEscapes to configure, if any; <code>null</code> if none"
+    name: "esc"
     type: "<xref href=\"com.fasterxml.jackson.core.io.CharacterEscapes?alt=com.fasterxml.jackson.core.io.CharacterEscapes&text=CharacterEscapes\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonFactoryBuilder characterEscapes(CharacterEscapes esc)"
   returns:
+    description: "This builder instance (to allow call chaining)"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactoryBuilder?alt=com.fasterxml.jackson.core.JsonFactoryBuilder&text=JsonFactoryBuilder\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

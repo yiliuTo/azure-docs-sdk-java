@@ -26,6 +26,9 @@ methods:
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginDelete(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginDeleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginGetIkeSas(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginGetIkeSas(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginGetIkeSasAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginResetSharedKey(java.lang.String,java.lang.String,int)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginResetSharedKey(java.lang.String,java.lang.String,int,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.beginResetSharedKeyAsync(java.lang.String,java.lang.String,int)"
@@ -53,6 +56,10 @@ methods:
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getByResourceGroupAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getByResourceGroupWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getIkeSas(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getIkeSas(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getIkeSasAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getIkeSasWithResponseAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getSharedKey(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getSharedKeyAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.VirtualNetworkGatewayConnectionsClientImpl.getSharedKeyWithResponse(java.lang.String,java.lang.String,com.azure.core.util.Context)"
@@ -93,4 +100,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.models.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0

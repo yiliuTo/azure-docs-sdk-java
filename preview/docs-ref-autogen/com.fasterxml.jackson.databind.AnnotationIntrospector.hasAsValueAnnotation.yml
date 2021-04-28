@@ -9,7 +9,8 @@ members:
   name: "hasAsValueAnnotation(AnnotatedMethod am)"
   nameWithType: "AnnotationIntrospector.hasAsValueAnnotation(AnnotatedMethod am)"
   parameters:
-  - name: "am"
+  - description: "Annotated method to check"
+    name: "am"
     type: "<xref href=\"com.fasterxml.jackson.databind.introspect.AnnotatedMethod?alt=com.fasterxml.jackson.databind.introspect.AnnotatedMethod&text=AnnotatedMethod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public boolean hasAsValueAnnotation(AnnotatedMethod am)"
   returns:
@@ -17,4 +18,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

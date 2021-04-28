@@ -22,12 +22,13 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public final class VirtualMachineScaleSetVMReimageParameters extends VirtualMachineReimageParameters"
+syntax: "public class VirtualMachineScaleSetVMReimageParameters extends VirtualMachineReimageParameters"
 constructors:
 - "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMReimageParameters.VirtualMachineScaleSetVMReimageParameters()"
 methods:
 - "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMReimageParameters.validate()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMReimageParameters.withTempDisk(java.lang.Boolean)"
 type: "class"
 metadata: {}
 package: "com.azure.resourcemanager.compute.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.3.0

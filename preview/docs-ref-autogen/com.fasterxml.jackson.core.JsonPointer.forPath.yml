@@ -10,7 +10,7 @@ members:
   nameWithType: "JsonPointer.forPath(JsonStreamContext context, boolean includeRoot)"
   summary: "Factory method that will construct a pointer instance that describes path to location given <xref uid=\"com.fasterxml.jackson.core.JsonStreamContext\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonStreamContext\"></xref> points to."
   parameters:
-  - description: "Context to build pointer expression fot"
+  - description: "Context to build pointer expression for"
     name: "context"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonStreamContext?alt=com.fasterxml.jackson.core.JsonStreamContext&text=JsonStreamContext\" data-throw-if-not-resolved=\"False\" />"
   - description: "Whether to include number offset for virtual \"root context\"\n    or not."
@@ -18,8 +18,9 @@ members:
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static JsonPointer forPath(JsonStreamContext context, boolean includeRoot)"
   returns:
+    description: "<xref uid=\"com.fasterxml.jackson.core.JsonPointer\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonPointer\"></xref> path to location of given context"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonPointer?alt=com.fasterxml.jackson.core.JsonPointer&text=JsonPointer\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

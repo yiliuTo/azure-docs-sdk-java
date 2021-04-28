@@ -3,7 +3,6 @@ uid: "com.fasterxml.jackson.databind.PropertyNamingStrategy.LowerDotCaseStrategy
 fullName: "com.fasterxml.jackson.databind.PropertyNamingStrategy.LowerDotCaseStrategy"
 name: "PropertyNamingStrategy.LowerDotCaseStrategy"
 nameWithType: "PropertyNamingStrategy.LowerDotCaseStrategy"
-summary: "Naming strategy similar to <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"KebabCaseStrategy\"></xref>, but instead of hyphens as separators, uses dots. Naming convention widely used as configuration properties name."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.fasterxml.jackson.databind.PropertyNamingStrategy\" data-throw-if-not-resolved=\"False\" />"
@@ -34,4 +33,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

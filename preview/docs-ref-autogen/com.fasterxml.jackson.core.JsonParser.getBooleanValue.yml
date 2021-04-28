@@ -8,13 +8,15 @@ members:
   fullName: "com.fasterxml.jackson.core.JsonParser.getBooleanValue()"
   name: "getBooleanValue()"
   nameWithType: "JsonParser.getBooleanValue()"
-  summary: "Convenience accessor that can be called when the current token is <xref uid=\"com.fasterxml.jackson.core.JsonToken.VALUE_TRUE\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonToken#VALUE_TRUE\"></xref> or <xref uid=\"com.fasterxml.jackson.core.JsonToken.VALUE_FALSE\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonToken#VALUE_FALSE\"></xref>.\n\nNote: if the token is not of above-mentioned boolean types, an integer, but its value falls outside of range of Java long, a <xref uid=\"com.fasterxml.jackson.core.JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> may be thrown to indicate numeric overflow/underflow."
+  summary: "Convenience accessor that can be called when the current token is <xref uid=\"com.fasterxml.jackson.core.JsonToken.VALUE_TRUE\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonToken#VALUE_TRUE\"></xref> or <xref uid=\"com.fasterxml.jackson.core.JsonToken.VALUE_FALSE\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonToken#VALUE_FALSE\"></xref>, to return matching `boolean` value. If the current token is of some other type, <xref uid=\"com.fasterxml.jackson.core.JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> will be thrown"
   syntax: "public boolean getBooleanValue()"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level read issues, or\n   <xref uid=\"JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "<code>True</code> if current token is <code>JsonToken.VALUE_TRUE</code>,\n   <code>false</code> if current token is <code>JsonToken.VALUE_FALSE</code>;\n   otherwise throws <xref uid=\"com.fasterxml.jackson.core.JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref>"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

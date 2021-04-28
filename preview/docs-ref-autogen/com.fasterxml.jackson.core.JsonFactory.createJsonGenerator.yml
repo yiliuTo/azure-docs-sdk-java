@@ -10,12 +10,15 @@ members:
   nameWithType: "JsonFactory.createJsonGenerator(OutputStream out)"
   summary: "Convenience method for constructing generator that uses default encoding of the format (UTF-8 for JSON and most other data formats).\n\nNote: there are formats that use fixed encoding (like most binary data formats)."
   parameters:
-  - name: "out"
+  - description: "OutputStream to use for writing JSON content"
+    name: "out"
     type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonGenerator createJsonGenerator(OutputStream out)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (write) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Generator constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonGenerator?alt=com.fasterxml.jackson.core.JsonGenerator&text=JsonGenerator\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonGenerator(java.io.OutputStream,com.fasterxml.jackson.core.JsonEncoding)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonGenerator(OutputStream out, JsonEncoding enc)"
@@ -31,8 +34,10 @@ members:
     type: "<xref href=\"com.fasterxml.jackson.core.JsonEncoding?alt=com.fasterxml.jackson.core.JsonEncoding&text=JsonEncoding\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonGenerator createJsonGenerator(OutputStream out, JsonEncoding enc)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (write) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Generator constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonGenerator?alt=com.fasterxml.jackson.core.JsonGenerator&text=JsonGenerator\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonFactory.createJsonGenerator(java.io.Writer)"
   fullName: "com.fasterxml.jackson.core.JsonFactory.createJsonGenerator(Writer out)"
@@ -45,10 +50,12 @@ members:
     type: "<xref href=\"java.io.Writer?alt=java.io.Writer&text=Writer\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonGenerator createJsonGenerator(Writer out)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if parser initialization fails due to I/O (write) problem"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Generator constructed"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonGenerator?alt=com.fasterxml.jackson.core.JsonGenerator&text=JsonGenerator\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

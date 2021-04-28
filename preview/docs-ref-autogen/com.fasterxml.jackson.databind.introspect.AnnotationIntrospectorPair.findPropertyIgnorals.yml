@@ -8,7 +8,6 @@ members:
   fullName: "com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair.findPropertyIgnorals(Annotated a)"
   name: "findPropertyIgnorals(Annotated a)"
   nameWithType: "AnnotationIntrospectorPair.findPropertyIgnorals(Annotated a)"
-  summary: "Method for finding information about properties to ignore either by name, or by more general specification (\"ignore all unknown\"). This method combines multiple aspects of ignorals and deprecates earlier methods such as <xref uid=\"com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair.findPropertiesToIgnore(com.fasterxml.jackson.databind.introspect.Annotated,boolean)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#findPropertiesToIgnore(Annotated, boolean)\"></xref> and <xref uid=\"com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair.findIgnoreUnknownProperties(com.fasterxml.jackson.databind.introspect.AnnotatedClass)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#findIgnoreUnknownProperties(AnnotatedClass)\"></xref>."
   overridden: "com.fasterxml.jackson.databind.AnnotationIntrospector.findPropertyIgnorals(com.fasterxml.jackson.databind.introspect.Annotated)"
   parameters:
   - name: "a"
@@ -19,4 +18,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.introspect"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.core.base.ParserMinimalBase.reportOverflowInt()"
   name: "reportOverflowInt()"
   nameWithType: "ParserMinimalBase.reportOverflowInt()"
-  summary: "Method called to throw an exception for integral (not floating point) input token with value outside of Java signed 32-bit range when requested as <xref uid=\"int\" data-throw-if-not-resolved=\"false\" data-raw-source=\"int\"></xref>. Result will be <xref uid=\"com.fasterxml.jackson.core.exc.InputCoercionException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"InputCoercionException\"></xref> being thrown."
+  summary: "Method called to throw an exception for integral (not floating point) input token with value outside of Java signed 32-bit range when requested as `int`. Result will be <xref uid=\"com.fasterxml.jackson.core.exc.InputCoercionException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"InputCoercionException\"></xref> being thrown."
   syntax: "protected void reportOverflowInt()"
   exceptions:
   - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
@@ -37,4 +37,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.base"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

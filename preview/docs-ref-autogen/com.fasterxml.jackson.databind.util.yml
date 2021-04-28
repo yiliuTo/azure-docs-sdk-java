@@ -24,6 +24,8 @@ classes:
 - "com.fasterxml.jackson.databind.util.EnumValues"
 - "com.fasterxml.jackson.databind.util.ISO8601DateFormat"
 - "com.fasterxml.jackson.databind.util.ISO8601Utils"
+- "com.fasterxml.jackson.databind.util.IgnorePropertiesUtil"
+- "com.fasterxml.jackson.databind.util.IgnorePropertiesUtil.Checker"
 - "com.fasterxml.jackson.databind.util.JSONPObject"
 - "com.fasterxml.jackson.databind.util.JSONWrappedObject"
 - "com.fasterxml.jackson.databind.util.LRUMap"
@@ -49,7 +51,8 @@ enums:
 interfaces:
 - "com.fasterxml.jackson.databind.util.Annotations"
 - "com.fasterxml.jackson.databind.util.Converter"
+- "com.fasterxml.jackson.databind.util.LookupCache"
 - "com.fasterxml.jackson.databind.util.Named"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

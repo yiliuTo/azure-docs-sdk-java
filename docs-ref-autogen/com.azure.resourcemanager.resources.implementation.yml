@@ -3,6 +3,7 @@ uid: "com.azure.resourcemanager.resources.implementation"
 fullName: "com.azure.resourcemanager.resources.implementation"
 name: "com.azure.resourcemanager.resources.implementation"
 classes:
+- "com.azure.resourcemanager.resources.implementation.AuthorizationOperationsClientImpl"
 - "com.azure.resourcemanager.resources.implementation.DeploymentImpl"
 - "com.azure.resourcemanager.resources.implementation.DeploymentOperationsClientImpl"
 - "com.azure.resourcemanager.resources.implementation.DeploymentsClientImpl"
@@ -12,6 +13,10 @@ classes:
 - "com.azure.resourcemanager.resources.implementation.FeaturesClientImpl"
 - "com.azure.resourcemanager.resources.implementation.FeaturesImpl"
 - "com.azure.resourcemanager.resources.implementation.GenericResourcesImpl"
+- "com.azure.resourcemanager.resources.implementation.ManagementLockClientBuilder"
+- "com.azure.resourcemanager.resources.implementation.ManagementLockClientImpl"
+- "com.azure.resourcemanager.resources.implementation.ManagementLocksClientImpl"
+- "com.azure.resourcemanager.resources.implementation.ManagementLocksImpl"
 - "com.azure.resourcemanager.resources.implementation.OperationsClientImpl"
 - "com.azure.resourcemanager.resources.implementation.PolicyAssignmentsClientImpl"
 - "com.azure.resourcemanager.resources.implementation.PolicyAssignmentsImpl"
@@ -33,9 +38,10 @@ classes:
 - "com.azure.resourcemanager.resources.implementation.SubscriptionsClientImpl"
 - "com.azure.resourcemanager.resources.implementation.SubscriptionsImpl"
 - "com.azure.resourcemanager.resources.implementation.TagOperationsClientImpl"
+- "com.azure.resourcemanager.resources.implementation.TagOperationsImpl"
 - "com.azure.resourcemanager.resources.implementation.TenantsClientImpl"
 - "com.azure.resourcemanager.resources.implementation.TenantsImpl"
 - "com.azure.resourcemanager.resources.implementation.WhatIfOperationResultImpl"
 metadata: {}
 package: "com.azure.resourcemanager.resources.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0

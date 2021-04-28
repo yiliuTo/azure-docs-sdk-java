@@ -10,12 +10,14 @@ members:
   nameWithType: "JsonFactory.setInputDecorator(InputDecorator d)"
   summary: "Method for overriding currently configured input decorator"
   parameters:
-  - name: "d"
+  - description: "Decorator to configure for this factory, if any (<code>null</code> if none)"
+    name: "d"
     type: "<xref href=\"com.fasterxml.jackson.core.io.InputDecorator?alt=com.fasterxml.jackson.core.io.InputDecorator&text=InputDecorator\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public JsonFactory setInputDecorator(InputDecorator d)"
   returns:
+    description: "This factory instance (to allow call chaining)"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonFactory?alt=com.fasterxml.jackson.core.JsonFactory&text=JsonFactory\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

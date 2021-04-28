@@ -9,7 +9,8 @@ members:
   name: "decodeBase64Char(char c)"
   nameWithType: "Base64Variant.decodeBase64Char(char c)"
   parameters:
-  - name: "c"
+  - description: "Character to decode"
+    name: "c"
     type: "<xref href=\"char?alt=char&text=char\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public int decodeBase64Char(char c)"
   returns:
@@ -28,4 +29,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

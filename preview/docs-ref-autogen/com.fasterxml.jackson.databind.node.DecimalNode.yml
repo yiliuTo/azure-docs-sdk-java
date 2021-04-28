@@ -25,6 +25,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.JsonNode.at(java.lang.String)"
 - "com.fasterxml.jackson.databind.JsonNode.binaryValue()"
 - "com.fasterxml.jackson.databind.JsonNode.booleanValue()"
+- "com.fasterxml.jackson.databind.JsonNode.canConvertToExactIntegral()"
 - "com.fasterxml.jackson.databind.JsonNode.elements()"
 - "com.fasterxml.jackson.databind.JsonNode.equals(java.lang.Object)"
 - "com.fasterxml.jackson.databind.JsonNode.equals(java.util.Comparator<com.fasterxml.jackson.databind.JsonNode>,com.fasterxml.jackson.databind.JsonNode)"
@@ -124,6 +125,7 @@ methods:
 - "com.fasterxml.jackson.databind.node.DecimalNode.asText()"
 - "com.fasterxml.jackson.databind.node.DecimalNode.asToken()"
 - "com.fasterxml.jackson.databind.node.DecimalNode.bigIntegerValue()"
+- "com.fasterxml.jackson.databind.node.DecimalNode.canConvertToExactIntegral()"
 - "com.fasterxml.jackson.databind.node.DecimalNode.canConvertToInt()"
 - "com.fasterxml.jackson.databind.node.DecimalNode.canConvertToLong()"
 - "com.fasterxml.jackson.databind.node.DecimalNode.decimalValue()"
@@ -143,4 +145,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.node"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

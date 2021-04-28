@@ -29,4 +29,4 @@ classes:
 - "org.apache.hc.client5.http.impl.classic.RequestFailedException"
 metadata: {}
 package: "org.apache.hc.client5.http.impl.classic"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

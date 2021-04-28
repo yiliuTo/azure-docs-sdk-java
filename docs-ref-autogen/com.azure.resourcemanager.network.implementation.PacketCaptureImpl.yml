@@ -70,17 +70,17 @@ methods:
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.targetId()"
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.timeLimitInSeconds()"
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.totalBytesPerSession()"
-- "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withBytesToCapturePerPacket(int)"
+- "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withBytesToCapturePerPacket(long)"
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withFilePath(java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withStorageAccountId(java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withStoragePath(java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withTarget(java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withTimeLimitInSeconds(int)"
-- "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withTotalBytesPerSession(int)"
+- "com.azure.resourcemanager.network.implementation.PacketCaptureImpl.withTotalBytesPerSession(long)"
 type: "class"
 implements:
 - "<xref href=\"com.azure.resourcemanager.network.models.PacketCapture.Definition?alt=com.azure.resourcemanager.network.models.PacketCapture.Definition&text=Definition\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.azure.resourcemanager.network.models.PacketCapture?alt=com.azure.resourcemanager.network.models.PacketCapture&text=PacketCapture\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.network.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0

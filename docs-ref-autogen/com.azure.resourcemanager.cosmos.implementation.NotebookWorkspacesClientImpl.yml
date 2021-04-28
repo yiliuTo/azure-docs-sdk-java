@@ -20,9 +20,9 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public final class NotebookWorkspacesClientImpl implements NotebookWorkspacesClient"
 methods:
-- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.ArmProxyResource)"
-- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.ArmProxyResource,com.azure.core.util.Context)"
-- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginCreateOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.ArmProxyResource)"
+- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceCreateUpdateParameters)"
+- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceCreateUpdateParameters,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginCreateOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceCreateUpdateParameters)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginDelete(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginDelete(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginDeleteAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName)"
@@ -32,10 +32,10 @@ methods:
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginStart(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginStart(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.beginStartAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName)"
-- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.ArmProxyResource)"
-- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.ArmProxyResource,com.azure.core.util.Context)"
-- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.ArmProxyResource)"
-- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.ArmProxyResource)"
+- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceCreateUpdateParameters)"
+- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceCreateUpdateParameters,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceCreateUpdateParameters)"
+- "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceCreateUpdateParameters)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.delete(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.delete(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.cosmos.implementation.NotebookWorkspacesClientImpl.deleteAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.NotebookWorkspaceName)"
@@ -64,4 +64,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient?alt=com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient&text=NotebookWorkspacesClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.cosmos.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.3.0

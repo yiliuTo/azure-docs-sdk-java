@@ -3,13 +3,17 @@ uid: "com.fasterxml.jackson.core.JsonProcessingException"
 fullName: "com.fasterxml.jackson.core.JsonProcessingException"
 name: "JsonProcessingException"
 nameWithType: "JsonProcessingException"
-summary: "Intermediate base class for all problems encountered when processing (parsing, generating) JSON content that are not pure I/O problems. Regular <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref>s will be passed through as is. Sub-class of <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref> for convenience."
+summary: "Intermediate base class for all problems encountered when processing (parsing, generating) JSON content that are not pure I/O problems. Regular <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref>s will be passed through as is. Sub-class of <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref> for convenience.\n\nSince Jackson 2.12 extends intermediate <xref uid=\"com.fasterxml.jackson.core.JacksonException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JacksonException\"></xref> type instead of directly extending <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref>"
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Throwable\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Exception\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.io.IOException\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.fasterxml.jackson.core.JacksonException\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
+- "com.fasterxml.jackson.core.JacksonException.getLocation()"
+- "com.fasterxml.jackson.core.JacksonException.getOriginalMessage()"
+- "com.fasterxml.jackson.core.JacksonException.getProcessor()"
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
 - "java.lang.Object.finalize()"
@@ -33,7 +37,7 @@ inheritedMembers:
 - "java.lang.Throwable.printStackTrace(java.io.PrintWriter)"
 - "java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])"
 - "java.lang.Throwable.toString()"
-syntax: "public class JsonProcessingException extends IOException"
+syntax: "public class JsonProcessingException extends JacksonException"
 constructors:
 - "com.fasterxml.jackson.core.JsonProcessingException.JsonProcessingException(java.lang.String)"
 - "com.fasterxml.jackson.core.JsonProcessingException.JsonProcessingException(java.lang.String,com.fasterxml.jackson.core.JsonLocation)"
@@ -53,4 +57,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

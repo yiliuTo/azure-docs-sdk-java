@@ -25,6 +25,7 @@ methods:
 - "com.fasterxml.jackson.databind.type.TypeBindings.create(java.lang.Class<?>,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.type.TypeBindings.create(java.lang.Class<?>,com.fasterxml.jackson.databind.JavaType[])"
 - "com.fasterxml.jackson.databind.type.TypeBindings.create(java.lang.Class<?>,java.util.List<com.fasterxml.jackson.databind.JavaType>)"
+- "com.fasterxml.jackson.databind.type.TypeBindings.create(java.util.List<java.lang.String>,java.util.List<com.fasterxml.jackson.databind.JavaType>)"
 - "com.fasterxml.jackson.databind.type.TypeBindings.createIfNeeded(java.lang.Class<?>,com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.type.TypeBindings.createIfNeeded(java.lang.Class<?>,com.fasterxml.jackson.databind.JavaType[])"
 - "com.fasterxml.jackson.databind.type.TypeBindings.emptyBindings()"
@@ -46,4 +47,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.type"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

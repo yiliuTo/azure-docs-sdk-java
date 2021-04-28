@@ -23,6 +23,7 @@ constructors:
 - "com.fasterxml.jackson.core.JsonParser.JsonParser()"
 - "com.fasterxml.jackson.core.JsonParser.JsonParser(int)"
 fields:
+- "com.fasterxml.jackson.core.JsonParser.DEFAULT_READ_CAPABILITIES"
 - "com.fasterxml.jackson.core.JsonParser._features"
 - "com.fasterxml.jackson.core.JsonParser._requestPayload"
 methods:
@@ -71,8 +72,10 @@ methods:
 - "com.fasterxml.jackson.core.JsonParser.getNonBlockingInputFeeder()"
 - "com.fasterxml.jackson.core.JsonParser.getNumberType()"
 - "com.fasterxml.jackson.core.JsonParser.getNumberValue()"
+- "com.fasterxml.jackson.core.JsonParser.getNumberValueExact()"
 - "com.fasterxml.jackson.core.JsonParser.getObjectId()"
 - "com.fasterxml.jackson.core.JsonParser.getParsingContext()"
+- "com.fasterxml.jackson.core.JsonParser.getReadCapabilities()"
 - "com.fasterxml.jackson.core.JsonParser.getSchema()"
 - "com.fasterxml.jackson.core.JsonParser.getShortValue()"
 - "com.fasterxml.jackson.core.JsonParser.getText()"
@@ -99,6 +102,7 @@ methods:
 - "com.fasterxml.jackson.core.JsonParser.isClosed()"
 - "com.fasterxml.jackson.core.JsonParser.isEnabled(com.fasterxml.jackson.core.JsonParser.Feature)"
 - "com.fasterxml.jackson.core.JsonParser.isEnabled(com.fasterxml.jackson.core.StreamReadFeature)"
+- "com.fasterxml.jackson.core.JsonParser.isExpectedNumberIntToken()"
 - "com.fasterxml.jackson.core.JsonParser.isExpectedStartArrayToken()"
 - "com.fasterxml.jackson.core.JsonParser.isExpectedStartObjectToken()"
 - "com.fasterxml.jackson.core.JsonParser.isNaN()"
@@ -133,4 +137,4 @@ implements:
 - "<xref href=\"java.io.Closeable?alt=java.io.Closeable&text=Closeable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

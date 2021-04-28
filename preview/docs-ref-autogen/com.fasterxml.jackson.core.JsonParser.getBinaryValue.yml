@@ -11,8 +11,10 @@ members:
   summary: "Convenience alternative to <xref uid=\"com.fasterxml.jackson.core.JsonParser.getBinaryValue(com.fasterxml.jackson.core.Base64Variant)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#getBinaryValue(Base64Variant)\"></xref> that defaults to using <xref uid=\"com.fasterxml.jackson.core.Base64Variants.getDefaultVariant*\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Base64Variants#getDefaultVariant\"></xref> as the default encoding."
   syntax: "public byte[] getBinaryValue()"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level read issues, or\n   <xref uid=\"JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
+    description: "Decoded binary data"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
 - uid: "com.fasterxml.jackson.core.JsonParser.getBinaryValue(com.fasterxml.jackson.core.Base64Variant)"
   fullName: "com.fasterxml.jackson.core.JsonParser.getBinaryValue(Base64Variant bv)"
@@ -25,11 +27,12 @@ members:
     type: "<xref href=\"com.fasterxml.jackson.core.Base64Variant?alt=com.fasterxml.jackson.core.Base64Variant&text=Base64Variant\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract byte[] getBinaryValue(Base64Variant bv)"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "for low-level read issues, or\n   <xref uid=\"JsonParseException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonParseException\"></xref> for decoding problems"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
     description: "Decoded binary data"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

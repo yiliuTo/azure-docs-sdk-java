@@ -38,6 +38,12 @@ methods:
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginGetP2SVpnConnectionHealthDetailed(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionHealthRequest)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginGetP2SVpnConnectionHealthDetailed(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionHealthRequest,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginGetP2SVpnConnectionHealthDetailedAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.P2SVpnConnectionHealthRequest)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginReset(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginReset(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginResetAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.beginUpdateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.P2SVpnGatewayInner)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.P2SVpnGatewayInner,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.models.P2SVpnGatewayInner)"
@@ -76,10 +82,15 @@ methods:
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.listByResourceGroup(java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.reset(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.reset(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.resetAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.resetWithResponseAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.updateTags(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.updateTagsAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
-- "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.updateTagsWithResponse(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.P2SVpnGatewaysClientImpl.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
 type: "class"
 implements:
@@ -89,4 +100,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.models.P2SVpnGatewayInner?alt=com.azure.resourcemanager.network.fluent.models.P2SVpnGatewayInner&text=P2SVpnGatewayInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.azure.resourcemanager.network.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0

@@ -11,9 +11,9 @@ members:
   summary: "Convenience method for enabling pretty-printing using the default pretty printer (<xref uid=\"com.fasterxml.jackson.core.util.DefaultPrettyPrinter\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.fasterxml.jackson.core.util.DefaultPrettyPrinter\"></xref>)."
   syntax: "public abstract JsonGenerator useDefaultPrettyPrinter()"
   returns:
-    description: "Generator itself (this), to allow chaining"
+    description: "This generator, to allow call chaining"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonGenerator?alt=com.fasterxml.jackson.core.JsonGenerator&text=JsonGenerator\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

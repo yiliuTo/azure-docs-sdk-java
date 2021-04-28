@@ -10,14 +10,17 @@ members:
   nameWithType: "AnnotationIntrospector.findObjectReferenceInfo(Annotated ann, ObjectIdInfo objectIdInfo)"
   summary: "Method for figuring out additional properties of an Object Identity reference"
   parameters:
-  - name: "ann"
+  - description: "Annotated entity to introspect"
+    name: "ann"
     type: "<xref href=\"com.fasterxml.jackson.databind.introspect.Annotated?alt=com.fasterxml.jackson.databind.introspect.Annotated&text=Annotated\" data-throw-if-not-resolved=\"False\" />"
-  - name: "objectIdInfo"
+  - description: "(optional) Base Object Id information, if any; <code>null</code> if none"
+    name: "objectIdInfo"
     type: "<xref href=\"com.fasterxml.jackson.databind.introspect.ObjectIdInfo?alt=com.fasterxml.jackson.databind.introspect.ObjectIdInfo&text=ObjectIdInfo\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ObjectIdInfo findObjectReferenceInfo(Annotated ann, ObjectIdInfo objectIdInfo)"
   returns:
+    description: "<xref uid=\"com.fasterxml.jackson.databind.introspect.ObjectIdInfo\" data-throw-if-not-resolved=\"false\" data-raw-source=\"ObjectIdInfo\"></xref> augmented with possible additional information"
     type: "<xref href=\"com.fasterxml.jackson.databind.introspect.ObjectIdInfo?alt=com.fasterxml.jackson.databind.introspect.ObjectIdInfo&text=ObjectIdInfo\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -25,6 +25,8 @@ fields:
 - "com.azure.resourcemanager.appservice.models.RuntimeStack.JAVA_11_JAVA11"
 - "com.azure.resourcemanager.appservice.models.RuntimeStack.JAVA_8_JRE8"
 - "com.azure.resourcemanager.appservice.models.RuntimeStack.JBOSS_EAP_7_2_JAVA8"
+- "com.azure.resourcemanager.appservice.models.RuntimeStack.JBOSS_EAP_7_JAVA11"
+- "com.azure.resourcemanager.appservice.models.RuntimeStack.JBOSS_EAP_7_JAVA8"
 - "com.azure.resourcemanager.appservice.models.RuntimeStack.NETCORE_V2_1"
 - "com.azure.resourcemanager.appservice.models.RuntimeStack.NETCORE_V3_1"
 - "com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_10_1"
@@ -53,4 +55,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.azure.resourcemanager.appservice.models"
-artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.3.0

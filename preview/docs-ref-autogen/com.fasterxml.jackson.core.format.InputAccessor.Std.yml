@@ -39,4 +39,4 @@ implements:
 - "<xref href=\"com.fasterxml.jackson.core.format.InputAccessor?alt=com.fasterxml.jackson.core.format.InputAccessor&text=InputAccessor\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.core.format"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

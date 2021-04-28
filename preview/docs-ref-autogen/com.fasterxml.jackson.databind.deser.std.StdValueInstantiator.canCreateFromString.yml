@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator.canCreateFromString()"
   name: "canCreateFromString()"
   nameWithType: "StdValueInstantiator.canCreateFromString()"
-  summary: "Method that can be called to check whether a String-based creator is available for this instantiator"
+  summary: "Method that can be called to check whether a String-based creator is available for this instantiator.\n\nNOTE: does NOT include possible case of fallbacks, or coercion; only considers explicit creator."
   overridden: "com.fasterxml.jackson.databind.deser.ValueInstantiator.canCreateFromString()"
   syntax: "public boolean canCreateFromString()"
   returns:
@@ -16,4 +16,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

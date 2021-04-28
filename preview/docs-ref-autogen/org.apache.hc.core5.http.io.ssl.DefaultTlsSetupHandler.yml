@@ -28,4 +28,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.function.Callback?alt=org.apache.hc.core5.function.Callback&text=Callback\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"javax.net.ssl.SSLParameters?alt=javax.net.ssl.SSLParameters&text=SSLParameters\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "org.apache.hc.core5.http.io.ssl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -28,4 +28,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.http.nio.HandlerFactory?alt=org.apache.hc.core5.http.nio.HandlerFactory&text=HandlerFactory\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"org.apache.hc.core5.http.nio.AsyncPushConsumer?alt=org.apache.hc.core5.http.nio.AsyncPushConsumer&text=AsyncPushConsumer\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "org.apache.hc.core5.http2.nio.support"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

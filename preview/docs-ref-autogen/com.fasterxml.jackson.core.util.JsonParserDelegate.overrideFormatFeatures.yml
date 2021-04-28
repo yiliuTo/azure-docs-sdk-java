@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.core.util.JsonParserDelegate.overrideFormatFeatures(int values, int mask)"
   name: "overrideFormatFeatures(int values, int mask)"
   nameWithType: "JsonParserDelegate.overrideFormatFeatures(int values, int mask)"
-  summary: "Bulk set method for (re)setting states of <xref uid=\"com.fasterxml.jackson.core.FormatFeature\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FormatFeature\"></xref>s, by specifying values (set / clear) along with a mask, to determine which features to change, if any.\n\nDefault implementation will simply throw an exception to indicate that the generator implementation does not support any <xref uid=\"com.fasterxml.jackson.core.FormatFeature\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FormatFeature\"></xref>s."
+  summary: "Bulk set method for (re)setting states of <xref uid=\"com.fasterxml.jackson.core.FormatFeature\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FormatFeature\"></xref>s, by specifying values (set / clear) along with a mask, to determine which features to change, if any.\n\nDefault implementation will simply throw an exception to indicate that the parser implementation does not support any <xref uid=\"com.fasterxml.jackson.core.FormatFeature\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FormatFeature\"></xref>s."
   overridden: "com.fasterxml.jackson.core.JsonParser.overrideFormatFeatures(int,int)"
   parameters:
   - name: "values"
@@ -21,4 +21,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

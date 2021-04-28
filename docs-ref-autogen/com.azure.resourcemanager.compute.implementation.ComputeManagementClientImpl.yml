@@ -28,11 +28,17 @@ inheritedMembers:
 syntax: "public final class ComputeManagementClientImpl extends AzureServiceClient implements ComputeManagementClient"
 methods:
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getAvailabilitySets()"
-- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getContainerServices()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getCloudServiceOperatingSystems()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getCloudServiceRoleInstances()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getCloudServiceRoles()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getCloudServices()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getCloudServicesUpdateDomains()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getDedicatedHostGroups()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getDedicatedHosts()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getDefaultPollInterval()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getDiskAccesses()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getDiskEncryptionSets()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getDiskRestorePoints()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getDisks()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getEndpoint()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getGalleries()"
@@ -53,10 +59,12 @@ methods:
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineExtensionImages()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineExtensions()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineImages()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineImagesEdgeZones()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineRunCommands()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineScaleSetExtensions()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineScaleSetRollingUpgrades()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineScaleSetVMExtensions()"
+- "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineScaleSetVMRunCommands()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineScaleSetVMs()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineScaleSets()"
 - "com.azure.resourcemanager.compute.implementation.ComputeManagementClientImpl.getVirtualMachineSizes()"
@@ -66,4 +74,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.compute.fluent.ComputeManagementClient?alt=com.azure.resourcemanager.compute.fluent.ComputeManagementClient&text=ComputeManagementClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.compute.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.3.0

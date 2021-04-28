@@ -8,7 +8,7 @@ members:
   fullName: "com.fasterxml.jackson.databind.deser.std.StdDeserializer<T>._isIntNumber(String text)"
   name: "_isIntNumber(String text)"
   nameWithType: "StdDeserializer<T>._isIntNumber(String text)"
-  summary: "Helper method to check whether given text refers to what looks like a clean simple integer number, consisting of optional sign followed by a sequence of digits."
+  summary: "Helper method to check whether given text refers to what looks like a clean simple integer number, consisting of optional sign followed by a sequence of digits.\n\nNote that definition is quite loose as leading zeroes are allowed, in addition to plus sign (not just minus)."
   parameters:
   - name: "text"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -18,4 +18,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

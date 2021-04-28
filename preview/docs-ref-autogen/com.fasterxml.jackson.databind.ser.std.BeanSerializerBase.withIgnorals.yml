@@ -23,10 +23,10 @@ members:
   parameters:
   - name: "toIgnore"
     type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "protected abstract BeanSerializerBase withIgnorals(Set<String> toIgnore)"
+  syntax: "protected BeanSerializerBase withIgnorals(Set<String> toIgnore)"
   returns:
     type: "<xref href=\"com.fasterxml.jackson.databind.ser.std.BeanSerializerBase?alt=com.fasterxml.jackson.databind.ser.std.BeanSerializerBase&text=BeanSerializerBase\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

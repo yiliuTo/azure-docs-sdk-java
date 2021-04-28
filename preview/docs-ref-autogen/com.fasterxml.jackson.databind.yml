@@ -38,6 +38,14 @@ classes:
 - "com.fasterxml.jackson.databind.PropertyMetadata"
 - "com.fasterxml.jackson.databind.PropertyMetadata.MergeInfo"
 - "com.fasterxml.jackson.databind.PropertyName"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies.KebabCaseStrategy"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies.LowerCamelCaseStrategy"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies.LowerCaseStrategy"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies.LowerDotCaseStrategy"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies.NamingBase"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies.SnakeCaseStrategy"
+- "com.fasterxml.jackson.databind.PropertyNamingStrategies.UpperCamelCaseStrategy"
 - "com.fasterxml.jackson.databind.PropertyNamingStrategy"
 - "com.fasterxml.jackson.databind.PropertyNamingStrategy.KebabCaseStrategy"
 - "com.fasterxml.jackson.databind.PropertyNamingStrategy.LowerCaseStrategy"
@@ -63,4 +71,4 @@ interfaces:
 - "com.fasterxml.jackson.databind.Module.SetupContext"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -74,4 +74,4 @@ implements:
 - "<xref href=\"com.fasterxml.jackson.databind.ser.ContextualSerializer?alt=com.fasterxml.jackson.databind.ser.ContextualSerializer&text=ContextualSerializer\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -4,10 +4,10 @@ fullName: "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializ
 name: "_deserializeTypedForId"
 nameWithType: "AsPropertyTypeDeserializer._deserializeTypedForId"
 members:
-- uid: "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.util.TokenBuffer)"
-  fullName: "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb)"
-  name: "_deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb)"
-  nameWithType: "AsPropertyTypeDeserializer._deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb)"
+- uid: "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.util.TokenBuffer,java.lang.String)"
+  fullName: "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb, String typeId)"
+  name: "_deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb, String typeId)"
+  nameWithType: "AsPropertyTypeDeserializer._deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb, String typeId)"
   parameters:
   - name: "p"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
@@ -15,7 +15,9 @@ members:
     type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
   - name: "tb"
     type: "<xref href=\"com.fasterxml.jackson.databind.util.TokenBuffer?alt=com.fasterxml.jackson.databind.util.TokenBuffer&text=TokenBuffer\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "protected Object _deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb)"
+  - name: "typeId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected Object _deserializeTypedForId(JsonParser p, DeserializationContext ctxt, TokenBuffer tb, String typeId)"
   exceptions:
   - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
   returns:
@@ -23,4 +25,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.jsontype.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

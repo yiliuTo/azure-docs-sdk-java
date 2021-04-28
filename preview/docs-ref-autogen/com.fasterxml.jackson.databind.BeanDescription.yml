@@ -38,6 +38,7 @@ methods:
 - "com.fasterxml.jackson.databind.BeanDescription.findExpectedFormat(com.fasterxml.jackson.annotation.JsonFormat.Value)"
 - "com.fasterxml.jackson.databind.BeanDescription.findFactoryMethod(java.lang.Class<?>...)"
 - "com.fasterxml.jackson.databind.BeanDescription.findInjectables()"
+- "com.fasterxml.jackson.databind.BeanDescription.findJsonKeyAccessor()"
 - "com.fasterxml.jackson.databind.BeanDescription.findJsonValueAccessor()"
 - "com.fasterxml.jackson.databind.BeanDescription.findJsonValueMethod()"
 - "com.fasterxml.jackson.databind.BeanDescription.findMethod(java.lang.String,java.lang.Class<?>[])"
@@ -62,4 +63,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

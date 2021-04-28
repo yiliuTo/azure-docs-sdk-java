@@ -54,6 +54,7 @@ methods:
   summary: "Method that calculates bit set (flags) of all features that are enabled by default."
   syntax: "public static int collectDefaults()"
   returns:
+    description: "Bit mask of all features that are enabled by default"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.json.JsonWriteFeature.enabledByDefault()"
   fullName: "com.fasterxml.jackson.core.json.JsonWriteFeature.enabledByDefault()"
@@ -110,4 +111,4 @@ implements:
 - "<xref href=\"com.fasterxml.jackson.core.FormatFeature?alt=com.fasterxml.jackson.core.FormatFeature&text=FormatFeature\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.core.json"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

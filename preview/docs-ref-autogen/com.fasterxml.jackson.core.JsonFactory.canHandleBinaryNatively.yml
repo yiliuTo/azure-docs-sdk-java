@@ -12,8 +12,9 @@ members:
   overridden: "com.fasterxml.jackson.core.TokenStreamFactory.canHandleBinaryNatively()"
   syntax: "public boolean canHandleBinaryNatively()"
   returns:
+    description: "Whether format supported by this factory\n    supports native binary content"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

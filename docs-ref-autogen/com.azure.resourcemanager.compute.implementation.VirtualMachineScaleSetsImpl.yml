@@ -58,6 +58,12 @@ methods:
 - "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deallocate(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deallocateAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.define(java.lang.String)"
+- "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deleteById(java.lang.String,boolean)"
+- "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deleteByIdAsync(java.lang.String,boolean)"
+- "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deleteByResourceGroup(java.lang.String,java.lang.String,boolean)"
+- "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deleteByResourceGroupAsync(java.lang.String,java.lang.String,boolean)"
+- "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deleteInstances(java.lang.String,java.lang.String,java.util.Collection<java.lang.String>,boolean)"
+- "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.deleteInstancesAsync(java.lang.String,java.lang.String,java.util.Collection<java.lang.String>,boolean)"
 - "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.powerOff(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.powerOffAsync(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.compute.implementation.VirtualMachineScaleSetsImpl.reimage(java.lang.String,java.lang.String)"
@@ -79,4 +85,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.compute.models.VirtualMachineScaleSets?alt=com.azure.resourcemanager.compute.models.VirtualMachineScaleSets&text=VirtualMachineScaleSets\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.compute.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.3.0

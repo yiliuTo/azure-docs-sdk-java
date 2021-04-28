@@ -45,7 +45,9 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.JsonParser.getNonBlockingInputFeeder()"
 - "com.fasterxml.jackson.core.JsonParser.getNumberType()"
 - "com.fasterxml.jackson.core.JsonParser.getNumberValue()"
+- "com.fasterxml.jackson.core.JsonParser.getNumberValueExact()"
 - "com.fasterxml.jackson.core.JsonParser.getObjectId()"
+- "com.fasterxml.jackson.core.JsonParser.getReadCapabilities()"
 - "com.fasterxml.jackson.core.JsonParser.getSchema()"
 - "com.fasterxml.jackson.core.JsonParser.getShortValue()"
 - "com.fasterxml.jackson.core.JsonParser.getText(java.io.Writer)"
@@ -127,6 +129,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.base.ParserMinimalBase.hasToken(com.fasterxml.jackson.core.JsonToken)"
 - "com.fasterxml.jackson.core.base.ParserMinimalBase.hasTokenId(int)"
 - "com.fasterxml.jackson.core.base.ParserMinimalBase.isClosed()"
+- "com.fasterxml.jackson.core.base.ParserMinimalBase.isExpectedNumberIntToken()"
 - "com.fasterxml.jackson.core.base.ParserMinimalBase.isExpectedStartArrayToken()"
 - "com.fasterxml.jackson.core.base.ParserMinimalBase.isExpectedStartObjectToken()"
 - "com.fasterxml.jackson.core.base.ParserMinimalBase.nextToken()"
@@ -179,6 +182,7 @@ methods:
 - "com.fasterxml.jackson.databind.node.TreeTraversingParser.getNumberType()"
 - "com.fasterxml.jackson.databind.node.TreeTraversingParser.getNumberValue()"
 - "com.fasterxml.jackson.databind.node.TreeTraversingParser.getParsingContext()"
+- "com.fasterxml.jackson.databind.node.TreeTraversingParser.getReadCapabilities()"
 - "com.fasterxml.jackson.databind.node.TreeTraversingParser.getText()"
 - "com.fasterxml.jackson.databind.node.TreeTraversingParser.getTextCharacters()"
 - "com.fasterxml.jackson.databind.node.TreeTraversingParser.getTextLength()"
@@ -196,4 +200,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.node"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

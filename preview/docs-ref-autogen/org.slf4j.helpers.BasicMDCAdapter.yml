@@ -34,4 +34,4 @@ implements:
 - "<xref href=\"org.slf4j.spi.MDCAdapter?alt=org.slf4j.spi.MDCAdapter&text=MDCAdapter\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "org.slf4j.helpers"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

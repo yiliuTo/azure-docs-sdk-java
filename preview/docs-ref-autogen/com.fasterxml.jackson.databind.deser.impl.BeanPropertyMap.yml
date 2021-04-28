@@ -20,7 +20,6 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class BeanPropertyMap implements Iterable<SettableBeanProperty>, Serializable"
 constructors:
-- "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.BeanPropertyMap(boolean,java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.BeanPropertyMap(boolean,java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>,java.util.Map<java.lang.String,java.util.List<com.fasterxml.jackson.databind.PropertyName>>)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.BeanPropertyMap(boolean,java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>,java.util.Map<java.lang.String,java.util.List<com.fasterxml.jackson.databind.PropertyName>>,java.util.Locale)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.BeanPropertyMap(com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap,boolean)"
@@ -30,7 +29,7 @@ methods:
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap._rename(com.fasterxml.jackson.databind.deser.SettableBeanProperty,com.fasterxml.jackson.databind.util.NameTransformer)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.assignIndexes()"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.construct(com.fasterxml.jackson.databind.cfg.MapperConfig<?>,java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>,java.util.Map<java.lang.String,java.util.List<com.fasterxml.jackson.databind.PropertyName>>)"
-- "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.construct(java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>,boolean)"
+- "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.construct(com.fasterxml.jackson.databind.cfg.MapperConfig<?>,java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>,java.util.Map<java.lang.String,java.util.List<com.fasterxml.jackson.databind.PropertyName>>,boolean)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.construct(java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>,boolean,java.util.Map<java.lang.String,java.util.List<com.fasterxml.jackson.databind.PropertyName>>)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.find(int)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.find(java.lang.String)"
@@ -43,13 +42,13 @@ methods:
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.iterator()"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.remove(com.fasterxml.jackson.databind.deser.SettableBeanProperty)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.renameAll(com.fasterxml.jackson.databind.util.NameTransformer)"
-- "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace(com.fasterxml.jackson.databind.deser.SettableBeanProperty)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace(com.fasterxml.jackson.databind.deser.SettableBeanProperty,com.fasterxml.jackson.databind.deser.SettableBeanProperty)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.size()"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.toString()"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.withCaseInsensitivity(boolean)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.withProperty(com.fasterxml.jackson.databind.deser.SettableBeanProperty)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.withoutProperties(java.util.Collection<java.lang.String>)"
+- "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.withoutProperties(java.util.Collection<java.lang.String>,java.util.Collection<java.lang.String>)"
 - "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.wrapAndThrow(java.lang.Throwable,java.lang.Object,java.lang.String,com.fasterxml.jackson.databind.DeserializationContext)"
 type: "class"
 implements:
@@ -57,4 +56,4 @@ implements:
 - "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.fasterxml.jackson.databind.deser.SettableBeanProperty?alt=com.fasterxml.jackson.databind.deser.SettableBeanProperty&text=SettableBeanProperty\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

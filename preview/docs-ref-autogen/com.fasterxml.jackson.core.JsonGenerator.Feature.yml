@@ -84,6 +84,7 @@ methods:
   summary: "Method that calculates bit set (flags) of all features that are enabled by default."
   syntax: "public static int collectDefaults()"
   returns:
+    description: "Bit field of the features that are enabled by default"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.core.JsonGenerator.Feature.enabledByDefault()"
   fullName: "com.fasterxml.jackson.core.JsonGenerator.Feature.enabledByDefault()"
@@ -128,4 +129,4 @@ methods:
     type: "<xref href=\"com.fasterxml.jackson.core.JsonGenerator.Feature?alt=com.fasterxml.jackson.core.JsonGenerator.Feature&text=Feature\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

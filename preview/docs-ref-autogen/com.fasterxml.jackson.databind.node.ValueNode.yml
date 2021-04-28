@@ -33,6 +33,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.JsonNode.bigIntegerValue()"
 - "com.fasterxml.jackson.databind.JsonNode.binaryValue()"
 - "com.fasterxml.jackson.databind.JsonNode.booleanValue()"
+- "com.fasterxml.jackson.databind.JsonNode.canConvertToExactIntegral()"
 - "com.fasterxml.jackson.databind.JsonNode.canConvertToInt()"
 - "com.fasterxml.jackson.databind.JsonNode.canConvertToLong()"
 - "com.fasterxml.jackson.databind.JsonNode.decimalValue()"
@@ -136,4 +137,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.node"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

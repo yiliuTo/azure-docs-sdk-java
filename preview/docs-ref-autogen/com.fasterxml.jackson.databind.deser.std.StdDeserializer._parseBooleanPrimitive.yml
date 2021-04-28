@@ -9,9 +9,11 @@ members:
   name: "_parseBooleanPrimitive(JsonParser p, DeserializationContext ctxt)"
   nameWithType: "StdDeserializer<T>._parseBooleanPrimitive(JsonParser p, DeserializationContext ctxt)"
   parameters:
-  - name: "p"
+  - description: "Underlying parser"
+    name: "p"
     type: "<xref href=\"com.fasterxml.jackson.core.JsonParser?alt=com.fasterxml.jackson.core.JsonParser&text=JsonParser\" data-throw-if-not-resolved=\"False\" />"
-  - name: "ctxt"
+  - description: "Deserialization context for accessing configuration"
+    name: "ctxt"
     type: "<xref href=\"com.fasterxml.jackson.databind.DeserializationContext?alt=com.fasterxml.jackson.databind.DeserializationContext&text=DeserializationContext\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected final boolean _parseBooleanPrimitive(JsonParser p, DeserializationContext ctxt)"
   exceptions:
@@ -37,4 +39,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

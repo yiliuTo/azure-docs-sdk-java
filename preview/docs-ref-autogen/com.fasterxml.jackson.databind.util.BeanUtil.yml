@@ -22,10 +22,12 @@ syntax: "public class BeanUtil"
 constructors:
 - "com.fasterxml.jackson.databind.util.BeanUtil.BeanUtil()"
 methods:
+- "com.fasterxml.jackson.databind.util.BeanUtil.checkUnsupportedType(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.util.BeanUtil.getDefaultValue(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.util.BeanUtil.isCglibGetCallbacks(com.fasterxml.jackson.databind.introspect.AnnotatedMethod)"
 - "com.fasterxml.jackson.databind.util.BeanUtil.isGroovyMetaClassGetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod)"
-- "com.fasterxml.jackson.databind.util.BeanUtil.isGroovyMetaClassSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod)"
+- "com.fasterxml.jackson.databind.util.BeanUtil.isJava8TimeClass(java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.util.BeanUtil.isJodaTimeClass(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.util.BeanUtil.legacyManglePropertyName(java.lang.String,int)"
 - "com.fasterxml.jackson.databind.util.BeanUtil.okNameForGetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod,boolean)"
 - "com.fasterxml.jackson.databind.util.BeanUtil.okNameForIsGetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod,java.lang.String,boolean)"
@@ -36,4 +38,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.databind.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -16,6 +16,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.findConfigOverride(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.findRootName(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.findRootName(java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.cfg.MapperConfig.getAccessorNaming()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getActiveView()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getAnnotationIntrospector()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getAttributes()"
@@ -33,6 +34,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultPropertyInclusion()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultPropertyInclusion(java.lang.Class<?>)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultPropertyInclusion(java.lang.Class<?>,com.fasterxml.jackson.annotation.JsonInclude.Value)"
+- "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultPropertyInclusions(java.lang.Class<?>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultSetterInfo()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultTyper(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultVisibilityChecker()"
@@ -44,6 +46,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getSubtypeResolver()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getTimeZone()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.getTypeFactory()"
+- "com.fasterxml.jackson.databind.cfg.MapperConfig.hasExplicitTimeZone()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.hasMapperFeatures(int)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfig.introspectClassAnnotations(java.lang.Class<?>)"
@@ -109,6 +112,7 @@ methods:
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyIgnorals(java.lang.Class<?>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyInclusion()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyInclusion(java.lang.Class<?>)"
+- "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultPropertyInclusions(java.lang.Class<?>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultSetterInfo()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultVisibilityChecker()"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.getDefaultVisibilityChecker(java.lang.Class<?>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
@@ -123,6 +127,7 @@ methods:
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.PropertyNamingStrategy)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.cfg.ContextAttributes)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.cfg.HandlerInstantiator)"
+- "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Provider)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.introspect.ClassIntrospector)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.jsontype.SubtypeResolver)"
 - "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.jsontype.TypeResolverBuilder<?>)"
@@ -147,4 +152,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind.cfg"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

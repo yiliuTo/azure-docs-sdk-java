@@ -124,7 +124,6 @@ methods:
 - "com.fasterxml.jackson.databind.ObjectReader._prefetchRootDeserializer(com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.ObjectReader._reportUndetectableSource(java.lang.Object)"
 - "com.fasterxml.jackson.databind.ObjectReader._reportUnkownFormat(com.fasterxml.jackson.databind.deser.DataFormatReaders,com.fasterxml.jackson.databind.deser.DataFormatReaders.Match)"
-- "com.fasterxml.jackson.databind.ObjectReader._unwrapAndDeserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JsonDeserializer<java.lang.Object>)"
 - "com.fasterxml.jackson.databind.ObjectReader._verifyNoTrailingTokens(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.JavaType)"
 - "com.fasterxml.jackson.databind.ObjectReader._verifySchemaType(com.fasterxml.jackson.core.FormatSchema)"
 - "com.fasterxml.jackson.databind.ObjectReader._with(com.fasterxml.jackson.databind.DeserializationConfig)"
@@ -132,6 +131,7 @@ methods:
 - "com.fasterxml.jackson.databind.ObjectReader.at(java.lang.String)"
 - "com.fasterxml.jackson.databind.ObjectReader.createArrayNode()"
 - "com.fasterxml.jackson.databind.ObjectReader.createDeserializationContext(com.fasterxml.jackson.core.JsonParser)"
+- "com.fasterxml.jackson.databind.ObjectReader.createDummyDeserializationContext()"
 - "com.fasterxml.jackson.databind.ObjectReader.createNonBlockingByteArrayParser()"
 - "com.fasterxml.jackson.databind.ObjectReader.createObjectNode()"
 - "com.fasterxml.jackson.databind.ObjectReader.createParser(byte[])"
@@ -215,4 +215,4 @@ implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

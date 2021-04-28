@@ -65,7 +65,7 @@ fields:
   fullName: "com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_INVALID_SUBTYPE"
   name: "FAIL_ON_INVALID_SUBTYPE"
   nameWithType: "DeserializationFeature.FAIL_ON_INVALID_SUBTYPE"
-  summary: "Feature that determines what happens when type of a polymorphic value (indicated for example by <xref uid=\"com.fasterxml.jackson.annotation.JsonTypeInfo\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.fasterxml.jackson.annotation.JsonTypeInfo\"></xref>) cannot be found (missing) or resolved (invalid class name, unmappable id); if enabled, an exception ir thrown; if false, null value is used instead.\n\nFeature is enabled by default so that exception is thrown for missing or invalid type information."
+  summary: "Feature that determines what happens when type of a polymorphic value (indicated for example by <xref uid=\"com.fasterxml.jackson.annotation.JsonTypeInfo\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.fasterxml.jackson.annotation.JsonTypeInfo\"></xref>) cannot be found (missing) or resolved (invalid class name, non-mappable id); if enabled, an exception is thrown; if false, null value is used instead.\n\nFeature is enabled by default so that exception is thrown for missing or invalid type information."
 - uid: "com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_MISSING_CREATOR_PROPERTIES"
   fullName: "com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_MISSING_CREATOR_PROPERTIES"
   name: "FAIL_ON_MISSING_CREATOR_PROPERTIES"
@@ -165,7 +165,7 @@ fields:
   fullName: "com.fasterxml.jackson.databind.DeserializationFeature.WRAP_EXCEPTIONS"
   name: "WRAP_EXCEPTIONS"
   nameWithType: "DeserializationFeature.WRAP_EXCEPTIONS"
-  summary: "Feature that determines whether Jackson code should catch and wrap <xref uid=\"java.lang.Exception\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Exception\"></xref>s (but never <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Error\"></xref>s!) to add additional information about location (within input) of problem or not. If enabled, most exceptions will be caught and re-thrown (exception specifically being that <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref>s may be passed as is, since they are declared as throwable); this can be convenient both in that all exceptions will be checked and declared, and so there is more contextual information. However, sometimes calling application may just want \"raw\" unchecked exceptions passed as is.\n\nFeature is enabled by default."
+  summary: "Feature that determines whether Jackson code should catch and wrap <xref uid=\"java.lang.Exception\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Exception\"></xref>s (but never <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Error\"></xref>s!) to add additional information about location (within input) of problem or not. If enabled, most exceptions will be caught and re-thrown (exception specifically being that <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref>s may be passed as is, since they are declared as throwable); this can be convenient both in that all exceptions will be checked and declared, and so there is more contextual information. However, sometimes calling application may just want \"raw\" unchecked exceptions passed as is.\n\nNOTE: most of the time exceptions that may or may not be wrapped are of type <xref uid=\"java.lang.RuntimeException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"RuntimeException\"></xref>: as mentioned earlier, various <xref uid=\"java.io.IOException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"java.io.IOException\"></xref>s (and in particular <xref uid=\"com.fasterxml.jackson.core.JsonProcessingException\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.fasterxml.jackson.core.JsonProcessingException\"></xref>s) will always be passed as-is.\n\nFeature is enabled by default."
 methods:
 - uid: "com.fasterxml.jackson.databind.DeserializationFeature.enabledByDefault()"
   fullName: "com.fasterxml.jackson.databind.DeserializationFeature.enabledByDefault()"
@@ -215,4 +215,4 @@ implements:
 - "<xref href=\"com.fasterxml.jackson.databind.cfg.ConfigFeature?alt=com.fasterxml.jackson.databind.cfg.ConfigFeature&text=ConfigFeature\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

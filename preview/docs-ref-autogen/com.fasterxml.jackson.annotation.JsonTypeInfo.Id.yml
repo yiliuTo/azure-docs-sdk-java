@@ -36,6 +36,11 @@ fields:
   name: "CUSTOM"
   nameWithType: "JsonTypeInfo.Id.CUSTOM"
   summary: "Means that typing mechanism uses customized handling, with possibly custom configuration. This means that semantics of other properties is not defined by Jackson package, but by the custom implementation."
+- uid: "com.fasterxml.jackson.annotation.JsonTypeInfo.Id.DEDUCTION"
+  fullName: "com.fasterxml.jackson.annotation.JsonTypeInfo.Id.DEDUCTION"
+  name: "DEDUCTION"
+  nameWithType: "JsonTypeInfo.Id.DEDUCTION"
+  summary: "Means that no serialized typing-property is used. Types are *deduced* based on the fields available. Deduction is limited to the *names* of fields (not their values or, consequently, any nested descendants). Exceptions will be thrown if not enough unique information is present to select a single subtype.\nIf deduction is being used annotation properties `visible`, `property` and `include` are ignored."
 - uid: "com.fasterxml.jackson.annotation.JsonTypeInfo.Id.MINIMAL_CLASS"
   fullName: "com.fasterxml.jackson.annotation.JsonTypeInfo.Id.MINIMAL_CLASS"
   name: "MINIMAL_CLASS"
@@ -78,4 +83,4 @@ methods:
     type: "<xref href=\"com.fasterxml.jackson.annotation.JsonTypeInfo.Id?alt=com.fasterxml.jackson.annotation.JsonTypeInfo.Id&text=Id\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "com.fasterxml.jackson.annotation"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

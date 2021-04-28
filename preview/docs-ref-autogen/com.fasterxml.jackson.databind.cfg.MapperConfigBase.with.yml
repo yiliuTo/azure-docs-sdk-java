@@ -84,6 +84,17 @@ members:
   syntax: "public final T with(HandlerInstantiator hi)"
   returns:
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Provider)"
+  fullName: "com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG,T>.with(AccessorNamingStrategy.Provider p)"
+  name: "with(AccessorNamingStrategy.Provider p)"
+  nameWithType: "MapperConfigBase<CFG,T>.with(AccessorNamingStrategy.Provider p)"
+  summary: "Method for constructing and returning a new instance with different <xref uid=\"com.fasterxml.jackson.databind.PropertyNamingStrategy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PropertyNamingStrategy\"></xref> to use."
+  parameters:
+  - name: "p"
+    type: "<xref href=\"com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Provider?alt=com.fasterxml.jackson.databind.introspect.AccessorNamingStrategy.Provider&text=Provider\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public final T with(AccessorNamingStrategy.Provider p)"
+  returns:
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.databind.cfg.MapperConfigBase.with(com.fasterxml.jackson.databind.introspect.ClassIntrospector)"
   fullName: "com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG,T>.with(ClassIntrospector ci)"
   name: "with(ClassIntrospector ci)"
@@ -164,4 +175,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.cfg"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

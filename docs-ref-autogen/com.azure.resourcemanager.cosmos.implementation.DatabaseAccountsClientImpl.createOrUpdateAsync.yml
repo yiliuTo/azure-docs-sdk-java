@@ -10,13 +10,13 @@ members:
   nameWithType: "DatabaseAccountsClientImpl.createOrUpdateAsync(String resourceGroupName, String accountName, DatabaseAccountCreateUpdateParameters createUpdateParameters)"
   summary: "Creates or updates an Azure Cosmos DB database account. The \"Update\" method is preferred when performing updates on an account."
   parameters:
-  - description: "Name of an Azure resource group."
+  - description: "The name of the resource group. The name is case insensitive."
     name: "resourceGroupName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   - description: "Cosmos DB database account name."
     name: "accountName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  - description: "Parameters to create and update Cosmos DB database accounts."
+  - description: "The parameters to provide for the current database account."
     name: "createUpdateParameters"
     type: "<xref href=\"com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters?alt=com.azure.resourcemanager.cosmos.models.DatabaseAccountCreateUpdateParameters&text=DatabaseAccountCreateUpdateParameters\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Mono<DatabaseAccountGetResultsInner> createOrUpdateAsync(String resourceGroupName, String accountName, DatabaseAccountCreateUpdateParameters createUpdateParameters)"
@@ -26,4 +26,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.azure.resourcemanager.cosmos.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.3.0

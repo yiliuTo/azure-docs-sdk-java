@@ -14,10 +14,10 @@ members:
     type: "<xref href=\"com.fasterxml.jackson.databind.ser.BeanPropertyWriter?alt=com.fasterxml.jackson.databind.ser.BeanPropertyWriter&text=BeanPropertyWriter\" data-throw-if-not-resolved=\"False\" />[]"
   - name: "filteredProperties"
     type: "<xref href=\"com.fasterxml.jackson.databind.ser.BeanPropertyWriter?alt=com.fasterxml.jackson.databind.ser.BeanPropertyWriter&text=BeanPropertyWriter\" data-throw-if-not-resolved=\"False\" />[]"
-  syntax: "protected BeanSerializerBase withProperties(BeanPropertyWriter[] properties, BeanPropertyWriter[] filteredProperties)"
+  syntax: "protected abstract BeanSerializerBase withProperties(BeanPropertyWriter[] properties, BeanPropertyWriter[] filteredProperties)"
   returns:
     type: "<xref href=\"com.fasterxml.jackson.databind.ser.std.BeanSerializerBase?alt=com.fasterxml.jackson.databind.ser.std.BeanSerializerBase&text=BeanSerializerBase\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

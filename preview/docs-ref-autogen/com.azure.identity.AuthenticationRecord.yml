@@ -18,16 +18,18 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public class AuthenticationRecord"
+syntax: "public final class AuthenticationRecord"
 methods:
 - "com.azure.identity.AuthenticationRecord.deserialize(java.io.InputStream)"
+- "com.azure.identity.AuthenticationRecord.deserializeAsync(java.io.InputStream)"
 - "com.azure.identity.AuthenticationRecord.getAuthority()"
 - "com.azure.identity.AuthenticationRecord.getClientId()"
 - "com.azure.identity.AuthenticationRecord.getHomeAccountId()"
 - "com.azure.identity.AuthenticationRecord.getTenantId()"
 - "com.azure.identity.AuthenticationRecord.getUsername()"
 - "com.azure.identity.AuthenticationRecord.serialize(java.io.OutputStream)"
+- "com.azure.identity.AuthenticationRecord.serializeAsync(java.io.OutputStream)"
 type: "class"
 metadata: {}
 package: "com.azure.identity"
-artifact: com.azure:azure-identity:1.2.0-beta.2
+artifact: com.azure:azure-identity:1.3.0-beta.2

@@ -68,8 +68,10 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getLongValue()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getNumberType()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getNumberValue()"
+- "com.fasterxml.jackson.core.util.JsonParserDelegate.getNumberValueExact()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getObjectId()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getParsingContext()"
+- "com.fasterxml.jackson.core.util.JsonParserDelegate.getReadCapabilities()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getSchema()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getShortValue()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.getText()"
@@ -95,6 +97,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.hasTokenId(int)"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.isClosed()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.isEnabled(com.fasterxml.jackson.core.JsonParser.Feature)"
+- "com.fasterxml.jackson.core.util.JsonParserDelegate.isExpectedNumberIntToken()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.isExpectedStartArrayToken()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.isExpectedStartObjectToken()"
 - "com.fasterxml.jackson.core.util.JsonParserDelegate.isNaN()"
@@ -144,4 +147,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.util"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

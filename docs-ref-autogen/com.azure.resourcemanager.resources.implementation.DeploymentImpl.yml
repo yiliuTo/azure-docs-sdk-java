@@ -63,6 +63,7 @@ methods:
 - "com.azure.resourcemanager.resources.implementation.DeploymentImpl.createResourceAsync()"
 - "com.azure.resourcemanager.resources.implementation.DeploymentImpl.dependencies()"
 - "com.azure.resourcemanager.resources.implementation.DeploymentImpl.deploymentOperations()"
+- "com.azure.resourcemanager.resources.implementation.DeploymentImpl.error()"
 - "com.azure.resourcemanager.resources.implementation.DeploymentImpl.exportTemplate()"
 - "com.azure.resourcemanager.resources.implementation.DeploymentImpl.exportTemplateAsync()"
 - "com.azure.resourcemanager.resources.implementation.DeploymentImpl.getInnerAsync()"
@@ -117,4 +118,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.resources.models.Deployment?alt=com.azure.resourcemanager.resources.models.Deployment&text=Deployment\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.resources.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.3.0

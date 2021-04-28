@@ -4,6 +4,17 @@ fullName: "com.fasterxml.jackson.databind.ObjectMapper.constructType"
 name: "constructType"
 nameWithType: "ObjectMapper.constructType"
 members:
+- uid: "com.fasterxml.jackson.databind.ObjectMapper.constructType(com.fasterxml.jackson.core.type.TypeReference<?>)"
+  fullName: "com.fasterxml.jackson.databind.ObjectMapper.constructType(TypeReference<?> typeRef)"
+  name: "constructType(TypeReference<?> typeRef)"
+  nameWithType: "ObjectMapper.constructType(TypeReference<?> typeRef)"
+  summary: "Convenience method for constructing <xref uid=\"com.fasterxml.jackson.databind.JavaType\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JavaType\"></xref> out of given type reference."
+  parameters:
+  - name: "typeRef"
+    type: "<xref href=\"com.fasterxml.jackson.core.type.TypeReference?alt=com.fasterxml.jackson.core.type.TypeReference&text=TypeReference\" data-throw-if-not-resolved=\"False\" />&lt;?&gt;"
+  syntax: "public JavaType constructType(TypeReference<?> typeRef)"
+  returns:
+    type: "<xref href=\"com.fasterxml.jackson.databind.JavaType?alt=com.fasterxml.jackson.databind.JavaType&text=JavaType\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.fasterxml.jackson.databind.ObjectMapper.constructType(java.lang.reflect.Type)"
   fullName: "com.fasterxml.jackson.databind.ObjectMapper.constructType(Type t)"
   name: "constructType(Type t)"
@@ -18,4 +29,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.databind"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

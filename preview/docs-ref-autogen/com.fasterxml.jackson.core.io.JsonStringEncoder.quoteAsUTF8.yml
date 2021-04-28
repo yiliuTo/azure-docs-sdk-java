@@ -8,14 +8,16 @@ members:
   fullName: "com.fasterxml.jackson.core.io.JsonStringEncoder.quoteAsUTF8(String text)"
   name: "quoteAsUTF8(String text)"
   nameWithType: "JsonStringEncoder.quoteAsUTF8(String text)"
-  summary: "Will quote given JSON String value using standard quoting, encode results as UTF-8, and return result as a byte array."
+  summary: "Method that will escape text contents using JSON standard escaping, encode resulting String as UTF-8 bytes and return results as a byte array."
   parameters:
-  - name: "text"
+  - description: "Value <xref uid=\"java.lang.String\" data-throw-if-not-resolved=\"false\" data-raw-source=\"String\"></xref> to process"
+    name: "text"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public byte[] quoteAsUTF8(String text)"
   returns:
+    description: "UTF-8 encoded bytes of JSON-escaped <code>text</code>"
     type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -65,4 +65,4 @@ methods:
     type: "<xref href=\"org.apache.hc.core5.http.impl.nio.MessageState?alt=org.apache.hc.core5.http.impl.nio.MessageState&text=MessageState\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
 package: "org.apache.hc.core5.http.impl.nio"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

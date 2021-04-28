@@ -6,6 +6,7 @@ summary: "Package that contains standard implementations for\n <xref uid=\"com.f
 classes:
 - "com.fasterxml.jackson.databind.jsontype.impl.AsArrayTypeDeserializer"
 - "com.fasterxml.jackson.databind.jsontype.impl.AsArrayTypeSerializer"
+- "com.fasterxml.jackson.databind.jsontype.impl.AsDeductionTypeDeserializer"
 - "com.fasterxml.jackson.databind.jsontype.impl.AsExistingPropertyTypeSerializer"
 - "com.fasterxml.jackson.databind.jsontype.impl.AsExternalTypeDeserializer"
 - "com.fasterxml.jackson.databind.jsontype.impl.AsExternalTypeSerializer"
@@ -25,4 +26,4 @@ classes:
 - "com.fasterxml.jackson.databind.jsontype.impl.TypeSerializerBase"
 metadata: {}
 package: "com.fasterxml.jackson.databind.jsontype.impl"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

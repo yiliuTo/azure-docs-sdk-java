@@ -129,6 +129,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.enable(com.fasterxml.jackson.core.JsonGenerator.Feature)"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.getCharacterEscapes()"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.getHighestEscapedChar()"
+- "com.fasterxml.jackson.core.json.JsonGeneratorImpl.getWriteCapabilities()"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.setCharacterEscapes(com.fasterxml.jackson.core.io.CharacterEscapes)"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.setHighestNonEscapedChar(int)"
 - "com.fasterxml.jackson.core.json.JsonGeneratorImpl.setRootValueSeparator(com.fasterxml.jackson.core.SerializableString)"
@@ -200,7 +201,8 @@ methods:
 - "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeRaw(java.lang.String,int,int)"
 - "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeRawUTF8String(byte[],int,int)"
 - "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeStartArray()"
-- "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeStartArray(int)"
+- "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeStartArray(java.lang.Object)"
+- "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeStartArray(java.lang.Object,int)"
 - "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeStartObject()"
 - "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeStartObject(java.lang.Object)"
 - "com.fasterxml.jackson.core.json.WriterBasedJsonGenerator.writeString(char[],int,int)"
@@ -211,4 +213,4 @@ methods:
 type: "class"
 metadata: {}
 package: "com.fasterxml.jackson.core.json"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

@@ -41,4 +41,4 @@ implements:
 - "<xref href=\"org.apache.hc.core5.reactor.IOReactorService?alt=org.apache.hc.core5.reactor.IOReactorService&text=IOReactorService\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "org.apache.hc.core5.http.impl.bootstrap"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

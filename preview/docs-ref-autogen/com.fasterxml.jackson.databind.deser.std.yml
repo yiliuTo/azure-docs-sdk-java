@@ -6,6 +6,8 @@ summary: "Contains public standard implementations of abstraction that\n Jackson
 classes:
 - "com.fasterxml.jackson.databind.deser.std.ArrayBlockingQueueDeserializer"
 - "com.fasterxml.jackson.databind.deser.std.AtomicBooleanDeserializer"
+- "com.fasterxml.jackson.databind.deser.std.AtomicIntegerDeserializer"
+- "com.fasterxml.jackson.databind.deser.std.AtomicLongDeserializer"
 - "com.fasterxml.jackson.databind.deser.std.AtomicReferenceDeserializer"
 - "com.fasterxml.jackson.databind.deser.std.ByteBufferDeserializer"
 - "com.fasterxml.jackson.databind.deser.std.CollectionDeserializer"
@@ -63,4 +65,4 @@ classes:
 - "com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer.Vanilla"
 metadata: {}
 package: "com.fasterxml.jackson.databind.deser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

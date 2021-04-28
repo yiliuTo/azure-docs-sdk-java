@@ -4,10 +4,16 @@ fullName: "com.azure.cosmos.models"
 name: "com.azure.cosmos.models"
 summary: "This package provides rest contracts for interacting with Azure Cosmos DB SQL APIs."
 classes:
+- "com.azure.cosmos.models.ChangeFeedPolicy"
 - "com.azure.cosmos.models.ChangeFeedProcessorOptions"
 - "com.azure.cosmos.models.ChangeFeedProcessorState"
+- "com.azure.cosmos.models.ClientEncryptionIncludedPath"
+- "com.azure.cosmos.models.ClientEncryptionPolicy"
 - "com.azure.cosmos.models.CompositePath"
 - "com.azure.cosmos.models.ConflictResolutionPolicy"
+- "com.azure.cosmos.models.CosmosChangeFeedRequestOptions"
+- "com.azure.cosmos.models.CosmosClientEncryptionKeyProperties"
+- "com.azure.cosmos.models.CosmosClientEncryptionKeyResponse"
 - "com.azure.cosmos.models.CosmosConflictProperties"
 - "com.azure.cosmos.models.CosmosConflictRequestOptions"
 - "com.azure.cosmos.models.CosmosConflictResponse"
@@ -20,6 +26,7 @@ classes:
 - "com.azure.cosmos.models.CosmosItemIdentity"
 - "com.azure.cosmos.models.CosmosItemRequestOptions"
 - "com.azure.cosmos.models.CosmosItemResponse"
+- "com.azure.cosmos.models.CosmosPatchItemRequestOptions"
 - "com.azure.cosmos.models.CosmosPermissionProperties"
 - "com.azure.cosmos.models.CosmosPermissionRequestOptions"
 - "com.azure.cosmos.models.CosmosPermissionResponse"
@@ -34,6 +41,7 @@ classes:
 - "com.azure.cosmos.models.CosmosUserDefinedFunctionResponse"
 - "com.azure.cosmos.models.CosmosUserProperties"
 - "com.azure.cosmos.models.CosmosUserResponse"
+- "com.azure.cosmos.models.EncryptionKeyWrapMetadata"
 - "com.azure.cosmos.models.ExcludedPath"
 - "com.azure.cosmos.models.FeedResponse"
 - "com.azure.cosmos.models.IncludedPath"
@@ -64,4 +72,4 @@ interfaces:
 - "com.azure.cosmos.models.FeedRange"
 metadata: {}
 package: "com.azure.cosmos.models"
-artifact: com.azure:azure-cosmos:4.9.0
+artifact: com.azure:azure-cosmos:4.14.0

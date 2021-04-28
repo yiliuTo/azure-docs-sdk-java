@@ -72,10 +72,12 @@ methods:
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getBastionShareableLinkAsync(java.lang.String,java.lang.String,java.util.List<com.azure.resourcemanager.network.fluent.models.BastionShareableLinkInner>)"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getBgpServiceCommunities()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getConnectionMonitors()"
+- "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getCustomIpPrefixes()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getDdosCustomPolicies()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getDdosProtectionPlans()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getDefaultPollInterval()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getDefaultSecurityRules()"
+- "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getDscpConfigurations()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getEndpoint()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getExpressRouteCircuitAuthorizations()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getExpressRouteCircuitConnections()"
@@ -96,6 +98,7 @@ methods:
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getHubRouteTables()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getHubVirtualNetworkConnections()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getInboundNatRules()"
+- "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getInboundSecurityRuleOperations()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getIpAllocations()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getIpGroups()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getLoadBalancerBackendAddressPools()"
@@ -107,6 +110,7 @@ methods:
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getLoadBalancers()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getLocalNetworkGateways()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getNatGateways()"
+- "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getNatRules()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getNetworkInterfaceIpConfigurations()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getNetworkInterfaceLoadBalancers()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getNetworkInterfaceTapConfigurations()"
@@ -162,6 +166,7 @@ methods:
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getVpnSites()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getVpnSitesConfigurations()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getWebApplicationFirewallPolicies()"
+- "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.getWebCategories()"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.putBastionShareableLink(java.lang.String,java.lang.String)"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.putBastionShareableLink(java.lang.String,java.lang.String,java.util.List<com.azure.resourcemanager.network.fluent.models.BastionShareableLinkInner>,com.azure.core.util.Context)"
 - "com.azure.resourcemanager.network.implementation.NetworkManagementClientImpl.putBastionShareableLinkAsync(java.lang.String,java.lang.String)"
@@ -175,4 +180,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.network.fluent.NetworkManagementClient?alt=com.azure.resourcemanager.network.fluent.NetworkManagementClient&text=NetworkManagementClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.network.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.3.0

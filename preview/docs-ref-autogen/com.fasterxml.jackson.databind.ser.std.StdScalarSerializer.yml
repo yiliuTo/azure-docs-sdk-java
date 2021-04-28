@@ -57,6 +57,7 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class StdScalarSerializer<T> extends StdSerializer<T>"
 constructors:
+- "com.fasterxml.jackson.databind.ser.std.StdScalarSerializer.StdScalarSerializer(com.fasterxml.jackson.databind.ser.std.StdScalarSerializer<?>)"
 - "com.fasterxml.jackson.databind.ser.std.StdScalarSerializer.StdScalarSerializer(java.lang.Class<?>,boolean)"
 - "com.fasterxml.jackson.databind.ser.std.StdScalarSerializer.StdScalarSerializer(java.lang.Class<T>)"
 methods:
@@ -68,4 +69,4 @@ typeParameters:
 - name: "T"
 metadata: {}
 package: "com.fasterxml.jackson.databind.ser.std"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

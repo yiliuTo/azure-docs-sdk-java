@@ -10,7 +10,8 @@ members:
   nameWithType: "NumberOutput.notFinite(double value)"
   summary: "Helper method to verify whether given `double` value is finite (regular rational number\\} or not (NaN or Infinity)."
   parameters:
-  - name: "value"
+  - description: "<code>double</code> value to check"
+    name: "value"
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static boolean notFinite(double value)"
   returns:
@@ -22,7 +23,8 @@ members:
   nameWithType: "NumberOutput.notFinite(float value)"
   summary: "Helper method to verify whether given `float` value is finite (regular rational number\\} or not (NaN or Infinity)."
   parameters:
-  - name: "value"
+  - description: "<code>float</code> value to check"
+    name: "value"
     type: "<xref href=\"float?alt=float&text=float\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static boolean notFinite(float value)"
   returns:
@@ -31,4 +33,4 @@ members:
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core.io"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

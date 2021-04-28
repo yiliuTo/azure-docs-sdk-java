@@ -11,8 +11,9 @@ members:
   summary: "Method for writing closing marker of a JSON Array value (character '\\]'; plus possible white space decoration if pretty-printing is enabled).\n\nMarker can be written if the innermost structured type is Array."
   syntax: "public abstract void writeEndArray()"
   exceptions:
-  - type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
+  - description: "if there is either an underlying I/O problem or encoding\n    issue at format layer"
+    type: "<xref href=\"java.io.IOException?alt=java.io.IOException&text=IOException\" data-throw-if-not-resolved=\"False\" />"
 type: "method"
 metadata: {}
 package: "com.fasterxml.jackson.core"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

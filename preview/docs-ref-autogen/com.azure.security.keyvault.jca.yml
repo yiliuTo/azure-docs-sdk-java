@@ -14,4 +14,4 @@ classes:
 - "com.azure.security.keyvault.jca.KeyVaultTrustManagerFactoryProvider"
 metadata: {}
 package: "com.azure.security.keyvault.jca"
-artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.2
+artifact: com.azure:azure-security-keyvault-jca:1.0.0-beta.5

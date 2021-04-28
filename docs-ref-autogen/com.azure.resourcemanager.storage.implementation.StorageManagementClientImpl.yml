@@ -29,8 +29,10 @@ syntax: "public final class StorageManagementClientImpl extends AzureServiceClie
 methods:
 - "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getApiVersion()"
 - "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getBlobContainers()"
+- "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getBlobInventoryPolicies()"
 - "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getBlobServices()"
 - "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getDefaultPollInterval()"
+- "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getDeletedAccounts()"
 - "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getEncryptionScopes()"
 - "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getEndpoint()"
 - "com.azure.resourcemanager.storage.implementation.StorageManagementClientImpl.getFileServices()"
@@ -54,4 +56,4 @@ implements:
 - "<xref href=\"com.azure.resourcemanager.storage.fluent.StorageManagementClient?alt=com.azure.resourcemanager.storage.fluent.StorageManagementClient&text=StorageManagementClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
 package: "com.azure.resourcemanager.storage.implementation"
-artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.1.0
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.3.0
