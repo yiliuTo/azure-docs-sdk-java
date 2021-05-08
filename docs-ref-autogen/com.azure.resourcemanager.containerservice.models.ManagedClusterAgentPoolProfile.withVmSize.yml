@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: "com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile.withVmSize*"
+fullName: "com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile.withVmSize"
+name: "withVmSize"
+nameWithType: "ManagedClusterAgentPoolProfile.withVmSize"
+members:
+- uid: "com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile.withVmSize(java.lang.String)"
+  fullName: "com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile.withVmSize(String vmSize)"
+  name: "withVmSize(String vmSize)"
+  nameWithType: "ManagedClusterAgentPoolProfile.withVmSize(String vmSize)"
+  summary: "Set the vmSize property: Size of agent VMs."
+  overridden: "com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfileProperties.withVmSize(java.lang.String)"
+  parameters:
+  - name: "vmSize"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ManagedClusterAgentPoolProfile withVmSize(String vmSize)"
+  returns:
+    type: "<xref href=\"com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile?alt=com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile&text=ManagedClusterAgentPoolProfile\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
+metadata: {}
+package: "com.azure.resourcemanager.containerservice.models"
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.4.0
